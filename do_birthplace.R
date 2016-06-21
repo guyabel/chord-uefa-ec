@@ -4,10 +4,8 @@ library("tidyr")
 library("sp")
 library("geonames")
 library("ISOcodes")
-options(geonamesUsername="gjabel")
 
 setwd("C:/Users/Guy/Dropbox/ecmig/")
-setwd("C:/Users/gabel/Dropbox/ecmig/")
 
 df0 <- read_csv("players.csv")
 data("ISO_3166_1")
