@@ -7,8 +7,11 @@ R scripts for scraping the data from wikipedia:
     - do_club.R
     - do_leagues.R
     - do_teams.R
+    - do_birthplace.R
 
 R scripts for plotting the maps and circular plot:
 
     - do_map1.R
+    - do_map2.R
     - do_circle1.R
+    - do_circle2.R
