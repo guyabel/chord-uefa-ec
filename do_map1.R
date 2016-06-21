@@ -1,9 +1,15 @@
+##
+##map1 clubs
+##map1 birthplace
+##
+
 library("dplyr")
 library("readr")
 library("ggplot2")
 library("geosphere")
 
 setwd("C:/Users/Guy/Dropbox/ecmig/")
+setwd("C:/Users/gabel/Dropbox/ecmig/")
 
 df0 <- read_csv("players.csv")
 df1 <- read_csv("clubs.csv")
@@ -37,7 +43,7 @@ g1
 for(i in 1:nrow(df3)){
   df4 <- df3 %>% 
     slice(i) %>%
-    mutate(kit = adjustcolor(kit, alpha = 0.4))
+    mutate(kit = adjustcolor(kit, alpha = 0.6))
   df5 <- gcIntermediate(p1 = c(df4$club_lon, df4$club_lat),
                         p2 = c(df4$base_lon, df4$base_lat),
                         n = 50, addStartEnd=TRUE) %>%
@@ -75,3 +81,12 @@ g2 +
   labs(caption = "Further Details: http://gjabel.wordpress.com  Twitter: @guyabelguyabel")
 ggsave(filename = "./plot_cap.png", width = 50, height = 50, units = "cm")
 file.show(filename = "./plot_cap.png")
+
+
+g2 + 
+  coord_map("globular", xlim = range(df3$club_lon[df3$club_lat>0]), ylim = range(df3$club_lat[df3$club_lat>0])) +
+  theme(title=element_text(size=25,face="bold")) +
+  ggtitle("Euro 2016", subtitle="Players Clubs to National Capital") +
+  labs(caption = "Further Details: http://gjabel.wordpress.com  Twitter: @guyabelguyabel")
+ggsave(filename = "./plot_cap2.png", width = 50, height = 50, units = "cm")
+file.show(filename = "./plot_cap2.png")

@@ -1,3 +1,8 @@
+##
+##cirlce1 clubs
+##cirlce2 birthplace
+##
+
 library("dplyr")
 library("readr")
 library("circlize")

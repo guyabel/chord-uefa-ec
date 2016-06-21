@@ -63,8 +63,8 @@ df1 <- df1 %>%
   mutate(coords0 = v4,
          coords = gsub(" ", "  ", coords0),
          coords = gsub("¬∞", "d ", coords),
-         coords = gsub("‚???≤", "' ", coords),
-         coords = gsub("‚???≥", "\" ", coords)) %>%
+         coords = gsub("‚Ä≤", "' ", coords),
+         coords = gsub("‚Ä≥", "\" ", coords)) %>%
   separate(col = "coords", into = c("lat", "lon"), sep = "  ", remove = FALSE) %>%
   mutate(lat = as.numeric(char2dms(lat)),
          lon = as.numeric(char2dms(lon)))
@@ -89,6 +89,7 @@ df2 <- df1 %>%
          league2 = ifelse(league == "Prva HNL", "Croatian_First_Football_League", league2),
          league2 = ifelse(league == "Parva Liga", "Bulgarian_First_Professional_League", league2),
          league2 = ifelse(league == "Nemzeti Bajnoks√°g I", "Nemzeti_Bajnoks·g_I", league2),
+         league2 = ifelse(league == "Nemzeti Bajnoks√°g II", "Nemzeti_Bajnoks·g_II", league2),
          league2 = ifelse(league == "Challenge League", "Swiss_Challenge_League", league2))
 
 v5 <- NULL
