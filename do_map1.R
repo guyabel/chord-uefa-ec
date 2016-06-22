@@ -88,5 +88,5 @@ g2 +
   theme(title=element_text(size=25,face="bold")) +
   ggtitle("Euro 2016", subtitle="Players Clubs to National Capital") +
   labs(caption = "Further Details: http://gjabel.wordpress.com  Twitter: @guyabelguyabel")
-ggsave(filename = "./plot_cap2.png", width = 50, height = 50, units = "cm")
+ggsave(filename = "./plot_cap2.png", width = 50, height = 20, units = "cm")
 file.show(filename = "./plot_cap2.png")
