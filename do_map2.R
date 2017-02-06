@@ -8,8 +8,7 @@ library("readr")
 library("ggplot2")
 library("geosphere")
 
-setwd("C:/Users/Guy/Dropbox/ecmig/")
-setwd("C:/Users/gabel/Dropbox/ecmig/")
+setwd("C:/Users/Guy/Documents/GitHub/ecmig/")
 
 df0 <- read_csv("players.csv")
 df1 <- read_csv("clubs.csv")
@@ -36,7 +35,6 @@ g1 <- ggplot(data = world) +
         axis.line=element_blank(),
         axis.text.x=element_blank(),
         axis.text.y=element_blank(),
-        axis.ticks=element_blank(),
         axis.title.x=element_blank(),
         axis.title.y=element_blank())
 g1
@@ -69,7 +67,7 @@ file.show(filename = "./plot_pob1.png")
 g1 + 
   coord_map("globular", xlim = range(df4$pob_lon), ylim = range(df4$pob_lat)) +
   theme(title=element_text(size=25,face="bold")) +
-  ggtitle("Euro 2016", subtitle="Players Clubs to National Capital") +
+  ggtitle("Euro 2016", subtitle="Place of Birth to National Capital") +
   labs(caption = "Further Details: http://gjabel.wordpress.com  Twitter: @guyabelguyabel")
 ggsave(filename = "./plot_pob2.png", width = 50, height = 50, units = "cm")
 file.show(filename = "./plot_pob2.png")
