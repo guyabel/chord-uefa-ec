@@ -1,222 +1,524 @@
-Club,club_link,league,stadium_link,coords0,coords,lat,lon,league2,league_country
-1. FC Kaiserslautern,https://en.wikipedia.org/wiki/1._FC_Kaiserslautern,2. Bundesliga,https://en.wikipedia.org/wiki/Fritz-Walter-Stadion,49Â°26â€²05â€³N 7Â°46â€²36â€³E,"49d 26' 05"" N  7d 46' 36"" E",49.4347222222222,7.77666666666667,2. Bundesliga,Germany
-1. FC Köln,https://en.wikipedia.org/wiki/1._FC_K%C3%B6ln,Bundesliga,https://en.wikipedia.org/wiki/RheinEnergieStadion,50Â°56â€²0.59â€³N 6Â°52â€²29.99â€³E,"50d 56' 0.59"" N  6d 52' 29.99"" E",50.9334972222222,6.87499722222222,Bundesliga,Germany
-1. FC Nürnberg,https://en.wikipedia.org/wiki/1._FC_N%C3%BCrnberg,2. Bundesliga,https://en.wikipedia.org/wiki/Frankenstadion,49Â°25â€²34â€³N 11Â°7â€²33â€³E,"49d 25' 34"" N  11d 7' 33"" E",49.4261111111111,11.1258333333333,2. Bundesliga,Germany
-1. FSV Mainz 05,https://en.wikipedia.org/wiki/1._FSV_Mainz_05,Bundesliga,https://en.wikipedia.org/wiki/Coface_Arena,49Â°59â€²3â€³N 8Â°13â€²27â€³E,"49d 59' 3"" N  8d 13' 27"" E",49.9841666666667,8.22416666666667,Bundesliga,Germany
-1860 Munich,https://en.wikipedia.org/wiki/TSV_1860_Munich,2. Bundesliga,https://en.wikipedia.org/wiki/Allianz_Arena,48Â°13â€²7.59â€³N 11Â°37â€²29.11â€³E,"48d 13' 7.59"" N  11d 37' 29.11"" E",48.218775,11.6247527777778,2. Bundesliga,Germany
-1899 Hoffenheim,https://en.wikipedia.org/wiki/TSG_1899_Hoffenheim,Bundesliga,https://en.wikipedia.org/wiki/Wirsol_Rhein-Neckar-Arena,49Â°14â€²17.1â€³N 8Â°53â€²15.4â€³E,"49d 14' 17.1"" N  8d 53' 15.4"" E",49.2380833333333,8.88761111111111,Bundesliga,Germany
-Aberdeen,https://en.wikipedia.org/wiki/Aberdeen_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/Pittodrie_Stadium,57Â°09â€²33â€³N 2Â°05â€²20â€³W,"57d 09' 33"" N  2d 05' 20"" W",57.1591666666667,-2.08888888888889,Scottish Premiership,Scotland
-AFC Bournemouth,https://en.wikipedia.org/wiki/A.F.C._Bournemouth,Premier League,https://en.wikipedia.org/wiki/Dean_Court,50Â°44â€²07â€³N 1Â°50â€²18â€³W,"50d 44' 07"" N  1d 50' 18"" W",50.7352777777778,-1.83833333333333,Premier League,England
-AGF,https://en.wikipedia.org/wiki/Aarhus_Gymnastikforening,Danish Superliga,https://en.wikipedia.org/wiki/Ceres_Park,56Â°7â€²55â€³N 10Â°11â€²47â€³E,"56d 7' 55"" N  10d 11' 47"" E",56.1319444444444,10.1963888888889,Danish Superliga,Denmark
-AIK,https://en.wikipedia.org/wiki/AIK_Fotboll,Allsvenskan,https://en.wikipedia.org/wiki/Friends_Arena,59Â°22â€²21â€³N 18Â°00â€²00â€³E,"59d 22' 21"" N  18d 00' 00"" E",59.3725,18,Allsvenskan,Sweden
-Ajax,https://en.wikipedia.org/wiki/AFC_Ajax,Eredivisie,https://en.wikipedia.org/wiki/Amsterdam_ArenA,52Â°18â€²51â€³N 4Â°56â€²31â€³E,"52d 18' 51"" N  4d 56' 31"" E",52.3141666666667,4.94194444444444,Eredivisie,Netherlands
-Al-Gharafa,https://en.wikipedia.org/wiki/Al-Gharafa_Sports_Club,Qatar Stars League,https://en.wikipedia.org/wiki/Al-Gharafa_Stadium,25Â°20â€²41â€³N 51Â°26â€²26â€³E,"25d 20' 41"" N  51d 26' 26"" E",25.3447222222222,51.4405555555556,Qatar Stars League,Qatar
-Al-Ittihad,https://en.wikipedia.org/wiki/Ittihad_FC,Professional League,https://en.wikipedia.org/wiki/King_Abdullah_Sports_City,21Â°45â€²47.6â€³N 39Â°9â€²51â€³E,"21d 45' 47.6"" N  39d 9' 51"" E",21.7632222222222,39.1641666666667,Saudi Premier League,Saudi Arabia
-Al-Sailiya,https://en.wikipedia.org/wiki/Al-Sailiya_SC,Qatar Stars League,https://en.wikipedia.org/wiki/Ahmed_bin_Ali_Stadium,25Â°19â€²50â€³N 51Â°20â€²29â€³E,"25d 19' 50"" N  51d 20' 29"" E",25.3305555555556,51.3413888888889,Qatar Stars League,Qatar
-Amkar Perm,https://en.wikipedia.org/wiki/FC_Amkar_Perm,Russian Premier League,https://en.wikipedia.org/wiki/Zvezda_Stadium,57Â°59â€²26.50â€³N 56Â°14â€²40.69â€³E,"57d 59' 26.50"" N  56d 14' 40.69"" E",57.9906944444444,56.2446361111111,Russian Premier League,Russia
-Arsenal,https://en.wikipedia.org/wiki/Arsenal_F.C.,Premier League,https://en.wikipedia.org/wiki/Emirates_Stadium,51Â°33â€²18â€³N 0Â°6â€²31â€³W,"51d 33' 18"" N  0d 6' 31"" W",51.555,-0.108611111111111,Premier League,England
-Aston Villa,https://en.wikipedia.org/wiki/Aston_Villa_F.C.,Championship,https://en.wikipedia.org/wiki/Villa_Park,52Â°30â€²33â€³N 1Â°53â€²5â€³W,"52d 30' 33"" N  1d 53' 5"" W",52.5091666666667,-1.88472222222222,Football_League_Championship,England 
-Astra Giurgiu,https://en.wikipedia.org/wiki/FC_Astra_Giurgiu,Liga I,https://en.wikipedia.org/wiki/Stadionul_Marin_Anastasovici,43Â°53â€²46â€³N 25Â°58â€²53â€³E,"43d 53' 46"" N  25d 58' 53"" E",43.8961111111111,25.9813888888889,Liga I,Romania
-Athletic Bilbao,https://en.wikipedia.org/wiki/Athletic_Bilbao,La Liga,https://en.wikipedia.org/wiki/San_Mam%C3%A9s_Stadium_(2013),43Â°15â€²51â€³N 2Â°57â€²01â€³W,"43d 15' 51"" N  2d 57' 01"" W",43.2641666666667,-2.95027777777778,La Liga,Spain
-Atlético Madrid,https://en.wikipedia.org/wiki/Atl%C3%A9tico_Madrid,La Liga,https://en.wikipedia.org/wiki/Vicente_Calder%C3%B3n_Stadium,40Â°24â€²6.19â€³N 3Â°43â€²14.18â€³W,"40d 24' 6.19"" N  3d 43' 14.18"" W",40.4017194444444,-3.72060555555556,La Liga,Spain
-Austria Wien,https://en.wikipedia.org/wiki/FK_Austria_Wien,Austrian Bundesliga,https://en.wikipedia.org/wiki/Franz_Horr_Stadium,48Â°9â€²44.30â€³N 16Â°23â€²12.17â€³E,"48d 9' 44.30"" N  16d 23' 12.17"" E",48.1623055555556,16.3867138888889,Austrian Bundesliga,Austria
-Barcelona,https://en.wikipedia.org/wiki/FC_Barcelona,La Liga,https://en.wikipedia.org/wiki/Camp_Nou,41Â°22â€²51â€³N 2Â°07â€²22â€³E,"41d 22' 51"" N  2d 07' 22"" E",41.3808333333333,2.12277777777778,La Liga,Spain
-Basel,https://en.wikipedia.org/wiki/FC_Basel,Swiss Super League,https://en.wikipedia.org/wiki/St._Jakob-Park,47Â°32â€²29.67â€³N 7Â°37â€²12.65â€³E,"47d 32' 29.67"" N  7d 37' 12.65"" E",47.541575,7.62018055555556,Swiss Super League,Switzerland
-Baumit Jablonec,https://en.wikipedia.org/wiki/FK_Baumit_Jablonec,Czech First League,https://en.wikipedia.org/wiki/Stadion_St%C5%99elnice,50Â°42â€²53.87â€³N 15Â°09â€²44.01â€³E,"50d 42' 53.87"" N  15d 09' 44.01"" E",50.7149638888889,15.162225,Czech First League,Czech Republic
-Bayer Leverkusen,https://en.wikipedia.org/wiki/Bayer_04_Leverkusen,Bundesliga,https://en.wikipedia.org/wiki/BayArena,51Â°2â€²17.72â€³N 7Â°0â€²7.94â€³E,"51d 2' 17.72"" N  7d 0' 7.94"" E",51.0382555555556,7.00220555555556,Bundesliga,Germany
-Bayern Munich,https://en.wikipedia.org/wiki/FC_Bayern_Munich,Bundesliga,https://en.wikipedia.org/wiki/Allianz_Arena,48Â°13â€²7.59â€³N 11Â°37â€²29.11â€³E,"48d 13' 7.59"" N  11d 37' 29.11"" E",48.218775,11.6247527777778,Bundesliga,Germany
-Beijing Guoan,https://en.wikipedia.org/wiki/Beijing_Guoan,Chinese Super League,https://en.wikipedia.org/wiki/Workers_Stadium,39Â°55â€²46.3â€³N 116Â°26â€²28.1â€³E,"39d 55' 46.3"" N  116d 26' 28.1"" E",39.9295277777778,116.441138888889,Chinese Super League,People's Republic of China
-Benfica,https://en.wikipedia.org/wiki/S.L._Benfica,Primeira Liga,https://en.wikipedia.org/wiki/Est%C3%A1dio_da_Luz,38Â°45â€²10â€³N 9Â°11â€²05â€³W,"38d 45' 10"" N  9d 11' 05"" W",38.7527777777778,-9.18472222222222,Primeira Liga,Portugal
-Beşiktaş,https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K.,SÃ¼per Lig,https://en.wikipedia.org/wiki/Vodafone_Arena,41Â°02â€²21.14â€³N 28Â°59â€²41.07â€³E,"41d 02' 21.14"" N  28d 59' 41.07"" E",41.0392055555556,28.9947416666667,Süper_Lig,Turkey
-Beşiktaş,https://en.wikipedia.org/wiki/Be%C5%9Fikta%C5%9F_J.K,SÃ¼per Lig,https://en.wikipedia.org/wiki/Vodafone_Arena,41Â°02â€²21.14â€³N 28Â°59â€²41.07â€³E,"41d 02' 21.14"" N  28d 59' 41.07"" E",41.0392055555556,28.9947416666667,Süper_Lig,Turkey
-Birmingham City,https://en.wikipedia.org/wiki/Birmingham_City_F.C.,Championship,https://en.wikipedia.org/wiki/St_Andrew%27s_(stadium),52Â°28â€²32.53â€³N 1Â°52â€²05.48â€³W,"52d 28' 32.53"" N  1d 52' 05.48"" W",52.4757027777778,-1.86818888888889,Football_League_Championship,England 
-Blackburn Rovers,https://en.wikipedia.org/wiki/Blackburn_Rovers_F.C.,Championship,https://en.wikipedia.org/wiki/Ewood_Park,53Â°43â€²43â€³N 2Â°29â€²21â€³W,"53d 43' 43"" N  2d 29' 21"" W",53.7286111111111,-2.48916666666667,Football_League_Championship,England 
-Bodø/Glimt,https://en.wikipedia.org/wiki/FK_Bod%C3%B8/Glimt,Tippeligaen,https://en.wikipedia.org/wiki/Aspmyra_Stadion,67Â°16â€²35.9â€³N 14Â°23â€²3.6â€³E,"67d 16' 35.9"" N  14d 23' 3.6"" E",67.2766388888889,14.3843333333333,Tippeligaen,Norway
-Bologna,https://en.wikipedia.org/wiki/Bologna_F.C._1909,Serie A,https://en.wikipedia.org/wiki/Stadio_Renato_Dall%27Ara,44Â°29â€²32.33â€³N 11Â°18â€²34.80â€³E,"44d 29' 32.33"" N  11d 18' 34.80"" E",44.4923138888889,11.3096666666667,Serie A,Italy
-Bordeaux,https://en.wikipedia.org/wiki/FC_Girondins_de_Bordeaux,Ligue 1,https://en.wikipedia.org/wiki/Nouveau_Stade_de_Bordeaux,44Â°53â€²50â€³N 0Â°33â€²42â€³W,"44d 53' 50"" N  0d 33' 42"" W",44.8972222222222,-0.561666666666667,Ligue 1,France
-Borussia Dortmund,https://en.wikipedia.org/wiki/Borussia_Dortmund,Bundesliga,https://en.wikipedia.org/wiki/Westfalenstadion,51Â°29â€²33.25â€³N 7Â°27â€²6.63â€³E,"51d 29' 33.25"" N  7d 27' 6.63"" E",51.4925694444444,7.45184166666667,Bundesliga,Germany
-Borussia Mönchengladbach,https://en.wikipedia.org/wiki/Borussia_M%C3%B6nchengladbach,Bundesliga,https://en.wikipedia.org/wiki/Borussia-Park,51Â°10â€²28.50â€³N 6Â°23â€²7.67â€³E,"51d 10' 28.50"" N  6d 23' 7.67"" E",51.1745833333333,6.38546388888889,Bundesliga,Germany
-Braga,https://en.wikipedia.org/wiki/S.C._Braga,Primeira Liga,https://en.wikipedia.org/wiki/Est%C3%A1dio_Municipal_de_Braga,41Â°33â€²45.1â€³N 8Â°25â€²47.6â€³W,"41d 33' 45.1"" N  8d 25' 47.6"" W",41.5625277777778,-8.42988888888889,Primeira Liga,Portugal
-Brighton & Hove Albion,https://en.wikipedia.org/wiki/Brighton_%26_Hove_Albion_F.C.,Championship,https://en.wikipedia.org/wiki/Falmer_Stadium,50Â°51â€²42.56â€³N 0Â°4â€²59.80â€³W,"50d 51' 42.56"" N  0d 4' 59.80"" W",50.8618222222222,-0.0832777777777778,Football_League_Championship,England 
-Burnley,https://en.wikipedia.org/wiki/Burnley_F.C.,Premier League,https://en.wikipedia.org/wiki/Turf_Moor,53Â°47â€²21â€³N 2Â°13â€²49â€³W,"53d 47' 21"" N  2d 13' 49"" W",53.7891666666667,-2.23027777777778,Premier League,England
-Bursaspor,https://en.wikipedia.org/wiki/Bursaspor,SÃ¼per Lig,https://en.wikipedia.org/wiki/Timsah_Arena,40Â°12â€²38.8â€³N 29Â°00â€²33.6â€³E,"40d 12' 38.8"" N  29d 00' 33.6"" E",40.2107777777778,29.0093333333333,Süper_Lig,Turkey
-Cagliari,https://en.wikipedia.org/wiki/Cagliari_Calcio,Serie A,https://en.wikipedia.org/wiki/Stadio_Sant%27Elia,39Â°11â€²57.82â€³N 9Â°8â€²5.83â€³E,"39d 11' 57.82"" N  9d 8' 5.83"" E",39.1993944444444,9.13495277777778,Serie A,Italy
-Cardiff City,https://en.wikipedia.org/wiki/Cardiff_City_F.C.,Championship,https://en.wikipedia.org/wiki/Cardiff_City_Stadium,51Â°28â€²22â€³N 3Â°12â€²11â€³W,"51d 28' 22"" N  3d 12' 11"" W",51.4727777777778,-3.20305555555556,Football_League_Championship,England 
-Celta Vigo,https://en.wikipedia.org/wiki/Celta_de_Vigo,La Liga,https://en.wikipedia.org/wiki/Bala%C3%ADdos,42Â°12â€²43â€³N 8Â°44â€²23â€³W,"42d 12' 43"" N  8d 44' 23"" W",42.2119444444444,-8.73972222222222,La Liga,Spain
-Celtic,https://en.wikipedia.org/wiki/Celtic_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/Celtic_Park,55Â°50â€²58.96â€³N 4Â°12â€²20.12â€³W,"55d 50' 58.96"" N  4d 12' 20.12"" W",55.8497111111111,-4.20558888888889,Scottish Premiership,Scotland
-Cesena,https://en.wikipedia.org/wiki/A.C._Cesena,Serie B,https://en.wikipedia.org/wiki/Stadio_Dino_Manuzzi,44Â°8â€²26â€³N 12Â°15â€²43â€³E,"44d 8' 26"" N  12d 15' 43"" E",44.1405555555556,12.2619444444444,Serie B,Italy
-Charlton Athletic,https://en.wikipedia.org/wiki/Charlton_Athletic_F.C.,League One,https://en.wikipedia.org/wiki/The_Valley_(London),51Â°29â€²11â€³N 0Â°2â€²11â€³E,"51d 29' 11"" N  0d 2' 11"" E",51.4863888888889,0.0363888888888889,League One,England
-Chelsea,https://en.wikipedia.org/wiki/Chelsea_F.C.,Premier League,https://en.wikipedia.org/wiki/Stamford_Bridge_(stadium),51Â°28â€²54â€³N 0Â°11â€²28â€³W,"51d 28' 54"" N  0d 11' 28"" W",51.4816666666667,-0.191111111111111,Premier League,England
-Club Brugge,https://en.wikipedia.org/wiki/Club_Brugge_KV,Belgian Pro League,https://en.wikipedia.org/wiki/Jan_Breydel_Stadium,51Â°11â€²35.78â€³N 3Â°10â€²50.10â€³E,"51d 11' 35.78"" N  3d 10' 50.10"" E",51.1932722222222,3.18058333333333,Belgian Pro League,Belgium
-Colorado Rapids,https://en.wikipedia.org/wiki/Colorado_Rapids,Major League Soccer,https://en.wikipedia.org/wiki/Dick%27s_Sporting_Goods_Park,39Â°48â€²20â€³N 104Â°53â€²31â€³W,"39d 48' 20"" N  104d 53' 31"" W",39.8055555555556,-104.891944444444,Major League Soccer,United States
-Como,https://en.wikipedia.org/wiki/Calcio_Como,Lega Pro,https://en.wikipedia.org/wiki/Stadio_Giuseppe_Sinigaglia,45Â°48â€²50â€³N 9Â°4â€²20â€³E,"45d 48' 50"" N  9d 4' 20"" E",45.8138888888889,9.07222222222222,Lega Pro,Italy
-Copenhagen,https://en.wikipedia.org/wiki/F.C._Copenhagen,Superliga,https://en.wikipedia.org/wiki/Telia_Parken,55Â°42â€²08.89â€³N 12Â°34â€²19.93â€³E,"55d 42' 08.89"" N  12d 34' 19.93"" E",55.7024694444444,12.5722027777778,Danish_Superliga,Denmark
-Córdoba,https://en.wikipedia.org/wiki/C%C3%B3rdoba_CF,Segunda DivisiÃ³n,https://en.wikipedia.org/wiki/Estadio_Nuevo_Arc%C3%A1ngel,37Â°52â€²20.26â€³N 4Â°45â€²52.71â€³W,"37d 52' 20.26"" N  4d 45' 52.71"" W",37.8722944444444,-4.76464166666667,Segunda_División,Spain
-Cracovia,https://en.wikipedia.org/wiki/KS_Cracovia_(football),Ekstraklasa,https://en.wikipedia.org/wiki/Marshal_J%C3%B3zef_Pi%C5%82sudski_Stadium,50Â°03â€²29â€³N 19Â°55â€²11â€³E,"50d 03' 29"" N  19d 55' 11"" E",50.0580555555556,19.9197222222222,Ekstraklasa,Poland
-Crystal Palace,https://en.wikipedia.org/wiki/Crystal_Palace_F.C.,Premier League,https://en.wikipedia.org/wiki/Selhurst_Park,51Â°23â€²54â€³N 0Â°5â€²8â€³W,"51d 23' 54"" N  0d 5' 8"" W",51.3983333333333,-0.0855555555555556,Premier League,England
-CSKA Moscow,https://en.wikipedia.org/wiki/PFC_CSKA_Moscow,Russian Premier League,https://en.wikipedia.org/wiki/CSKA_Moscow_Stadium,55Â°47â€²29â€³N 37Â°30â€²58â€³E,"55d 47' 29"" N  37d 30' 58"" E",55.7913888888889,37.5161111111111,Russian Premier League,Russia
-Darmstadt 98,https://en.wikipedia.org/wiki/SV_Darmstadt_98,Bundesliga,https://en.wikipedia.org/wiki/Merck-Stadion_am_B%C3%B6llenfalltor,49Â°51â€²28â€³N 8Â°40â€²20â€³E,"49d 51' 28"" N  8d 40' 20"" E",49.8577777777778,8.67222222222222,Bundesliga,Germany
-Debrecen,https://en.wikipedia.org/wiki/Debreceni_VSC,OTP Bank Liga,https://en.wikipedia.org/wiki/Nagyerdei_Stadion,47Â°33â€²14â€³N 21Â°38â€²00â€³E,"47d 33' 14"" N  21d 38' 00"" E",47.5538888888889,21.6333333333333,OTP Bank Liga,Hungary
-Derby County,https://en.wikipedia.org/wiki/Derby_County_F.C.,Championship,https://en.wikipedia.org/wiki/Pride_Park_Stadium,52Â°54â€²54â€³N 1Â°26â€²50â€³W,"52d 54' 54"" N  1d 26' 50"" W",52.915,-1.44722222222222,Football_League_Championship,England 
-Dinamo București,https://en.wikipedia.org/wiki/FC_Dinamo_Bucure%C8%99ti,Liga I,https://en.wikipedia.org/wiki/Stadionul_Dinamo,44Â°27â€²18.30â€³N 26Â°6â€²08.80â€³E,"44d 27' 18.30"" N  26d 6' 08.80"" E",44.4550833333333,26.1024444444444,Liga I,Romania
-Dinamo Zagreb,https://en.wikipedia.org/wiki/GNK_Dinamo_Zagreb,Prva HNL,https://en.wikipedia.org/wiki/Stadion_Maksimir,45Â°49â€²7.89â€³N 16Â°1â€²5.08â€³E,"45d 49' 7.89"" N  16d 1' 5.08"" E",45.8188583333333,16.0180777777778,Croatian_First_Football_League,Croatia
-Diósgyőri VTK,https://en.wikipedia.org/wiki/Di%C3%B3sgy%C5%91ri_VTK,OTP Bank Liga,https://en.wikipedia.org/wiki/DVTK_Stadion,48Â°5â€²58â€³N 20Â°43â€²2â€³E,"48d 5' 58"" N  20d 43' 2"" E",48.0994444444444,20.7172222222222,OTP Bank Liga,Hungary
-Dnipro Dnipropetrovsk,https://en.wikipedia.org/wiki/FC_Dnipro_Dnipropetrovsk,Ukrainian Premier League,https://en.wikipedia.org/wiki/Dnipro-Arena,48Â°27â€²37.2â€³N 35Â°1â€²56.9â€³E,"48d 27' 37.2"" N  35d 1' 56.9"" E",48.4603333333333,35.0324722222222,Ukrainian Premier League,Ukraine
-Doncaster Rovers,https://en.wikipedia.org/wiki/Doncaster_Rovers_F.C.,League Two,https://en.wikipedia.org/wiki/Keepmoat_Stadium,53Â°30â€²35â€³N 1Â°6â€²50â€³W,"53d 30' 35"" N  1d 6' 50"" W",53.5097222222222,-1.11388888888889,League Two,England 
-Dynamo Kyiv,https://en.wikipedia.org/wiki/FC_Dynamo_Kyiv,Ukrainian Premier League,https://en.wikipedia.org/wiki/Olimpiyskiy_National_Sports_Complex,50Â°26â€²0.38â€³N 30Â°31â€²19.61â€³E,"50d 26' 0.38"" N  30d 31' 19.61"" E",50.4334388888889,30.5221138888889,Ukrainian Premier League,Ukraine
-Dynamo Moscow,https://en.wikipedia.org/wiki/FC_Dynamo_Moscow,Russian Football National League,https://en.wikipedia.org/wiki/Arena_Khimki,55Â°53â€²07â€³N 37Â°27â€²15â€³E,"55d 53' 07"" N  37d 27' 15"" E",55.8852777777778,37.4541666666667,Russian Football National League,Russia
-Eintracht Frankfurt,https://en.wikipedia.org/wiki/Eintracht_Frankfurt,Bundesliga,https://en.wikipedia.org/wiki/Commerzbank-Arena,50Â°4â€²7â€³N 8Â°38â€²43â€³E,"50d 4' 7"" N  8d 38' 43"" E",50.0686111111111,8.64527777777778,Bundesliga,Germany
-Empoli,https://en.wikipedia.org/wiki/Empoli_F.C.,Serie A,https://en.wikipedia.org/wiki/Stadio_Carlo_Castellani,43Â°43â€²35â€³N 10Â°57â€²18â€³E,"43d 43' 35"" N  10d 57' 18"" E",43.7263888888889,10.955,Serie A,Italy
-Everton,https://en.wikipedia.org/wiki/Everton_F.C.,Premier League,https://en.wikipedia.org/wiki/Goodison_Park,53Â°26â€²20â€³N 2Â°57â€²59â€³W,"53d 26' 20"" N  2d 57' 59"" W",53.4388888888889,-2.96638888888889,Premier League,England
-FC Augsburg,https://en.wikipedia.org/wiki/FC_Augsburg,Bundesliga,https://en.wikipedia.org/wiki/WWK_ARENA,48Â°19â€²23.3â€³N 10Â°53â€²9.6â€³E,"48d 19' 23.3"" N  10d 53' 9.6"" E",48.3231388888889,10.886,Bundesliga,Germany
-FC Nordsjælland,https://en.wikipedia.org/wiki/FC_Nordsj%C3%A6lland,Danish Superliga,https://en.wikipedia.org/wiki/Farum_Park,55Â°48â€²57â€³N 12Â°21â€²12â€³E,"55d 48' 57"" N  12d 21' 12"" E",55.8158333333333,12.3533333333333,Danish Superliga,Denmark
-Fenerbahçe,https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_SK_(football),SÃ¼per Lig,https://en.wikipedia.org/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium,40Â°59â€²16â€³N 29Â°02â€²12â€³E,"40d 59' 16"" N  29d 02' 12"" E",40.9877777777778,29.0366666666667,Süper_Lig,Turkey
-Fenerbahçe,https://en.wikipedia.org/wiki/Fenerbah%C3%A7e_S.K._(football),SÃ¼per Lig,https://en.wikipedia.org/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium,40Â°59â€²16â€³N 29Â°02â€²12â€³E,"40d 59' 16"" N  29d 02' 12"" E",40.9877777777778,29.0366666666667,Süper_Lig,Turkey
-Ferencváros,https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC,OTP Bank Liga,https://en.wikipedia.org/wiki/Groupama_Arena,47Â°28â€²32â€³N 19Â°5â€²43â€³E,"47d 28' 32"" N  19d 5' 43"" E",47.4755555555556,19.0952777777778,OTP Bank Liga,Hungary
-Fiorentina,https://en.wikipedia.org/wiki/ACF_Fiorentina,Serie A,https://en.wikipedia.org/wiki/Stadio_Artemio_Franchi,43Â°46â€²50.96â€³N 11Â°16â€²56.13â€³E,"43d 46' 50.96"" N  11d 16' 56.13"" E",43.7808222222222,11.2822583333333,Serie A,Italy
-Fleetwood Town,https://en.wikipedia.org/wiki/Fleetwood_Town_F.C.,League One,https://en.wikipedia.org/wiki/Highbury_Stadium_(Fleetwood),53Â°54â€²59â€³N 3Â°01â€²29â€³W,"53d 54' 59"" N  3d 01' 29"" W",53.9163888888889,-3.02472222222222,League One,England
-Frosinone,https://en.wikipedia.org/wiki/Frosinone_Calcio,Serie B,https://en.wikipedia.org/wiki/Stadio_Matusa,41Â°38â€²16â€³N 13Â°20â€²35â€³E,"41d 38' 16"" N  13d 20' 35"" E",41.6377777777778,13.3430555555556,Serie B,Italy
-Fulham,https://en.wikipedia.org/wiki/Fulham_F.C.,Championship,https://en.wikipedia.org/wiki/Craven_Cottage,51Â°28â€²30â€³N 0Â°13â€²18â€³W,"51d 28' 30"" N  0d 13' 18"" W",51.475,-0.221666666666667,Football_League_Championship,England 
-Galatasaray,https://en.wikipedia.org/wiki/Galatasaray_S.K._(football),SÃ¼per Lig,https://en.wikipedia.org/wiki/T%C3%BCrk_Telekom_Arena,41Â°6â€²10.33â€³N 28Â°59â€²25.51â€³E,"41d 6' 10.33"" N  28d 59' 25.51"" E",41.1028694444444,28.9904194444444,Süper_Lig,Turkey
-Gençlerbirliği,https://en.wikipedia.org/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K.,SÃ¼per Lig,https://en.wikipedia.org/wiki/Ankara_19_Mayis_Stadium,39Â°56â€²24.34â€³N 32Â°50â€²44.45â€³E,"39d 56' 24.34"" N  32d 50' 44.45"" E",39.9400944444444,32.8456805555556,Süper_Lig,Turkey
-Genk,https://en.wikipedia.org/wiki/K.R.C._Genk,Belgian Pro League,https://en.wikipedia.org/wiki/Cristal_Arena,51Â°00â€²18â€³N 5Â°32â€²00â€³E,"51d 00' 18"" N  5d 32' 00"" E",51.005,5.53333333333333,Belgian Pro League,Belgium
-Genoa,https://en.wikipedia.org/wiki/Genoa_C.F.C.,Serie A,https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris,44Â°24â€²59.15â€³N 8Â°57â€²8.74â€³E,"44d 24' 59.15"" N  8d 57' 8.74"" E",44.4164305555556,8.95242777777778,Serie A,Italy
-GIF Sundsvall,https://en.wikipedia.org/wiki/GIF_Sundsvall,Allsvenskan,https://en.wikipedia.org/wiki/Norrporten_Arena,62Â°23â€²38.82â€³N 17Â°18â€²4.6â€³E,"62d 23' 38.82"" N  17d 18' 4.6"" E",62.3941166666667,17.3012777777778,Allsvenskan,Sweden
-Gillingham,https://en.wikipedia.org/wiki/Gillingham_F.C.,League One,https://en.wikipedia.org/wiki/Priestfield_Stadium,51Â°23â€²3.3â€³N 0Â°33â€²38.71â€³E,"51d 23' 3.3"" N  0d 33' 38.71"" E",51.38425,0.560752777777778,League One,England
-Grasshopper,https://en.wikipedia.org/wiki/Grasshopper_Club_Z%C3%BCrich,Raiffeisen Super League,https://en.wikipedia.org/wiki/Letzigrund,47Â°22â€²58.06â€³N 8Â°30â€²15.71â€³E,"47d 22' 58.06"" N  8d 30' 15.71"" E",47.3827944444444,8.50436388888889,Raiffeisen Super League,Switzerland
-Hajduk Split,https://en.wikipedia.org/wiki/HNK_Hajduk_Split,Prva HNL,https://en.wikipedia.org/wiki/Stadion_Poljud,43Â°31â€²10â€³N 16Â°25â€²54â€³E,"43d 31' 10"" N  16d 25' 54"" E",43.5194444444444,16.4316666666667,Croatian_First_Football_League,Croatia
-Haladás,https://en.wikipedia.org/wiki/Szombathelyi_Halad%C3%A1s,OTP Bank Liga,https://en.wikipedia.org/wiki/Rohonci_%C3%BAti_Stadion,47Â°14â€²05â€³N 16Â°36â€²26â€³E,"47d 14' 05"" N  16d 36' 26"" E",47.2347222222222,16.6072222222222,OTP Bank Liga,Hungary
-Hamburger SV,https://en.wikipedia.org/wiki/Hamburger_SV,Bundesliga,https://en.wikipedia.org/wiki/Volksparkstadion,53Â°35â€²13.77â€³N 9Â°53â€²55.02â€³E,"53d 35' 13.77"" N  9d 53' 55.02"" E",53.5871583333333,9.89861666666667,Bundesliga,Germany
-Hamilton Academical,https://en.wikipedia.org/wiki/Hamilton_Academical_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/New_Douglas_Park,55Â°46â€²55.76â€³N 4Â°03â€²30.61â€³W,"55d 46' 55.76"" N  4d 03' 30.61"" W",55.7821555555556,-4.05850277777778,Scottish Premiership,Scotland
-Hammarby IF,https://en.wikipedia.org/wiki/Hammarby_Fotboll,Allsvenskan,https://en.wikipedia.org/wiki/Tele2_Arena,59Â°17â€²27â€³N 18Â°05â€²07â€³E,"59d 17' 27"" N  18d 05' 07"" E",59.2908333333333,18.0852777777778,Allsvenskan,Sweden
-Hannover 96,https://en.wikipedia.org/wiki/Hannover_96,2. Bundesliga,https://en.wikipedia.org/wiki/HDI-Arena,52Â°21â€²36.24â€³N 9Â°43â€²52.31â€³E,"52d 21' 36.24"" N  9d 43' 52.31"" E",52.3600666666667,9.73119722222222,2. Bundesliga,Germany
-Hapoel Be'er Sheva,https://en.wikipedia.org/wiki/Hapoel_Be%27er_Sheva_F.C.,Israeli Premier League,https://en.wikipedia.org/wiki/Turner_Stadium,31Â°16â€²23.34â€³N 34Â°46â€²45.7â€³E,"31d 16' 23.34"" N  34d 46' 45.7"" E",31.27315,34.7793611111111,Israeli Premier League,Israel
-Hertha BSC,https://en.wikipedia.org/wiki/Hertha_BSC,Bundesliga,https://en.wikipedia.org/wiki/Olympiastadion_(Berlin),52Â°30â€²53â€³N 13Â°14â€²22â€³E,"52d 30' 53"" N  13d 14' 22"" E",52.5147222222222,13.2394444444444,Bundesliga,Germany
-Hull City,https://en.wikipedia.org/wiki/Hull_City_A.F.C.,Premier League,https://en.wikipedia.org/wiki/KC_Stadium,53Â°44â€²46â€³N 0Â°22â€²4â€³W,"53d 44' 46"" N  0d 22' 4"" W",53.7461111111111,-0.367777777777778,Premier League,England
-IFK Göteborg,https://en.wikipedia.org/wiki/IFK_G%C3%B6teborg,Allsvenskan,https://en.wikipedia.org/wiki/Gamla_Ullevi,57Â°42â€²22â€³N 11Â°58â€²50â€³E,"57d 42' 22"" N  11d 58' 50"" E",57.7061111111111,11.9805555555556,Allsvenskan,Sweden
-IFK Norrköping,https://en.wikipedia.org/wiki/IFK_Norrk%C3%B6ping,Allsvenskan,https://en.wikipedia.org/wiki/%C3%96stg%C3%B6taporten,58Â°35â€²3.5â€³N 16Â°10â€²23â€³E,"58d 35' 3.5"" N  16d 10' 23"" E",58.5843055555556,16.1730555555556,Allsvenskan,Sweden
-Ingolstadt 04,https://en.wikipedia.org/wiki/FC_Ingolstadt_04,Bundesliga,https://en.wikipedia.org/wiki/Audi-Sportpark,48Â°44â€²43.66â€³N 11Â°29â€²7.84â€³E,"48d 44' 43.66"" N  11d 29' 7.84"" E",48.7454611111111,11.4855111111111,Bundesliga,Germany
-Internazionale,https://en.wikipedia.org/wiki/Inter_Milan,Serie A,https://en.wikipedia.org/wiki/San_Siro,45Â°28â€²41â€³N 9Â°07â€²26â€³E,"45d 28' 41"" N  9d 07' 26"" E",45.4780555555556,9.12388888888889,Serie A,Italy
-Inverness Caledonian Thistle,https://en.wikipedia.org/wiki/Inverness_Caledonian_Thistle_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/Caledonian_Stadium,57Â°29â€²41â€³N 4Â°13â€²03â€³W,"57d 29' 41"" N  4d 13' 03"" W",57.4947222222222,-4.2175,Scottish Premiership,Scotland
-Ipswich Town,https://en.wikipedia.org/wiki/Ipswich_Town_F.C.,Championship,https://en.wikipedia.org/wiki/Portman_Road,52Â°3â€²18.22â€³N 1Â°8â€²41.39â€³E,"52d 3' 18.22"" N  1d 8' 41.39"" E",52.0550611111111,1.14483055555556,Football_League_Championship,England 
-İstanbul Başakşehir,https://en.wikipedia.org/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.,SÃ¼per Lig,https://en.wikipedia.org/wiki/Ba%C5%9Fak%C5%9Fehir_Fatih_Terim_Stadium,41Â°07â€²22.40â€³N 28Â°48â€²30.90â€³E,"41d 07' 22.40"" N  28d 48' 30.90"" E",41.1228888888889,28.8085833333333,Süper_Lig,Turkey
-Juventus,https://en.wikipedia.org/wiki/Juventus_F.C.,Serie A,https://en.wikipedia.org/wiki/Juventus_Stadium,45Â°6â€²34â€³N 7Â°38â€²28â€³E,"45d 6' 34"" N  7d 38' 28"" E",45.1094444444444,7.64111111111111,Serie A,Italy
-Kairat Almaty,https://en.wikipedia.org/wiki/FC_Kairat,Kazakhstan Premier League,https://en.wikipedia.org/wiki/Central_Stadium_(Almaty),43Â°14â€²17.99â€³N 76Â°55â€²27.66â€³E,"43d 14' 17.99"" N  76d 55' 27.66"" E",43.2383305555556,76.92435,Kazakhstan Premier League,Kazakhstan
-Kasımpaşa,https://en.wikipedia.org/wiki/Kas%C4%B1mpa%C5%9Fa_Spor_Kul%C3%BCb%C3%BC,SÃ¼per Lig,https://en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan_Stadium,41Â°01â€²58.10â€³N 28Â°58â€²20.36â€³E,"41d 01' 58.10"" N  28d 58' 20.36"" E",41.0328055555556,28.9723222222222,Süper_Lig,Turkey
-Kilmarnock,https://en.wikipedia.org/wiki/Kilmarnock_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/Rugby_Park,55Â°36â€²15.21â€³N 4Â°30â€²29.24â€³W,"55d 36' 15.21"" N  4d 30' 29.24"" W",55.604225,-4.50812222222222,Scottish Premiership,Scotland
-Krasnodar,https://en.wikipedia.org/wiki/FC_Krasnodar,Russian Premier League,https://en.wikipedia.org/wiki/Krasnodar_Stadium,45Â°02â€²39â€³N 39Â°01â€²46â€³E,"45d 02' 39"" N  39d 01' 46"" E",45.0441666666667,39.0294444444444,Russian Premier League,Russia
-Kuban Krasnodar,https://en.wikipedia.org/wiki/FC_Kuban_Krasnodar,Russian Football National League,https://en.wikipedia.org/wiki/Kuban_Stadium,45Â°01â€²31â€³N 38Â°59â€²58â€³E,"45d 01' 31"" N  38d 59' 58"" E",45.0252777777778,38.9994444444444,Russian Football National League,Russia
-LA Galaxy,https://en.wikipedia.org/wiki/LA_Galaxy,Major League Soccer,https://en.wikipedia.org/wiki/StubHub_Center,33Â°51â€²52â€³N 118Â°15â€²40â€³W,"33d 51' 52"" N  118d 15' 40"" W",33.8644444444444,-118.261111111111,Major League Soccer,United States
-Lazio,https://en.wikipedia.org/wiki/S.S._Lazio,Serie A,https://en.wikipedia.org/wiki/Stadio_Olimpico,41Â°56â€²1.99â€³N 12Â°27â€²17.23â€³E,"41d 56' 1.99"" N  12d 27' 17.23"" E",41.9338861111111,12.4547861111111,Serie A,Italy
-Lech Poznań,https://en.wikipedia.org/wiki/Lech_Pozna%C5%84,Ekstraklasa,https://en.wikipedia.org/wiki/Stadion_Miejski_(Pozna%C5%84),52Â°23â€²51â€³N 16Â°51â€²28â€³E,"52d 23' 51"" N  16d 51' 28"" E",52.3975,16.8577777777778,Ekstraklasa,Poland
-Lechia Gdańsk,https://en.wikipedia.org/wiki/Lechia_Gda%C5%84sk,Ekstraklasa,https://en.wikipedia.org/wiki/Stadion_Energa_Gda%C5%84sk,54Â°23â€²24â€³N 18Â°38â€²25â€³E,"54d 23' 24"" N  18d 38' 25"" E",54.39,18.6402777777778,Ekstraklasa,Poland
-Leeds United,https://en.wikipedia.org/wiki/Leeds_United_F.C.,Championship,https://en.wikipedia.org/wiki/Elland_Road,53Â°46â€²40â€³N 1Â°34â€²20â€³W,"53d 46' 40"" N  1d 34' 20"" W",53.7777777777778,-1.57222222222222,Football_League_Championship,England 
-Legia Warsaw,https://en.wikipedia.org/wiki/Legia_Warsaw,Ekstraklasa,https://en.wikipedia.org/wiki/Polish_Army_Stadium,52Â°13â€²13.66â€³N 21Â°2â€²26.26â€³E,"52d 13' 13.66"" N  21d 2' 26.26"" E",52.2204611111111,21.0406277777778,Ekstraklasa,Poland
-Leicester City,https://en.wikipedia.org/wiki/Leicester_City_F.C.,Premier League,https://en.wikipedia.org/wiki/King_Power_Stadium,52Â°37â€²13â€³N 1Â°8â€²32â€³W,"52d 37' 13"" N  1d 8' 32"" W",52.6202777777778,-1.14222222222222,Premier League,England
-Lille,https://en.wikipedia.org/wiki/Lille_OSC,Ligue 1,https://en.wikipedia.org/wiki/Stade_Pierre-Mauroy,50Â°36â€²43â€³N 3Â°07â€²50â€³E,"50d 36' 43"" N  3d 07' 50"" E",50.6119444444444,3.13055555555556,Ligue 1,France
-Liverpool,https://en.wikipedia.org/wiki/Liverpool_F.C.,Premier League,https://en.wikipedia.org/wiki/Anfield,53Â°25â€²50.98â€³N 2Â°57â€²39.05â€³W,"53d 25' 50.98"" N  2d 57' 39.05"" W",53.4308277777778,-2.96084722222222,Premier League,England
-Lokeren,https://en.wikipedia.org/wiki/K.S.C._Lokeren_Oost-Vlaanderen,Belgian Pro League,https://en.wikipedia.org/wiki/Daknamstadion,51Â°6â€²59â€³N 3Â°59â€²14â€³E,"51d 6' 59"" N  3d 59' 14"" E",51.1163888888889,3.98722222222222,Belgian Pro League,Belgium
-Lokomotiv Moscow,https://en.wikipedia.org/wiki/FC_Lokomotiv_Moscow,Russian Premier League,https://en.wikipedia.org/wiki/Lokomotiv_Stadium_(Moscow),55Â°48â€²13â€³N 37Â°44â€²28â€³E,"55d 48' 13"" N  37d 44' 28"" E",55.8036111111111,37.7411111111111,Russian Premier League,Russia
-Lorient,https://en.wikipedia.org/wiki/FC_Lorient,Ligue 1,https://en.wikipedia.org/wiki/Stade_du_Moustoir,47Â°44â€²56â€³N 3Â°22â€²10â€³W,"47d 44' 56"" N  3d 22' 10"" W",47.7488888888889,-3.36944444444444,Ligue 1,France
-Ludogorets Razgrad,https://en.wikipedia.org/wiki/PFC_Ludogorets_Razgrad,Parva Liga,https://en.wikipedia.org/wiki/Ludogorets_Arena,43Â°32â€²4.4â€³N 26Â°31â€²39.8â€³E,"43d 32' 4.4"" N  26d 31' 39.8"" E",43.5345555555556,26.5277222222222,Bulgarian_First_Professional_League,Bulgaria
-Lugano,https://en.wikipedia.org/wiki/FC_Lugano,Raiffeisen Super League,https://en.wikipedia.org/wiki/Cornaredo_Stadium,46Â°01â€²25â€³N 8Â°57â€²42â€³E,"46d 01' 25"" N  8d 57' 42"" E",46.0236111111111,8.96166666666667,Raiffeisen Super League,Switzerland
-Luzern,https://en.wikipedia.org/wiki/FC_Luzern,Swiss Super League,https://en.wikipedia.org/wiki/Swissporarena,47Â°02â€²00â€³N 8Â°18â€²19â€³E,"47d 02' 00"" N  8d 18' 19"" E",47.0333333333333,8.30527777777778,Swiss Super League,Switzerland
-Lyon,https://en.wikipedia.org/wiki/Olympique_Lyonnais,Ligue 1,https://en.wikipedia.org/wiki/Parc_Olympique_Lyonnais,45Â°45â€²55â€³N 4Â°58â€²55â€³E,"45d 45' 55"" N  4d 58' 55"" E",45.7652777777778,4.98194444444444,Ligue 1,France
-Mainz 05,https://en.wikipedia.org/wiki/1._FSV_Mainz_05,Bundesliga,https://en.wikipedia.org/wiki/Coface_Arena,49Â°59â€²3â€³N 8Â°13â€²27â€³E,"49d 59' 3"" N  8d 13' 27"" E",49.9841666666667,8.22416666666667,Bundesliga,Germany
-Málaga,https://en.wikipedia.org/wiki/M%C3%A1laga_CF,La Liga,https://en.wikipedia.org/wiki/La_Rosaleda_Stadium,36Â°44â€²03â€³N 4Â°25â€²35â€³W,"36d 44' 03"" N  4d 25' 35"" W",36.7341666666667,-4.42638888888889,La Liga,Spain
-Malmö FF,https://en.wikipedia.org/wiki/Malm%C3%B6_FF,Allsvenskan,https://en.wikipedia.org/wiki/Swedbank_Stadion,55Â°35â€²01â€³N 12Â°59â€²16â€³E,"55d 35' 01"" N  12d 59' 16"" E",55.5836111111111,12.9877777777778,Allsvenskan,Sweden
-Manchester City,https://en.wikipedia.org/wiki/Manchester_City_F.C.,Premier League,https://en.wikipedia.org/wiki/City_of_Manchester_Stadium,53Â°28â€²59â€³N 2Â°12â€²1â€³W,"53d 28' 59"" N  2d 12' 1"" W",53.4830555555556,-2.20027777777778,Premier League,England
-Manchester United,https://en.wikipedia.org/wiki/Manchester_United_F.C.,Premier League,https://en.wikipedia.org/wiki/Old_Trafford,53Â°27â€²47â€³N 2Â°17â€²29â€³W,"53d 27' 47"" N  2d 17' 29"" W",53.4630555555556,-2.29138888888889,Premier League,England
-Marseille,https://en.wikipedia.org/wiki/Olympique_de_Marseille,Ligue 1,https://en.wikipedia.org/wiki/Stade_V%C3%A9lodrome,43Â°16â€²11â€³N 5Â°23â€²45â€³E,"43d 16' 11"" N  5d 23' 45"" E",43.2697222222222,5.39583333333333,Ligue 1,France
-Mechelen,https://en.wikipedia.org/wiki/KV_Mechelen,Belgian Pro League,https://en.wikipedia.org/wiki/AFAS-stadion_Achter_de_Kazerne,51Â°02â€²14â€³N 4Â°29â€²11â€³E,"51d 02' 14"" N  4d 29' 11"" E",51.0372222222222,4.48638888888889,Belgian Pro League,Belgium
-Melbourne City,https://en.wikipedia.org/wiki/Melbourne_City_FC,A-League,https://en.wikipedia.org/wiki/Melbourne_Rectangular_Stadium,37Â°49â€²31â€³S 144Â°59â€²2â€³E,"37d 49' 31"" S  144d 59' 2"" E",-37.8252777777778,144.983888888889,A-League,"Australia
- New Zealand"
-Milan,https://en.wikipedia.org/wiki/A.C._Milan,Serie A,https://en.wikipedia.org/wiki/San_Siro,45Â°28â€²41â€³N 9Â°07â€²26â€³E,"45d 28' 41"" N  9d 07' 26"" E",45.4780555555556,9.12388888888889,Serie A,Italy
-Millwall,https://en.wikipedia.org/wiki/Millwall_F.C.,League One,https://en.wikipedia.org/wiki/The_Den,51Â°29â€²9.43â€³N 0Â°3â€²3.42â€³W,"51d 29' 9.43"" N  0d 3' 3.42"" W",51.4859527777778,-0.05095,League One,England
-Milton Keynes Dons,https://en.wikipedia.org/wiki/Milton_Keynes_Dons,League One,https://en.wikipedia.org/wiki/Stadium_mk,52Â°00â€²34â€³N 00Â°44â€²00â€³W,"52d 00' 34"" N  00d 44' 00"" W",52.0094444444444,-0.733333333333333,League One,England
-Milton Keynes Dons,https://en.wikipedia.org/wiki/Milton_Keynes_Dons_F.C.,League One,https://en.wikipedia.org/wiki/Stadium_mk,52Â°00â€²34â€³N 00Â°44â€²00â€³W,"52d 00' 34"" N  00d 44' 00"" W",52.0094444444444,-0.733333333333333,League One,England
-Molde FK,https://en.wikipedia.org/wiki/Molde_FK,Tippeligaen,https://en.wikipedia.org/wiki/Aker_Stadion,62Â°44â€²0.0â€³N 7Â°8â€²52.1â€³E,"62d 44' 0.0"" N  7d 8' 52.1"" E",62.7333333333333,7.14780555555556,Tippeligaen,Norway
-Monaco,https://en.wikipedia.org/wiki/AS_Monaco_FC,Ligue 1,https://en.wikipedia.org/wiki/Stade_Louis_II,43Â°43â€²39â€³N 7Â°24â€²56â€³E,"43d 43' 39"" N  7d 24' 56"" E",43.7275,7.41555555555556,Ligue 1,France
-Montreal Impact,https://en.wikipedia.org/wiki/Montreal_Impact,Major League Soccer,https://en.wikipedia.org/wiki/Saputo_Stadium,45Â°33â€²47â€³N 73Â°33â€²9â€³W,"45d 33' 47"" N  73d 33' 9"" W",45.5630555555556,-73.5525,Major League Soccer,United States
-MTK Budapest,https://en.wikipedia.org/wiki/MTK_Budapest_FC,OTP Bank Liga,https://en.wikipedia.org/wiki/Stadion_Hidegkuti_N%C3%A1ndor,47Â°29â€²27.31â€³N 19Â°6â€²24.21â€³E,"47d 29' 27.31"" N  19d 6' 24.21"" E",47.4909194444444,19.106725,OTP Bank Liga,Hungary
-Nantes,https://en.wikipedia.org/wiki/FC_Nantes,Ligue 1,https://en.wikipedia.org/wiki/Stade_de_la_Beaujoire,47Â°15â€²20â€³N 1Â°31â€²31â€³W,"47d 15' 20"" N  1d 31' 31"" W",47.2555555555556,-1.52527777777778,Ligue 1,France
-Napoli,https://en.wikipedia.org/wiki/S.S.C._Napoli,Serie A,https://en.wikipedia.org/wiki/Stadio_San_Paolo,40Â°49â€²41â€³N 14Â°11â€²35â€³E,"40d 49' 41"" N  14d 11' 35"" E",40.8280555555556,14.1930555555556,Serie A,Italy
-Newcastle United,https://en.wikipedia.org/wiki/Newcastle_United_F.C.,Championship,https://en.wikipedia.org/wiki/St_James%27_Park,54Â°58â€²32â€³N 1Â°37â€²18â€³W,"54d 58' 32"" N  1d 37' 18"" W",54.9755555555556,-1.62166666666667,Football_League_Championship,England 
-Norwich City,https://en.wikipedia.org/wiki/Norwich_City_F.C.,Championship,https://en.wikipedia.org/wiki/Carrow_Road,52Â°37â€²19.66â€³N 1Â°18â€²31.15â€³E,"52d 37' 19.66"" N  1d 18' 31.15"" E",52.6221277777778,1.30865277777778,Football_League_Championship,England 
-Nottingham Forest,https://en.wikipedia.org/wiki/Nottingham_Forest_F.C.,Championship,https://en.wikipedia.org/wiki/City_Ground,52Â°56â€²24â€³N 1Â°7â€²58â€³W,"52d 56' 24"" N  1d 7' 58"" W",52.94,-1.13277777777778,Football_League_Championship,England 
-Notts County,https://en.wikipedia.org/wiki/Notts_County_F.C.,League Two,https://en.wikipedia.org/wiki/Meadow_Lane,52Â°56â€²33â€³N 1Â°8â€²14â€³W,"52d 56' 33"" N  1d 8' 14"" W",52.9425,-1.13722222222222,League Two,England 
-OB,https://en.wikipedia.org/wiki/Odense_Boldklub,Danish Superliga,https://en.wikipedia.org/wiki/TRE-FOR_Park,55Â°23â€²52â€³N 10Â°21â€²00â€³E,"55d 23' 52"" N  10d 21' 00"" E",55.3977777777778,10.35,Danish Superliga,Denmark
-Olympiacos,https://en.wikipedia.org/wiki/Olympiacos_F.C.,Superleague Greece,https://en.wikipedia.org/wiki/Karaiskakis_Stadium,37Â°56â€²46.21â€³N 23Â°39â€²52.33â€³E,"37d 56' 46.21"" N  23d 39' 52.33"" E",37.9461694444444,23.6645361111111,Superleague Greece,Greece
-Oostende,https://en.wikipedia.org/wiki/K.V._Oostende,Belgian Pro League,https://en.wikipedia.org/wiki/Albertparkstadion,51Â°13â€²01â€³N 2Â°53â€²11â€³E,"51d 13' 01"" N  2d 53' 11"" E",51.2169444444444,2.88638888888889,Belgian Pro League,Belgium
-Osmanlıspor,https://en.wikipedia.org/wiki/Osmanl%C4%B1spor,SÃ¼per Lig,https://en.wikipedia.org/wiki/Osmanl%C4%B1_Stadyumu,40Â°0â€²41â€³N 32Â°30â€²8â€³E,"40d 0' 41"" N  32d 30' 8"" E",40.0113888888889,32.5022222222222,Süper_Lig,Turkey
-Palermo,https://en.wikipedia.org/wiki/U.S._Citt%C3%A0_di_Palermo,Serie A,https://en.wikipedia.org/wiki/Stadio_Renzo_Barbera,38Â°9â€²9.96â€³N 13Â°20â€²32.19â€³E,"38d 9' 9.96"" N  13d 20' 32.19"" E",38.1527666666667,13.342275,Serie A,Italy
-Panathinaikos,https://en.wikipedia.org/wiki/Panathinaikos_F.C.,Superleague Greece,https://en.wikipedia.org/wiki/Apostolos_Nikolaidis_Stadium,37Â°59â€²13.81â€³N 23Â°45â€²15.10â€³E,"37d 59' 13.81"" N  23d 45' 15.10"" E",37.9871694444444,23.7541944444444,Superleague Greece,Greece
-Pandurii Târgu Jiu,https://en.wikipedia.org/wiki/CS_Pandurii_T%C3%A2rgu_Jiu,Liga I,https://en.wikipedia.org/wiki/Stadionul_Municipal_(Drobeta-Turnu_Severin),44Â°38â€²19â€³N 22Â°40â€²2â€³E,"44d 38' 19"" N  22d 40' 2"" E",44.6386111111111,22.6672222222222,Liga I,Romania
-PAOK,https://en.wikipedia.org/wiki/PAOK_FC,Superleague Greece,https://en.wikipedia.org/wiki/Toumba_Stadium,40Â°36â€²49.82â€³N 22Â°58â€²20.72â€³E,"40d 36' 49.82"" N  22d 58' 20.72"" E",40.6138388888889,22.9724222222222,Superleague Greece,Greece
-Paris Saint-Germain,https://en.wikipedia.org/wiki/Paris_Saint-Germain_F.C.,Ligue 1,https://en.wikipedia.org/wiki/Parc_des_Princes,48Â°50â€²29â€³N 2Â°15â€²11â€³E,"48d 50' 29"" N  2d 15' 11"" E",48.8413888888889,2.25305555555556,Ligue 1,France
-Partizani Tirana,https://en.wikipedia.org/wiki/FK_Partizani_Tirana,Albanian Superliga,https://en.wikipedia.org/wiki/Qemal_Stafa_Stadium,41Â°19â€²5.93â€³N 19Â°49â€²26.67â€³E,"41d 19' 5.93"" N  19d 49' 26.67"" E",41.3183138888889,19.824075,Albanian Superliga,Albania
-PAS Giannina,https://en.wikipedia.org/wiki/PAS_Giannina_F.C.,Superleague Greece,https://en.wikipedia.org/wiki/Zosimades_Stadium,39Â°40â€²3.53â€³N 20Â°50â€²55.21â€³E,"39d 40' 3.53"" N  20d 50' 55.21"" E",39.6676472222222,20.8486694444444,Superleague Greece,Greece
-Pescara,https://en.wikipedia.org/wiki/Delfino_Pescara_1936,Serie A,https://en.wikipedia.org/wiki/Stadio_Adriatico,42Â°27â€²19â€³N 14Â°13â€²46â€³E,"42d 27' 19"" N  14d 13' 46"" E",42.4552777777778,14.2294444444444,Serie A,Italy
-Porto,https://en.wikipedia.org/wiki/FC_Porto,Primeira Liga,https://en.wikipedia.org/wiki/Est%C3%A1dio_do_Drag%C3%A3o,41Â°09â€²42â€³N 8Â°35â€²02â€³W,"41d 09' 42"" N  8d 35' 02"" W",41.1616666666667,-8.58388888888889,Primeira Liga,Portugal
-Puskás Akadémia,https://en.wikipedia.org/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC,Nemzeti BajnoksÃ¡g II,https://en.wikipedia.org/wiki/Pancho_Arena,47Â°27â€²50â€³N 18Â°35â€²12â€³E,"47d 27' 50"" N  18d 35' 12"" E",47.4638888888889,18.5866666666667,Nemzeti_Bajnokság_II,Hungary
-Qarabağ,https://en.wikipedia.org/wiki/Qaraba%C4%9F_FK,Azerbaijan Premier League,https://en.wikipedia.org/wiki/Karabakh_Stadium,40Â°25â€²16â€³N 49Â°59â€²48â€³E,"40d 25' 16"" N  49d 59' 48"" E",40.4211111111111,49.9966666666667,Azerbaijan Premier League,Azerbaijan
-Queens Park Rangers,https://en.wikipedia.org/wiki/Queens_Park_Rangers_F.C.,Championship,https://en.wikipedia.org/wiki/Loftus_Road,51Â°30â€²33â€³N 0Â°13â€²56â€³W,"51d 30' 33"" N  0d 13' 56"" W",51.5091666666667,-0.232222222222222,Football_League_Championship,England 
-Rapid Wien,https://en.wikipedia.org/wiki/SK_Rapid_Wien,Austrian Bundesliga,https://en.wikipedia.org/wiki/Allianz_Stadion,48Â°11â€²52â€³N 16Â°15â€²55â€³E,"48d 11' 52"" N  16d 15' 55"" E",48.1977777777778,16.2652777777778,Austrian Bundesliga,Austria
-Rayo Vallecano,https://en.wikipedia.org/wiki/Rayo_Vallecano,Segunda DivisiÃ³n,https://en.wikipedia.org/wiki/Campo_de_F%C3%BAtbol_de_Vallecas,40Â°23â€²31.00â€³N 3Â°39â€²32.26â€³W,"40d 23' 31.00"" N  3d 39' 32.26"" W",40.3919444444444,-3.65896111111111,Segunda_División,Spain
-RB Leipzig,https://en.wikipedia.org/wiki/RB_Leipzig,Bundesliga,https://en.wikipedia.org/wiki/Red_Bull_Arena_(Leipzig),51Â°20â€²44.86â€³N 12Â°20â€²53.59â€³E,"51d 20' 44.86"" N  12d 20' 53.59"" E",51.3457944444444,12.3482194444444,Bundesliga,Germany
-Reading,https://en.wikipedia.org/wiki/Reading_F.C.,Championship,https://en.wikipedia.org/wiki/Madejski_Stadium,51Â°25â€²20â€³N 0Â°58â€²58â€³W,"51d 25' 20"" N  0d 58' 58"" W",51.4222222222222,-0.982777777777778,Football_League_Championship,England 
-Real Madrid,https://en.wikipedia.org/wiki/Real_Madrid_C.F.,La Liga,https://en.wikipedia.org/wiki/Santiago_Bernab%C3%A9u_Stadium,40Â°27â€²11â€³N 3Â°41â€²18â€³W,"40d 27' 11"" N  3d 41' 18"" W",40.4530555555556,-3.68833333333333,La Liga,Spain
-Rennes,https://en.wikipedia.org/wiki/Stade_Rennais_F.C.,Ligue 1,https://en.wikipedia.org/wiki/Roazhon_Park,48Â°6â€²26.85â€³N 1Â°42â€²46.22â€³W,"48d 6' 26.85"" N  1d 42' 46.22"" W",48.1074583333333,-1.71283888888889,Ligue 1,France
-Rijeka,https://en.wikipedia.org/wiki/HNK_Rijeka,Prva HNL,https://en.wikipedia.org/wiki/Stadion_Rujevica,45Â°20â€²51â€³N 14Â°24â€²03â€³E,"45d 20' 51"" N  14d 24' 03"" E",45.3475,14.4008333333333,Croatian_First_Football_League,Croatia
-Roma,https://en.wikipedia.org/wiki/A.S._Roma,Serie A,https://en.wikipedia.org/wiki/Stadio_Olimpico,41Â°56â€²1.99â€³N 12Â°27â€²17.23â€³E,"41d 56' 1.99"" N  12d 27' 17.23"" E",41.9338861111111,12.4547861111111,Serie A,Italy
-Ruch Chorzów,https://en.wikipedia.org/wiki/Ruch_Chorz%C3%B3w,Ekstraklasa,https://en.wikipedia.org/wiki/Stadion_Miejski_(Chorz%C3%B3w),50Â°16â€²55.93â€³N 18Â°56â€²39.04â€³E,"50d 16' 55.93"" N  18d 56' 39.04"" E",50.2822027777778,18.9441777777778,Ekstraklasa,Poland
-Sampdoria,https://en.wikipedia.org/wiki/U.C._Sampdoria,Serie A,https://en.wikipedia.org/wiki/Stadio_Luigi_Ferraris,44Â°24â€²59.15â€³N 8Â°57â€²8.74â€³E,"44d 24' 59.15"" N  8d 57' 8.74"" E",44.4164305555556,8.95242777777778,Serie A,Italy
-Sandefjord,https://en.wikipedia.org/wiki/Sandefjord_Fotball,OBOS-ligaen,https://en.wikipedia.org/wiki/Komplett_Arena,59Â°08â€²14â€³N 10Â°10â€²47â€³E,"59d 08' 14"" N  10d 10' 47"" E",59.1372222222222,10.1797222222222,OBOS-ligaen,Norway
-Sassuolo,https://en.wikipedia.org/wiki/U.S._Sassuolo_Calcio,Serie A,https://en.wikipedia.org/wiki/Mapei_Stadium_%E2%80%93_Citt%C3%A0_del_Tricolore,44Â°42â€²53â€³N 10Â°38â€²59â€³E,"44d 42' 53"" N  10d 38' 59"" E",44.7147222222222,10.6497222222222,Serie A,Italy
-SC Freiburg,https://en.wikipedia.org/wiki/SC_Freiburg,Bundesliga,https://en.wikipedia.org/wiki/Schwarzwald-Stadion,47Â°59â€²20â€³N 7Â°53â€²35â€³E,"47d 59' 20"" N  7d 53' 35"" E",47.9888888888889,7.89305555555555,Bundesliga,Germany
-Schalke 04,https://en.wikipedia.org/wiki/FC_Schalke_04,Bundesliga,https://en.wikipedia.org/wiki/Veltins-Arena,51Â°33â€²16.21â€³N 7Â°4â€²3.32â€³E,"51d 33' 16.21"" N  7d 4' 3.32"" E",51.5545027777778,7.06758888888889,Bundesliga,Germany
-Sevilla,https://en.wikipedia.org/wiki/Sevilla_FC,La Liga,https://en.wikipedia.org/wiki/Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n,37Â°23â€²02â€³N 5Â°58â€²14â€³W,"37d 23' 02"" N  5d 58' 14"" W",37.3838888888889,-5.97055555555556,La Liga,Spain
-Shakhtar Donetsk,https://en.wikipedia.org/wiki/FC_Shakhtar_Donetsk,Ukrainian Premier League,https://en.wikipedia.org/wiki/Donbass_Arena,48Â°1â€²15â€³N 37Â°48â€²35â€³E,"48d 1' 15"" N  37d 48' 35"" E",48.0208333333333,37.8097222222222,Ukrainian Premier League,Ukraine
-Sheffield Wednesday,https://en.wikipedia.org/wiki/Sheffield_Wednesday_F.C.,Championship,https://en.wikipedia.org/wiki/Hillsborough_Stadium,53Â°24â€²41â€³N 1Â°30â€²2â€³W,"53d 24' 41"" N  1d 30' 2"" W",53.4113888888889,-1.50055555555556,Football_League_Championship,England 
-Skënderbeu Korçë,https://en.wikipedia.org/wiki/KF_Sk%C3%ABnderbeu_Kor%C3%A7%C3%AB,Albanian Superliga,https://en.wikipedia.org/wiki/Sk%C3%ABnderbeu_Stadium,40Â°37â€²33â€³N 20Â°46â€²58â€³E,"40d 37' 33"" N  20d 46' 58"" E",40.6258333333333,20.7827777777778,Albanian Superliga,Albania
-Slavia Prague,https://en.wikipedia.org/wiki/SK_Slavia_Prague,Czech First League,https://en.wikipedia.org/wiki/Eden_Arena,50Â°04â€²03â€³N 14Â°28â€²18â€³E,"50d 04' 03"" N  14d 28' 18"" E",50.0675,14.4716666666667,Czech First League,Czech Republic
-Slovan Bratislava,https://en.wikipedia.org/wiki/%C5%A0K_Slovan_Bratislava,Fortuna Liga,https://en.wikipedia.org/wiki/Pasienky,48Â°09â€²58â€³N 17Â°08â€²33â€³E,"48d 09' 58"" N  17d 08' 33"" E",48.1661111111111,17.1425,Fortuna Liga,Slovakia
-Slovan Liberec,https://en.wikipedia.org/wiki/FC_Slovan_Liberec,Czech First League,https://en.wikipedia.org/wiki/Stadion_u_Nisy,50Â°46â€²34.37â€³N 15Â°02â€²59.90â€³E,"50d 46' 34.37"" N  15d 02' 59.90"" E",50.7762138888889,15.0499722222222,Czech First League,Czech Republic
-Southampton,https://en.wikipedia.org/wiki/Southampton_F.C.,Premier League,"https://en.wikipedia.org/wiki/The_Dell,_Southampton",50Â°54â€²53â€³N 001Â°24â€²47â€³W,"50d 54' 53"" N  001d 24' 47"" W",50.9147222222222,-1.41305555555556,Premier League,England
-Sparta Prague,https://en.wikipedia.org/wiki/AC_Sparta_Prague,Czech First League,https://en.wikipedia.org/wiki/Generali_Arena,50Â°5â€²59.29â€³N 14Â°24â€²57.28â€³E,"50d 5' 59.29"" N  14d 24' 57.28"" E",50.0998027777778,14.4159111111111,Czech First League,Czech Republic
-Spartak Moscow,https://en.wikipedia.org/wiki/FC_Spartak_Moscow,Russian Premier League,https://en.wikipedia.org/wiki/Otkrytie_Arena,55Â°49â€²4.3â€³N 37Â°26â€²24.9â€³E,"55d 49' 4.3"" N  37d 26' 24.9"" E",55.8178611111111,37.44025,Russian Premier League,Russia
-Sporting CP,https://en.wikipedia.org/wiki/Sporting_Clube_de_Portugal,Primeira Liga,https://en.wikipedia.org/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade,38Â°45â€²40.30â€³N 9Â°9â€²38.82â€³W,"38d 45' 40.30"" N  9d 9' 38.82"" W",38.7611944444444,-9.16078333333333,Primeira Liga,Portugal
-St Johnstone,https://en.wikipedia.org/wiki/St_Johnstone_F.C.,Scottish Premiership,https://en.wikipedia.org/wiki/McDiarmid_Park,56Â°24â€²34.87â€³N 3Â°28â€²36.94â€³W,"56d 24' 34.87"" N  3d 28' 36.94"" W",56.4096861111111,-3.47692777777778,Scottish Premiership,Scotland
-Steaua București,https://en.wikipedia.org/wiki/FC_Steaua_Bucure%C8%99ti,Liga I,https://en.wikipedia.org/wiki/Arena_Na%C8%9Bional%C4%83,44Â°26â€²13.95â€³N 26Â°09â€²09.03â€³E,"44d 26' 13.95"" N  26d 09' 09.03"" E",44.4372083333333,26.1525083333333,Liga I,Romania
-Stoke City,https://en.wikipedia.org/wiki/Stoke_City_F.C.,Premier League,https://en.wikipedia.org/wiki/Bet365_Stadium,52Â°59â€²18â€³N 2Â°10â€²32â€³W,"52d 59' 18"" N  2d 10' 32"" W",52.9883333333333,-2.17555555555556,Premier League,England
-Sunderland,https://en.wikipedia.org/wiki/Sunderland_A.F.C.,Premier League,https://en.wikipedia.org/wiki/Stadium_of_Light,54Â°54â€²52â€³N 1Â°23â€²18â€³W,"54d 54' 52"" N  1d 23' 18"" W",54.9144444444444,-1.38833333333333,Premier League,England
-Swansea City,https://en.wikipedia.org/wiki/Swansea_City_A.F.C.,Premier League,https://en.wikipedia.org/wiki/Liberty_Stadium,51Â°38â€²32â€³N 3Â°56â€²06â€³W,"51d 38' 32"" N  3d 56' 06"" W",51.6422222222222,-3.935,Premier League,England
-Terek Grozny,https://en.wikipedia.org/wiki/FC_Terek_Grozny,Russian Premier League,https://en.wikipedia.org/wiki/Terek_Stadium,43Â°19â€²23â€³N 45Â°44â€²43â€³E,"43d 19' 23"" N  45d 44' 43"" E",43.3230555555556,45.7452777777778,Russian Premier League,Russia
-Torino,https://en.wikipedia.org/wiki/Torino_F.C.,Serie A,https://en.wikipedia.org/wiki/Stadio_Olimpico_Grande_Torino,45Â°2â€²30.30â€³N 7Â°39â€²0.05â€³E,"45d 2' 30.30"" N  7d 39' 0.05"" E",45.04175,7.65001388888889,Serie A,Italy
-Tottenham Hotspur,https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C.,Premier League,https://en.wikipedia.org/wiki/White_Hart_Lane,51Â°36â€²12â€³N 0Â°03â€²57â€³W,"51d 36' 12"" N  0d 03' 57"" W",51.6033333333333,-0.0658333333333333,Premier League,England
-Toulouse,https://en.wikipedia.org/wiki/Toulouse_F.C.,Ligue 1,https://en.wikipedia.org/wiki/Stadium_Municipal,43Â°34â€²59â€³N 1Â°26â€²3â€³E,"43d 34' 59"" N  1d 26' 3"" E",43.5830555555556,1.43416666666667,Ligue 1,France
-Trabzonspor,https://en.wikipedia.org/wiki/Trabzonspor,SÃ¼per Lig,https://en.wikipedia.org/wiki/H%C3%BCseyin_Avni_Aker_Stadium,41Â°0â€²14â€³N 39Â°42â€²18â€³E,"41d 0' 14"" N  39d 42' 18"" E",41.0038888888889,39.705,Süper_Lig,Turkey
-UANL,https://en.wikipedia.org/wiki/Tigres_UANL,Liga MX,https://en.wikipedia.org/wiki/Estadio_Universitario,25Â°43â€²22.10â€³N 100Â°18â€²43.40â€³W,"25d 43' 22.10"" N  100d 18' 43.40"" W",25.7228055555556,-100.312055555556,Liga MX,Mexico
-Udinese,https://en.wikipedia.org/wiki/Udinese_Calcio,Serie A,https://en.wikipedia.org/wiki/Stadio_Friuli,46Â°04â€²54â€³N 13Â°12â€²00â€³E,"46d 04' 54"" N  13d 12' 00"" E",46.0816666666667,13.2,Serie A,Italy
-Ufa,https://en.wikipedia.org/wiki/FC_Ufa,Russian Premier League,https://en.wikipedia.org/wiki/Neftyanik_Stadium,54Â°49â€²34â€³N 56Â°03â€²42â€³E,"54d 49' 34"" N  56d 03' 42"" E",54.8261111111111,56.0616666666667,Russian Premier League,Russia
-Vaduz,https://en.wikipedia.org/wiki/FC_Vaduz,Swiss Super League,https://en.wikipedia.org/wiki/Rheinpark_Stadion,47Â°08â€²25â€³N 9Â°30â€²37â€³E,"47d 08' 25"" N  9d 30' 37"" E",47.1402777777778,9.51027777777778,Swiss Super League,Switzerland
-Valencia,https://en.wikipedia.org/wiki/Valencia_CF,La Liga,https://en.wikipedia.org/wiki/Mestalla_Stadium,39Â°28â€²28.76â€³N 0Â°21â€²30.10â€³W,"39d 28' 28.76"" N  0d 21' 30.10"" W",39.4746555555556,-0.358361111111111,La Liga,Spain
-VfB Stuttgart,https://en.wikipedia.org/wiki/VfB_Stuttgart,2. Bundesliga,https://en.wikipedia.org/wiki/Mercedes-Benz_Arena_(Stuttgart),48Â°47â€²32.17â€³N 9Â°13â€²55.31â€³E,"48d 47' 32.17"" N  9d 13' 55.31"" E",48.7922694444444,9.23203055555556,2. Bundesliga,Germany
-VfL Wolfsburg,https://en.wikipedia.org/wiki/VfL_Wolfsburg,Bundesliga,https://en.wikipedia.org/wiki/Volkswagen_Arena,52Â°25â€²57.5â€³N 10Â°48â€²14â€³E,"52d 25' 57.5"" N  10d 48' 14"" E",52.4326388888889,10.8038888888889,Bundesliga,Germany
-Videoton,https://en.wikipedia.org/wiki/Videoton_FC,OTP Bank Liga,https://en.wikipedia.org/wiki/S%C3%B3st%C3%B3i_Stadion,47Â°10â€²25.3â€³N 18Â°24â€²55.3â€³E,"47d 10' 25.3"" N  18d 24' 55.3"" E",47.1736944444444,18.4153611111111,OTP Bank Liga,Hungary
-Viktoria Plzeň,https://en.wikipedia.org/wiki/FC_Viktoria_Plze%C5%88,Czech First League,https://en.wikipedia.org/wiki/Doosan_Arena,49Â°45â€²00â€³N 13Â°23â€²08â€³E,"49d 45' 00"" N  13d 23' 08"" E",49.75,13.3855555555556,Czech First League,Czech Republic
-Villarreal,https://en.wikipedia.org/wiki/Villarreal_CF,La Liga,https://en.wikipedia.org/wiki/Estadio_El_Madrigal,39Â°56â€²39â€³N 0Â°06â€²13â€³W,"39d 56' 39"" N  0d 06' 13"" W",39.9441666666667,-0.103611111111111,La Liga,Spain
-Watford,https://en.wikipedia.org/wiki/Watford_F.C.,Premier League,https://en.wikipedia.org/wiki/Vicarage_Road,51Â°38â€²59.41â€³N 0Â°24â€²5.35â€³W,"51d 38' 59.41"" N  0d 24' 5.35"" W",51.6498361111111,-0.401486111111111,Premier League,England
-Werder Bremen,https://en.wikipedia.org/wiki/SV_Werder_Bremen,Bundesliga,https://en.wikipedia.org/wiki/Weserstadion,53Â°3â€²59.02â€³N 8Â°50â€²15.46â€³E,"53d 3' 59.02"" N  8d 50' 15.46"" E",53.0663944444444,8.83762777777778,Bundesliga,Germany
-West Bromwich Albion,https://en.wikipedia.org/wiki/West_Bromwich_Albion_F.C.,Premier League,https://en.wikipedia.org/wiki/The_Hawthorns,52Â°30â€²33â€³N 1Â°57â€²50â€³W,"52d 30' 33"" N  1d 57' 50"" W",52.5091666666667,-1.96388888888889,Premier League,England
-West Ham United,https://en.wikipedia.org/wiki/West_Ham_United_F.C.,Premier League,https://en.wikipedia.org/wiki/Olympic_Stadium_(London),51Â°32â€²19â€³N 0Â°00â€²59â€³W,"51d 32' 19"" N  0d 00' 59"" W",51.5386111111111,-0.0163888888888889,Premier League,England
-Wigan Athletic,https://en.wikipedia.org/wiki/Wigan_Athletic_F.C.,Championship,https://en.wikipedia.org/wiki/DW_Stadium,53Â°32â€²52â€³N 2Â°39â€²14â€³W,"53d 32' 52"" N  2d 39' 14"" W",53.5477777777778,-2.65388888888889,Football_League_Championship,England 
-Willem II,https://en.wikipedia.org/wiki/Willem_II_(football_club),Eredivisie,https://en.wikipedia.org/wiki/Koning_Willem_II_Stadion,51Â°32â€²34â€³N 5Â°04â€²01â€³E,"51d 32' 34"" N  5d 04' 01"" E",51.5427777777778,5.06694444444444,Eredivisie,Netherlands
-Wisła Kraków,https://en.wikipedia.org/wiki/Wis%C5%82a_Krak%C3%B3w,Ekstraklasa,https://en.wikipedia.org/wiki/Stadion_Miejski_in_Krak%C3%B3w,50Â°3â€²49â€³N 19Â°54â€²43â€³E,"50d 3' 49"" N  19d 54' 43"" E",50.0636111111111,19.9119444444444,Ekstraklasa,Poland
-Wolverhampton Wanderers,https://en.wikipedia.org/wiki/Wolverhampton_Wanderers_F.C.,Championship,https://en.wikipedia.org/wiki/Molineux_Stadium,52Â°35â€²25â€³N 2Â°07â€²49â€³W,"52d 35' 25"" N  2d 07' 49"" W",52.5902777777778,-2.13027777777778,Football_League_Championship,England 
-Young Boys,https://en.wikipedia.org/wiki/BSC_Young_Boys,Swiss Super League,https://en.wikipedia.org/wiki/Stade_de_Suisse,46Â°57â€²47.40â€³N 7Â°27â€²53.40â€³E,"46d 57' 47.40"" N  7d 27' 53.40"" E",46.9631666666667,7.46483333333333,Swiss Super League,Switzerland
-Zagłębie Lubin,https://en.wikipedia.org/wiki/Zag%C5%82%C4%99bie_Lubin,Ekstraklasa,https://en.wikipedia.org/wiki/Stadion_Zag%C5%82%C4%99bia_Lubin,51Â°24â€²50.22â€³N 16Â°11â€²53.74â€³E,"51d 24' 50.22"" N  16d 11' 53.74"" E",51.41395,16.1982611111111,Ekstraklasa,Poland
-Zenit Saint Petersburg,https://en.wikipedia.org/wiki/FC_Zenit_Saint_Petersburg,Russian Premier League,https://en.wikipedia.org/wiki/Petrovsky_Stadium,59Â°57â€²07â€³N 30Â°17â€²11â€³E,"59d 57' 07"" N  30d 17' 11"" E",59.9519444444445,30.2863888888889,Russian Premier League,Russia
-Žilina,https://en.wikipedia.org/wiki/M%C5%A0K_%C5%BDilina,Fortuna Liga,https://en.wikipedia.org/wiki/%C5%A0tadi%C3%B3n_pod_Dub%C5%88om,49Â°13â€²44.83â€³N 18Â°44â€²41.24â€³E,"49d 13' 44.83"" N  18d 44' 41.24"" E",49.2291194444444,18.7447888888889,Fortuna Liga,Slovakia
-Zorya Luhansk,https://en.wikipedia.org/wiki/FC_Zorya_Luhansk,Ukrainian Premier League,https://en.wikipedia.org/wiki/Avanhard_Stadium_(Luhansk),48Â°33â€²34â€³N 39Â°19â€²16â€³E,"48d 33' 34"" N  39d 19' 16"" E",48.5594444444444,39.3211111111111,Ukrainian Premier League,Ukraine
-Zürich,https://en.wikipedia.org/wiki/FC_Z%C3%BCrich,Challenge League,https://en.wikipedia.org/wiki/Letzigrund,47Â°22â€²58.06â€³N 8Â°30â€²15.71â€³E,"47d 22' 58.06"" N  8d 30' 15.71"" E",47.3827944444444,8.50436388888889,Swiss_Challenge_League,Switzerland
+url_club,club_league2021,url_club_stadium,club_stadium_coord,club_stadium_lat,club_stadium_lbg
+/wiki/FK_Inter_Bratislava,3.liga Bratislava Group,"/wiki/Stupava,_Malacky_District",48°16′16″N 17°01′54″E,48.27111111111111,17.031666666666666
+/wiki/%C5%A0K_Slovan_Bratislava,Fortuna liga,/wiki/Teheln%C3%A9_pole,48°9′48.81″N 17°8′12.68″E,48.163558333333334,17.136855555555556
+/wiki/Dukla_Prague,Czechoslovak League (1949–1993)Czech League (1993–1994)Czech Third League (1994–1996),/wiki/Stadion_Juliska,50°06′43″N 14°23′15″E,50.11194444444445,14.3875
+/wiki/RH_Brno,NA,NA,NA,NA,NA
+/wiki/AC_Sparta_Praha,Czech First League,/wiki/Stadion_Letn%C3%A1,50°5′59.29″N 14°24′57.28″E,50.09980277777778,14.415911111111111
+/wiki/Tatran_Pre%C5%A1ov,3.liga,/wiki/Tatran_Stadion,49°00′24.32″N 21°14′04.43″E,49.00675555555556,21.23456388888889
+/wiki/OGC_Nice,Ligue 1,/wiki/Allianz_Riviera,43°42′18.5″N 7°11′33.3″E,43.70513888888889,7.192583333333333
+/wiki/RC_Paris,National 3 Group L,/wiki/Stade_Olympique_Yves-du-Manoir,48°55′46″N 2°14′53″E,48.92944444444444,2.2480555555555557
+/wiki/AS_Saint-%C3%89tienne,Ligue 1,/wiki/Stade_Geoffroy-Guichard,45°27′39″N 4°23′25″E,45.46083333333333,4.390277777777778
+/wiki/Stade_de_Reims,Ligue 1,/wiki/Stade_Auguste-Delaune,49°14′48″N 4°1′30″E,49.24666666666667,4.025
+/wiki/Le_Havre_AC,Ligue 2,/wiki/Stade_Oc%C3%A9ane,49°29′56″N 00°10′11″E,49.49888888888889,0.16972222222222222
+/wiki/RC_Lens,Ligue 1,/wiki/Stade_Bollaert-Delelis,50°25′58″N 2°48′54″E,50.43277777777777,2.815
+/wiki/Lokomotiv_Moscow,Russian Premier League,/wiki/RZD_Arena,55°48′13″N 37°44′28″E,55.80361111111111,37.74111111111111
+/wiki/FC_Dynamo_Moscow,Russian Premier League,/wiki/VTB_Arena,55°47′29″N 37°33′35″E,55.79138888888889,37.55972222222222
+/wiki/FC_Dinamo_Tbilisi,Erovnuli Liga,/wiki/Boris_Paichadze_Dinamo_Arena,41°43′22.83″N 44°47′23.14″E,41.72300833333333,44.78976111111111
+/wiki/FC_Spartak_Moscow,Russian Premier League,/wiki/Otkritie_Arena,55°49′4.3″N 37°26′24.9″E,55.817861111111114,37.44025
+/wiki/FC_Dynamo_Kyiv,Ukrainian Premier League,/wiki/Olimpiyskiy_National_Sports_Complex,50°26′00″N 30°31′18″E,50.43333333333333,30.521666666666665
+/wiki/PFC_CSKA_Moscow,Russian Premier League,/wiki/VEB_Arena,55°47′29″N 37°30′58″E,55.79138888888889,37.51611111111111
+/wiki/Torpedo_Moscow,FNL,NA,NA,NA,NA
+/wiki/SKA_Rostov,"Russian Professional Football League, Group 1",/wiki/SKA_SKVO_Stadium,47°16′18″N 39°43′40″E,47.27166666666667,39.72777777777778
+/wiki/FK_Partizan,Serbian SuperLiga,/wiki/Partizan_Stadium,44°47′19.48″N 20°27′32.75″E,44.78874444444444,20.459097222222223
+/wiki/Radni%C4%8Dki_Beograd,Serbian League Belgrade,/wiki/New_Belgrade,44°48′N 20°25′E,44.8,20.416666666666668
+/wiki/Dinamo_Zagreb,Prva HNL,/wiki/Stadion_Maksimir,45°49′7.89″N 16°1′5.08″E,45.81885833333334,16.018077777777776
+/wiki/Red_Star_Belgrade,Serbian SuperLiga,/wiki/Red_Star_Stadium,44°47′00″N 20°27′54″E,44.78333333333333,20.465
+/wiki/FK_Vojvodina,Serbian SuperLiga,/wiki/Kara%C4%91or%C4%91e_Stadium,45°14′48″N 19°50′32″E,45.24666666666667,19.842222222222222
+/wiki/Hajduk_Split,Prva HNL,/wiki/Stadion_Poljud,43°31′10″N 16°25′54″E,43.519444444444446,16.43166666666667
+/wiki/Borac_Banja_Luka,Premier League BH,/wiki/Banja_Luka_City_Stadium,44°46′34″N 17°11′59″E,44.77611111111111,17.199722222222224
+/wiki/Vele%C5%BE_Mostar,Premier League BH,/wiki/Ro%C4%91eni_Stadium,43°22′42″N 17°51′16″E,43.37833333333333,17.854444444444447
+/wiki/Boldklubben_Frem,2nd Division,/wiki/Valby_Idr%C3%A6tspark,55°38′49.04″N 12°30′42.65″E,55.64695555555556,12.511847222222222
+/wiki/Boldklubben_1909,Funen Series,/w/index.php?title=Gillested_Park&action=edit&redlink=1,NA,NA,NA
+/wiki/Aarhus_Gymnastik_Forening,Danish Superliga,/wiki/Aarhus_Stadium,56°07′55″N 10°11′48″E,56.13194444444444,10.196666666666667
+/wiki/B_1903,Denmark Series,/wiki/Gentofte_Sportspark,55°45′29″N 12°31′38″E,55.75805555555556,12.527222222222223
+/wiki/Esbjerg_fB,1st Division,/wiki/Blue_Water_Arena,55°28′55″N 8°26′22″E,55.481944444444444,8.439444444444444
+/wiki/Kj%C3%B8benhavns_Boldklub,Københavnsserien (tier 5),/wiki/Copenhagen,55°40′34″N 12°34′06″E,55.67611111111111,12.568333333333333
+/wiki/Hellerup_IK,Danish 2nd Division,/wiki/Gentofte_Stadion,55°45′29″N 12°31′38″E,55.75805555555556,12.527222222222223
+/wiki/Boldklubben_1913,Denmark Series,/w/index.php?title=Campus_Road_(Odense)&action=edit&redlink=1,NA,NA,NA
+/wiki/Boldklubben_1893,"Danish 2nd Division, G1",/wiki/%C3%98sterbro_Stadion,55°42′15″N 12°34′29″E,55.70416666666667,12.574722222222222
+/wiki/AaB_Fodbold,Danish Superliga,/wiki/Aalborg_Stadium,57°3′5.4″N 9°53′56.76″E,57.0515,9.899099999999999
+/wiki/Tatab%C3%A1nyai_B%C3%A1ny%C3%A1sz,Nemzeti Bajnokság II,/wiki/Tatab%C3%A1nya,47°35′10″N 18°23′41″E,47.586111111111116,18.39472222222222
+/wiki/Vasas_SC,NB II,/wiki/Illovszky_Rudolf_Stadion,47°32′13″N 19°04′50″E,47.536944444444444,19.080555555555556
+/wiki/Ferencv%C3%A1rosi_Torna_Club,NB I,/wiki/Ferencv%C3%A1ros_Stadion,47°28′32″N 19°5′43″E,47.47555555555556,19.095277777777778
+/wiki/Budapest_Honv%C3%A9d_FC,NB I,/wiki/Bozsik_Ar%C3%A9na,47°26′33″N 19°9′18″E,47.442499999999995,19.154999999999998
+/wiki/MTK_Hung%C3%A1ria_FC,NB I,/wiki/Hidegkuti_N%C3%A1ndor_Stadion,47°29′27.31″N 19°6′24.21″E,47.490919444444444,19.106725
+/wiki/%C3%9Ajpest_FC,NB I,/wiki/Szusza_Ferenc_stadion,47°34′29.61″N 19°5′4.74″E,47.57489166666667,19.08465
+/wiki/FC_Torpedo_Kutaisi,Erovnuli Liga,/wiki/Ramaz_Shengelia_Stadium,42°15′19″N 42°40′59″E,42.25527777777778,42.683055555555555
+/wiki/FC_Torpedo_Moscow,FNL,NA,NA,NA,NA
+/wiki/FC_SKVO_Rostov-on-Don,"Russian Professional Football League, Group 1",/wiki/SKA_SKVO_Stadium,47°16′18″N 39°43′40″E,47.27166666666667,39.72777777777778
+/wiki/FC_Dinamo_Minsk,Belarusian Premier League,/wiki/Dinamo_Stadium_(Minsk),53°53′42.67″N 27°33′36.20″E,53.89518611111111,27.560055555555557
+/wiki/Athletic_Bilbao,La Liga,/wiki/San_Mam%C3%A9s_Stadium_(2013),43°15′51″N 2°57′01″W,43.26416666666667,-2.950277777777778
+/wiki/FC_Barcelona,La Liga,/wiki/Camp_Nou,41°22′51″N 2°07′22″E,41.380833333333335,2.122777777777778
+/wiki/Atl%C3%A9tico_Madrid,La Liga,/wiki/Metropolitano_Stadium,40°26′10″N 3°35′58″W,40.43611111111111,-3.5994444444444444
+/wiki/Sevilla_FC,La Liga,/wiki/Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_Stadium,37°23′02″N 5°58′14″W,37.38388888888889,-5.970555555555555
+/wiki/Real_Zaragoza,Segunda División,/wiki/La_Romareda,41°38′11.73″N 0°54′6.56″W,41.63659166666667,-0.9018222222222222
+/wiki/Juventus_F.C.,Serie A,/wiki/Juventus_Stadium,45°6′34″N 7°38′28″E,45.10944444444445,7.641111111111111
+/wiki/Valencia_CF,La Liga,/wiki/Estadio_de_Mestalla,39°28′28.76″N 0°21′30.10″W,39.47465555555556,-0.3583611111111111
+/wiki/Real_Madrid_C.F.,La Liga,/wiki/Santiago_Bernab%C3%A9u_Stadium,40°27′11″N 3°41′18″W,40.45305555555556,-3.6883333333333335
+/wiki/F.C._Internazionale_Milano,Serie A,/wiki/San_Siro,45°28′41″N 9°07′26″E,45.47805555555556,9.123888888888889
+/wiki/Stoke_City_F.C.,Championship,/wiki/Bet365_Stadium,52°59′18″N 2°10′32″W,52.98833333333334,-2.1755555555555555
+/wiki/Blackburn_Rovers_F.C.,Championship,/wiki/Ewood_Park,53°43′43″N 2°29′21″W,53.728611111111114,-2.4891666666666667
+/wiki/Everton_F.C.,Premier League,/wiki/Goodison_Park,53°26′20″N 2°57′59″W,53.43888888888888,-2.966388888888889
+/wiki/Tottenham_Hotspur_F.C.,Premier League,/wiki/Tottenham_Hotspur_Stadium,51°36′16″N 0°03′59″W,51.60444444444445,-0.06638888888888889
+/wiki/West_Ham_United_F.C.,Premier League,/wiki/London_Stadium,51°32′19″N 0°00′59″W,51.53861111111111,-0.01638888888888889
+/wiki/Liverpool_F.C.,Premier League,/wiki/Anfield,53°25′51″N 2°57′39″W,53.43083333333333,-2.9608333333333334
+/wiki/Manchester_United_F.C.,Premier League,/wiki/Old_Trafford,53°27′47″N 2°17′29″W,53.463055555555556,-2.2913888888888887
+/wiki/Leeds_United_A.F.C.,Premier League,/wiki/Elland_Road,53°46′40″N 1°34′20″W,53.77777777777778,-1.5722222222222222
+/wiki/Manchester_City_F.C.,Premier League,/wiki/City_of_Manchester_Stadium,53°28′59″N 2°12′1″W,53.48305555555556,-2.200277777777778
+/wiki/ACF_Fiorentina,Serie A,/wiki/Stadio_Artemio_Franchi,43°46′50.96″N 11°16′56.13″E,43.78082222222222,11.282258333333335
+/wiki/A.S._Varese_1910,NA,/wiki/Stadio_Franco_Ossola,45°50′04″N 8°48′02″E,45.83444444444444,8.800555555555556
+/wiki/A.C._Milan,Serie A,/wiki/San_Siro,45°28′41″N 9°07′26″E,45.47805555555556,9.123888888888889
+/wiki/Bologna_F.C._1909,Serie A,/wiki/Stadio_Renato_Dall%27Ara,44°29′32.33″N 11°18′34.80″E,44.49231388888889,11.309666666666667
+/wiki/Torino_F.C.,Serie A,/wiki/Stadio_Olimpico_Grande_Torino,45°2′30.30″N 7°39′0.05″E,45.04175,7.650013888888889
+/wiki/S.S.C._Napoli,Serie A,/wiki/Stadio_Diego_Armando_Maradona,40°49′41″N 14°11′35″E,40.82805555555556,14.193055555555556
+/wiki/Cagliari_Calcio,Serie A,/wiki/Sardegna_Arena,39°12′00″N 09°08′15″E,39.2,9.1375
+/wiki/PFC_Neftchi,Azerbaijan Premier League,/wiki/Bakcell_Arena,40°24′01″N 49°56′38″E,40.400277777777774,49.943888888888885
+/wiki/Dynamo_Kyiv,Ukrainian Premier League,/wiki/Olimpiyskiy_National_Sports_Complex,50°26′00″N 30°31′18″E,50.43333333333333,30.521666666666665
+/wiki/FK_Sarajevo,Premier League BH,/wiki/Asim_Ferhatovi%C4%87_Hase_Stadium,43°52′26″N 18°24′31″E,43.87388888888889,18.40861111111111
+/wiki/OFK_Belgrade,Serbian League Belgrade,/wiki/Omladinski_stadion,44°48′55.64″N 20°29′38.57″E,44.81545555555555,20.494047222222225
+/wiki/FK_%C5%BDeljezni%C4%8Dar_Sarajevo,Premier League BH,/wiki/Stadion_Grbavica,43°50′48″N 18°23′14″E,43.84666666666667,18.38722222222222
+/wiki/Standard_Li%C3%A8ge,Belgian First Division A,/wiki/Stade_Maurice_Dufrasne,50°36′35.67″N 5°32′36.04″E,50.60990833333334,5.543344444444444
+/wiki/RSC_Anderlecht,Belgian First Division A,/wiki/Lotto_Park,50°50′3.1″N 4°17′54.1″E,50.83419444444445,4.298361111111111
+/wiki/Club_Brugge_K.V.,Belgian First Division A,/wiki/Jan_Breydel_Stadium,51°11′35.78″N 3°10′50.10″E,51.19327222222222,3.1805833333333333
+/wiki/R.S.C._Anderlecht,Belgian First Division A,/wiki/Lotto_Park,50°50′3.1″N 4°17′54.1″E,50.83419444444445,4.298361111111111
+/wiki/R.W.D._Molenbeek,NA,/wiki/Edmond_Machtens_Stadium,50°51′18″N 4°18′40″E,50.855000000000004,4.311111111111111
+/wiki/K._Sint-Truidense_V.V.,Belgian First Division A,/wiki/Staaienveld,50°48′49″N 5°09′59″E,50.81361111111111,5.166388888888889
+/wiki/Lierse_SK,Proximus League,/wiki/Herman_Vanderpoortenstadion,51°08′39″N 4°34′25″E,51.14416666666666,4.573611111111111
+/wiki/Ferencv%C3%A1rosi_TC,NB I,/wiki/Ferencv%C3%A1ros_Stadion,47°28′32″N 19°5′43″E,47.47555555555556,19.095277777777778
+/wiki/Videoton_FC_Feh%C3%A9rv%C3%A1r,NB I,/wiki/MOL_Ar%C3%A9na_S%C3%B3st%C3%B3,47°10′25.3″N 18°24′55.3″E,47.17369444444444,18.41536111111111
+/wiki/P%C3%A9csi_Munk%C3%A1s_FC,NB II,/wiki/Stadion_PMFC,46°04′07″N 18°11′45″E,46.06861111111112,18.195833333333333
+/wiki/FC_Shakhtar_Donetsk,Ukrainian Premier League,/wiki/Donbass_Arena,48°1′15″N 37°48′35″E,48.020833333333336,37.80972222222222
+/wiki/FC_Karpaty_Lviv,Ukrainian Second League,/wiki/Ukraina_Stadium,49°49′09″N 24°02′53″E,49.81916666666667,24.048055555555557
+/wiki/FC_Zorya_Luhansk,Ukrainian Premier League,/wiki/Slavutych-Arena,47°51′35″N 35°05′49″E,47.859722222222224,35.096944444444446
+/wiki/FC_Bayern_Munich,Bundesliga,/wiki/Allianz_Arena,48°13′7.59″N 11°37′29.11″E,48.218775,11.624752777777779
+/wiki/SV_Werder_Bremen,Bundesliga,/wiki/Weser-Stadion,53°3′59.02″N 8°50′15.46″E,53.06639444444444,8.837627777777778
+/wiki/Borussia_M%C3%B6nchengladbach,Bundesliga,/wiki/Borussia-Park,51°10′28.50″N 6°23′7.67″E,51.17458333333333,6.385463888888889
+/wiki/Eintracht_Frankfurt,Bundesliga,/wiki/Waldstadion_(Frankfurt),50°4′7″N 8°38′43″E,50.06861111111112,8.645277777777777
+/wiki/FC_Schalke_04,Bundesliga,/wiki/Arena_AufSchalke,51°33′16.21″N 7°4′3.32″E,51.55450277777778,7.0675888888888885
+/wiki/MSV_Duisburg,3. Liga,/wiki/Schauinsland-Reisen-Arena,51°24′32.52″N 6°46′43.19″E,51.40903333333333,6.778663888888889
+/wiki/1._FC_K%C3%B6ln,Bundesliga,/wiki/RheinEnergieStadion,50°56′0.59″N 6°52′29.99″E,50.93349722222222,6.874997222222222
+/wiki/Spartak_Trnava,Fortuna liga,/wiki/Anton_Malatinsk%C3%BD_Stadium,48°22′24″N 17°35′30″E,48.373333333333335,17.591666666666665
+/wiki/Inter_Bratislava,3.liga Bratislava Group,"/wiki/Stupava,_Malacky_District",48°16′16″N 17°01′54″E,48.27111111111111,17.031666666666666
+/wiki/Bohemians_1905,Czech First League,/wiki/%C4%8Eol%C3%AD%C4%8Dek,50°04′01.17″N 14°27′15.14″E,50.06699166666667,14.454205555555555
+/wiki/Lokomotiva_Ko%C5%A1ice,5. liga,/wiki/Stadium_Dru%C5%BEstevn%C3%A1_pri_Horn%C3%A1de,48°48′00″N 21°14′46″E,48.8,21.246111111111112
+/wiki/FC_Ko%C5%A1ice,2. liga,/wiki/Lokomot%C3%ADva_Stadium,48°44′27.01″N 21°14′40.19″E,48.740836111111115,21.244497222222222
+/wiki/Slavia_Praha,Czech First League,/wiki/Sinobo_Stadium,50°04′03″N 14°28′18″E,50.0675,14.471666666666668
+/wiki/Sklo_Union_Teplice,Czech First League,/wiki/Na_St%C3%ADnadlech,50°38′24.27″N 13°49′04.57″E,50.640075,13.817936111111111
+/wiki/AFC_Ajax,Eredivisie,/wiki/Johan_Cruyff_Arena,52°18′51″N 4°56′31″E,52.314166666666665,4.941944444444444
+/wiki/Feyenoord,Eredivisie,/wiki/De_Kuip,51°53′38.02″N 4°31′23.71″E,51.89389444444444,4.523252777777778
+/wiki/PSV_Eindhoven,Eredivisie,/wiki/Philips_Stadion,51°26′30.41″N 5°28′2.79″E,51.44178055555555,5.467441666666667
+/wiki/NEC_Nijmegen,Eerste Divisie,/wiki/Stadion_de_Goffert,51°49′21″N 5°50′12″E,51.822500000000005,5.836666666666666
+/wiki/Go_Ahead_Eagles,Eerste Divisie,/wiki/De_Adelaarshorst,52°15′37″N 6°10′21″E,52.26027777777778,6.1725
+/wiki/FC_Amsterdam,"Eredivisie, Eerste Divisie",/wiki/Olympic_Stadium_(Amsterdam),52°20′36.30″N 4°51′15.09″E,52.34341666666667,4.854191666666666
+/wiki/AZ_(football_club),Eredivisie,/wiki/AFAS_Stadion,52°36′46″N 4°44′32″E,52.61277777777778,4.742222222222222
+/wiki/Sparta_Rotterdam,Eredivisie,/wiki/Sparta_Stadion_Het_Kasteel,51°55′10″N 4°26′01″E,51.919444444444444,4.433611111111111
+/wiki/Hertha_BSC,Bundesliga,/wiki/Olympiastadion_(Berlin),52°30′53″N 13°14′22″E,52.514722222222225,13.239444444444443
+/wiki/Hamburger_SV,2. Bundesliga,/wiki/Volksparkstadion,53°35′13.77″N 9°53′55.02″E,53.587158333333335,9.898616666666666
+/wiki/R._Charleroi_S.C.,Belgian First Division A,/wiki/Stade_du_Pays_de_Charleroi,50°24′53″N 4°27′14″E,50.414722222222224,4.453888888888889
+/wiki/HNK_Hajduk_Split,Prva HNL,/wiki/Stadion_Poljud,43°31′10″N 16°25′54″E,43.519444444444446,16.43166666666667
+/wiki/Eintracht_Braunschweig,2. Bundesliga,/wiki/Eintracht-Stadion,52°17′24″N 10°31′18″E,52.29,10.521666666666668
+/wiki/SC_Bastia,Ligue 2,/wiki/Stade_Armand_Cesari,42°39′5″N 9°26′34″E,42.65138888888889,9.442777777777778
+/wiki/FC_Ban%C3%ADk_Ostrava,Czech First League,/wiki/M%C4%9Bstsk%C3%BD_stadion_(Ostrava),49°48′15.53″N 18°15′21.46″E,49.804313888888885,18.255961111111112
+/wiki/AC_Sparta_Prague,Czech First League,/wiki/Stadion_Letn%C3%A1,50°5′59.29″N 14°24′57.28″E,50.09980277777778,14.415911111111111
+/wiki/Panathinaikos_F.C.,Super League Greece,/wiki/Leoforos_Alexandras_Stadium,37°59′13.81″N 23°45′15.10″E,37.98716944444445,23.754194444444444
+/wiki/Olympiacos_F.C.,Super League Greece,/wiki/Karaiskakis_Stadium,37°56′46.21″N 23°39′52.33″E,37.94616944444444,23.66453611111111
+/wiki/PAOK_FC,Super League Greece,/wiki/Toumba_Stadium,40°36′49.82″N 22°58′20.72″E,40.61383888888889,22.97242222222222
+/wiki/Aris_Thessaloniki_F.C.,Super League Greece,/wiki/Kleanthis_Vikelidis_Stadium,40°36′0.25″N 22°58′10.20″E,40.60006944444444,22.9695
+/wiki/AEK_Athens_F.C.,Super League Greece,/wiki/Olympic_Stadium_(Athens),38°02′10″N 23°47′15″E,38.03611111111111,23.7875
+/wiki/Iraklis_Thessaloniki_F.C.,Gamma Ethniki,/wiki/Kaftanzoglio_Stadium,40°37′31.79″N 22°58′1.21″E,40.62549722222222,22.967002777777775
+/wiki/PAOK_F.C.,Super League Greece,/wiki/Toumba_Stadium,40°36′49.82″N 22°58′20.72″E,40.61383888888889,22.97242222222222
+/wiki/Panionios_F.C.,Gamma Ethniki,/wiki/Nea_Smyrni_Stadium,37°56′34.92″N 23°42′33.21″E,37.94303333333333,23.709225
+/wiki/OFI_Crete_F.C.,Super League Greece,/wiki/Theodoros_Vardinogiannis_Stadium,35°20′17″N 25°06′53″E,35.338055555555556,25.114722222222223
+/wiki/AZ_Alkmaar,Eredivisie,/wiki/AFAS_Stadion,52°36′46″N 4°44′32″E,52.61277777777778,4.742222222222222
+/wiki/Vancouver_Whitecaps_(NASL),NASL,/wiki/Empire_Stadium_(Vancouver),49°16′57.5″N 123°1′59.6″W,49.28263888888889,-123.03322222222222
+/wiki/FC_Twente,Eredivisie,/wiki/De_Grolsch_Veste,52°14′12″N 6°50′15″E,52.236666666666665,6.8374999999999995
+/wiki/Roda_JC_Kerkrade,Eerste Divisie,/wiki/Parkstad_Limburg_Stadion,50°51′25″N 6°00′21″E,50.856944444444444,6.005833333333333
+/wiki/NAC_Breda,Eerste Divisie,/wiki/Rat_Verlegh_Stadion,51°35′41.6″N 4°45′01.1″E,51.59488888888889,4.750305555555555
+/wiki/Ipswich_Town_F.C.,League One,/wiki/Portman_Road,52°3′18.22″N 1°8′41.39″E,52.05506111111111,1.1448305555555556
+/wiki/FC_Utrecht,Eredivisie,/wiki/Stadion_Galgenwaard,52°04′42″N 5°08′45″E,52.07833333333333,5.145833333333334
+/wiki/1._FC_Kaiserslautern,3. Liga,/wiki/Fritz-Walter-Stadion,49°26′05″N 7°46′36″E,49.43472222222222,7.776666666666666
+/wiki/VfB_Stuttgart,Bundesliga,/wiki/Mercedes-Benz_Arena_(Stuttgart),48°47′32.17″N 9°13′55.31″E,48.79226944444444,9.232030555555555
+/wiki/Fortuna_D%C3%BCsseldorf,2. Bundesliga,/wiki/Merkur_Spiel-Arena,51°15′42″N 6°43′59″E,51.26166666666666,6.733055555555556
+/wiki/Borussia_Dortmund,Bundesliga,/wiki/Westfalenstadion,51°29′33.25″N 7°27′6.63″E,51.49256944444445,7.451841666666667
+/wiki/Royal_Antwerp,Belgian First Division A,/wiki/Bosuilstadion,51°13′56.66″N 4°28′19.51″E,51.23240555555556,4.472086111111111
+/wiki/K.S.V._Waregem,Belgian First DivisionBelgian Second DivisionBelgian Third Division,/wiki/Regenboogstadion,50°52′59″N 3°25′44″E,50.88305555555556,3.428888888888889
+/wiki/Club_Brugge_KV,Belgian First Division A,/wiki/Jan_Breydel_Stadium,51°11′35.78″N 3°10′50.10″E,51.19327222222222,3.1805833333333333
+/wiki/K._Beerschot_V.A.C.,NA,NA,NA,NA,NA
+/wiki/K._Beringen_F.C.,NA,NA,NA,NA,NA
+/wiki/Lierse_S.K.,Proximus League,/wiki/Herman_Vanderpoortenstadion,51°08′39″N 4°34′25″E,51.14416666666666,4.573611111111111
+/wiki/K.S.K._Beveren,NA,/wiki/Freethiel_Stadion,51°12′51″N 4°14′38″E,51.21416666666667,4.243888888888889
+/wiki/K.S.C._Lokeren_Oost-Vlaanderen,NA,/wiki/Daknamstadion,51°6′59″N 3°59′14″E,51.11638888888889,3.9872222222222224
+/wiki/Crystal_Palace_F.C.,Premier League,/wiki/Selhurst_Park,51°23′54″N 0°5′8″W,51.39833333333333,-0.08555555555555555
+/wiki/Southampton_F.C.,Premier League,/wiki/St_Mary%27s_Stadium,50°54′21″N 1°23′28″W,50.905833333333334,-1.3911111111111112
+/wiki/Nottingham_Forest_F.C.,Championship,NA,NA,NA,NA
+/wiki/Leeds_United_F.C.,Premier League,/wiki/Elland_Road,53°46′40″N 1°34′20″W,53.77777777777778,-1.5722222222222222
+/wiki/Wolverhampton_Wanderers_F.C.,Premier League,/wiki/Molineux_Stadium,52°35′25″N 2°07′49″W,52.59027777777778,-2.1302777777777777
+/wiki/A.S._Roma,Serie A,/wiki/Stadio_Olimpico,41°56′1.99″N 12°27′17.23″E,41.93388611111111,12.45478611111111
+/wiki/Inter_Milan,Serie A,/wiki/San_Siro,45°28′41″N 9°07′26″E,45.47805555555556,9.123888888888889
+/wiki/Real_Sociedad,La Liga,/wiki/Anoeta_Stadium,43°18′4.96″N 1°58′25.02″W,43.30137777777777,-1.9736166666666668
+/wiki/Sporting_de_Gij%C3%B3n,Segunda División,/wiki/El_Molin%C3%B3n,43°32′10″N 5°38′14″W,43.53611111111111,-5.6372222222222215
+/wiki/Real_Betis,La Liga,/wiki/Estadio_Benito_Villamar%C3%ADn,37°21′23″N 5°58′53″W,37.35638888888889,-5.981388888888889
+/wiki/RCD_Espanyol,Segunda División,/wiki/RCDE_Stadium,41°20′52.3″N 2°4′32.4″E,41.347861111111115,2.0756666666666668
+/wiki/K._Waterschei_S.V._Thor_Genk,NA,NA,NA,NA,NA
+/wiki/K.A.A._Gent,Belgian First Division A,/wiki/Ghelamco_Arena,51°00′58″N 3°44′02″E,51.01611111111111,3.733888888888889
+/wiki/R.F.C._Seraing,NA,NA,NA,NA,NA
+/wiki/Vejle_Boldklub,Danish Superliga,/wiki/Vejle_Stadium,55°42′49.73″N 9°33′25.78″E,55.71381388888889,9.557161111111112
+/wiki/K.S.C._Lokeren,NA,/wiki/Daknamstadion,51°6′59″N 3°59′14″E,51.11638888888889,3.9872222222222224
+/wiki/SC_Pisa,Serie B,/wiki/Arena_Garibaldi_%E2%80%93_Stadio_Romeo_Anconetani,43°43′31″N 10°24′00″E,43.72527777777778,10.4
+/wiki/S.S._Lazio,Serie A,/wiki/Stadio_Olimpico,41°56′1.99″N 12°27′17.23″E,41.93388611111111,12.45478611111111
+/wiki/Aarhus_Gymnastikforening,Danish Superliga,/wiki/Aarhus_Stadium,56°07′55″N 10°11′48″E,56.13194444444444,10.196666666666667
+/wiki/AJ_Auxerre,Ligue 2,/wiki/Stade_de_l%27Abb%C3%A9-Deschamps,47°47′12.31″N 3°35′19.19″E,47.78675277777778,3.588663888888889
+/wiki/AS_Monaco_FC,Ligue 1,/wiki/Stade_Louis_II,43°43′39″N 7°24′56″E,43.7275,7.415555555555556
+/wiki/Toulouse_FC,Ligue 2,/wiki/Stadium_de_Toulouse,43°34′59″N 1°26′3″E,43.58305555555556,1.4341666666666666
+/wiki/FC_Nantes,Ligue 1,/wiki/Stade_de_la_Beaujoire,47°15′20″N 1°31′31″W,47.25555555555555,-1.5252777777777777
+/wiki/FC_Girondins_de_Bordeaux,Ligue 1,/wiki/Matmut_Atlantique,44°53′50″N 0°33′42″W,44.89722222222222,-0.5616666666666668
+/wiki/Paris_Saint-Germain_F.C.,Ligue 1,/wiki/Parc_des_Princes,48°50′29″N 2°15′11″E,48.84138888888889,2.2530555555555556
+/wiki/FC_Mulhouse,National 3 Group M,/wiki/Stade_de_l%27Ill,47°44′17″N 7°19′16″E,47.738055555555555,7.321111111111111
+/wiki/FC_Toulouse,Ligue 2,/wiki/Stadium_de_Toulouse,43°34′59″N 1°26′3″E,43.58305555555556,1.4341666666666666
+/wiki/FC_Sochaux-Montb%C3%A9liard,Ligue 2,/wiki/Stade_Auguste_Bonal,47°30′44.70″N 6°48′40.32″E,47.51241666666667,6.8111999999999995
+/wiki/FK_%C5%BDeljezni%C4%8Dar,Premier League BH,/wiki/Stadion_Grbavica,43°50′48″N 18°23′14″E,43.84666666666667,18.38722222222222
+/wiki/NK_Olimpija_Ljubljana_(1911),NA,/wiki/Be%C5%BEigrad_Stadium,46°4′8.84″N 14°30′30.60″E,46.06912222222223,14.5085
+/wiki/GNK_Dinamo_Zagreb,Prva HNL,/wiki/Stadion_Maksimir,45°49′7.89″N 16°1′5.08″E,45.81885833333334,16.018077777777776
+/wiki/FK_Radni%C4%8Dki_Ni%C5%A1,Serbian SuperLiga,/wiki/Stadion_%C4%8Cair,43°18′55.90″N 21°54′30.72″E,43.315527777777774,21.90853333333333
+/wiki/HNK_Cibalia,Druga HNL,/wiki/Stadion_HNK_Cibalia,45°17′01″N 18°47′51″E,45.28361111111111,18.797500000000003
+/wiki/S.L._Benfica,Primeira Liga,/wiki/Est%C3%A1dio_da_Luz,38°45′10″N 9°11′05″W,38.75277777777778,-9.184722222222222
+/wiki/Sporting_CP,Primeira Liga,/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade,38°45′40.30″N 9°9′38.82″W,38.76119444444444,-9.160783333333333
+/wiki/FC_Porto,Primeira Liga,/wiki/Est%C3%A1dio_do_Drag%C3%A3o,41°09′42″N 8°35′02″W,41.16166666666666,-8.58388888888889
+/wiki/Vit%C3%B3ria_F.C.,Campeonato de Portugal,/wiki/Est%C3%A1dio_do_Bonfim,38°31′52″N 8°53′28″W,38.53111111111111,-8.89111111111111
+/wiki/Portimonense_S.C.,Primeira Liga,/wiki/Est%C3%A1dio_Municipal_de_Portim%C3%A3o,37°08′8.50″N 8°32′23.40″W,37.13569444444445,-8.539833333333334
+/wiki/FC_Universitatea_Craiova,Liga I,/wiki/Stadionul_Ion_Oblemenco,44°18′50″N 23°47′03″E,44.31388888888888,23.784166666666668
+/wiki/FC_Dinamo_Bucure%C8%99ti,Liga I,/wiki/Stadionul_Dinamo,44°27′18.30″N 26°6′08.80″E,44.455083333333334,26.102444444444444
+/wiki/FC_Sportul_Studen%C8%9Besc_Bucure%C8%99ti,not active,/w/index.php?title=Stadionul_Agronomia&action=edit&redlink=1,NA,NA,NA
+/wiki/FC_Corvinul_Hunedoara,NA,/wiki/Stadionul_Michael_Klein,45°45′41.9″N 22°54′46.7″E,45.76163888888889,22.91297222222222
+/wiki/ASA_T%C3%A2rgu_Mure%C8%99_(1962),NA,/wiki/Stadionul_Ladislau_B%C3%B6l%C3%B6ni,NA,NA,NA
+/wiki/FC_Bihor,NA,/wiki/Stadionul_Iuliu_Bodola,47°4′19″N 21°55′48″E,47.07194444444445,21.93
+/wiki/FC_Steaua_Bucure%C8%99ti,Liga III,/wiki/Complexul_Sportiv_Steaua,44°24′46.9″N 26°02′34.9″E,44.41302777777778,26.04302777777778
+/wiki/Wiener_Sport-Club,Austrian Regional League East,/wiki/Sportklub_Stadium,48°13′34″N 16°18′39″E,48.226111111111116,16.310833333333335
+/wiki/Lyngby_Boldklub,Danish Superliga,/wiki/Lyngby_Stadion,55°46′53″N 12°30′20″E,55.78138888888889,12.505555555555556
+/wiki/Hellas_Verona_F.C.,Serie A,/wiki/Stadio_Marc%27Antonio_Bentegodi,45°26′7.28″N 10°58′7.13″E,45.43535555555555,10.968647222222222
+/wiki/Br%C3%B8ndby_IF,Superliga,/wiki/Br%C3%B8ndby_Stadium,55°38′55.82″N 12°25′06.66″E,55.64883888888889,12.418516666666665
+/wiki/Servette_FC,Swiss Super League,/wiki/Stade_de_Gen%C3%A8ve,46°10′40.25″N 6°7′38.75″E,46.17784722222222,6.127430555555555
+/wiki/U.C._Sampdoria,Serie A,/wiki/Stadio_Luigi_Ferraris,44°24′59.15″N 8°57′8.74″E,44.41643055555556,8.952427777777777
+/wiki/A.C._Cesena,Serie C,/wiki/Stadio_Dino_Manuzzi,44°8′26″N 12°15′43″E,44.14055555555556,12.261944444444444
+/wiki/Athletic_Bilb%C3%A1o,La Liga,/wiki/San_Mam%C3%A9s_Stadium_(2013),43°15′51″N 2°57′01″W,43.26416666666667,-2.950277777777778
+/wiki/KFC_Uerdingen_05,3. Liga,/wiki/Grotenburg-Stadion,51°20′20″N 6°36′13″E,51.33888888888889,6.60361111111111
+/wiki/1._FC_N%C3%BCrnberg,2. Bundesliga,/wiki/Max-Morlock-Stadion,49°25′34″N 11°7′33″E,49.42611111111111,11.125833333333334
+/wiki/Bayer_04_Leverkusen,Bundesliga,/wiki/BayArena,51°2′17.72″N 7°0′7.94″E,51.03825555555555,7.002205555555555
+/wiki/Derby_County_F.C.,Championship,/wiki/Pride_Park_Stadium,52°54′54″N 1°26′50″W,52.915,-1.4472222222222222
+/wiki/Arsenal_F.C.,Premier League,/wiki/Emirates_Stadium,51°33′24″N 0°6′22″W,51.556666666666665,-0.10611111111111111
+/wiki/Rangers_F.C.,Scottish Premiership,/wiki/Ibrox_Stadium,55°51′11.54″N 4°18′33.33″W,55.853205555555554,-4.309258333333333
+/wiki/Chelsea_F.C.,Premier League,/wiki/Stamford_Bridge_(stadium),51°28′54″N 0°11′28″W,51.48166666666667,-0.1911111111111111
+/wiki/KV_Mechelen,Belgian First Division A,/wiki/AFAS-stadion_Achter_de_Kazerne,51°02′14″N 4°29′11″E,51.03722222222222,4.4863888888888885
+/wiki/Fortuna_Sittard,Eredivisie,/wiki/Fortuna_Sittard_Stadion,50°59′31″N 5°50′37″E,50.99194444444444,5.843611111111111
+/wiki/FC_Den_Bosch,Eerste Divisie,/wiki/De_Vliert,51°42′06″N 5°19′47″E,51.70166666666667,5.329722222222222
+/wiki/Celtic_F.C.,Scottish Premiership,/wiki/Celtic_Park,55°50′58.96″N 4°12′20.12″W,55.84971111111111,-4.205588888888889
+/wiki/Sheffield_Wednesday_F.C.,Championship,/wiki/Hillsborough_Stadium,53°24′41″N 1°30′2″W,53.41138888888889,-1.5005555555555556
+/wiki/Millwall_F.C.,Championship,/wiki/The_Den,51°29′9.43″N 0°3′3.42″W,51.485952777777776,-0.05095
+/wiki/Walsall_F.C.,League Two,/wiki/Bescot_Stadium,52°33′56″N 1°59′27″W,52.565555555555555,-1.9908333333333335
+/wiki/A.F.C._Bournemouth,Championship,/wiki/Dean_Court,50°44′07″N 1°50′18″W,50.73527777777778,-1.8383333333333334
+/wiki/Newcastle_United_F.C.,Premier League,/wiki/St_James%27_Park,54°58′32″N 1°37′18″W,54.97555555555556,-1.6216666666666666
+/wiki/FC_Dnipro_Dnipropetrovsk,Ukrainian Amateur League,/wiki/Dnipro-Arena,48°27′37.2″N 35°1′56.9″E,48.46033333333334,35.03247222222222
+/wiki/FK_%C5%BDalgiris_Vilnius,A Lyga,/wiki/LFF_Stadium,54°40′07″N 25°17′40″E,54.66861111111111,25.294444444444448
+/wiki/FC_Zenit_St._Petersburg,Russian Premier League,/wiki/Krestovsky_Stadium,59°58′23″N 30°13′14″E,59.973055555555554,30.220555555555553
+/wiki/Trabzonspor,Süper Lig,/wiki/%C5%9Eenol_G%C3%BCne%C5%9F_Stadium,40°59′56.8″N 39°38′45.4″E,40.99911111111111,39.645944444444446
+/wiki/Vejle_BK,Danish Superliga,/wiki/Vejle_Stadium,55°42′49.73″N 9°33′25.78″E,55.71381388888889,9.557161111111112
+/wiki/Odense_BK,Danish Superliga,/wiki/Odense_Stadium,55°23′52″N 10°21′00″E,55.397777777777776,10.35
+/wiki/Boldklubben_1903,Denmark Series,/wiki/Gentofte_Sportspark,55°45′29″N 12°31′38″E,55.75805555555556,12.527222222222223
+/wiki/Silkeborg_IF,1st Division,/wiki/JYSK_Park,56°11′03″N 9°34′32″E,56.18416666666666,9.575555555555555
+/wiki/F.C._Bari_1908,Serie C Group C,/wiki/Stadio_San_Nicola,41°5′5.05″N 16°50′24.26″E,41.08473611111111,16.840072222222222
+/wiki/Olympique_de_Marseille,Ligue 1,/wiki/Stade_V%C3%A9lodrome,43°16′11″N 5°23′45″E,43.26972222222222,5.395833333333334
+/wiki/Nagoya_Grampus_Eight,J1 League,/wiki/Paloma_Mizuho_Stadium,35°07′22″N 136°56′39″E,35.12277777777778,136.94416666666666
+/wiki/Queens_Park_Rangers_F.C.,Championship,/wiki/Loftus_Road,51°30′33″N 0°13′56″W,51.509166666666665,-0.23222222222222222
+/wiki/Aston_Villa_F.C.,Premier League,/wiki/Villa_Park,52°30′33″N 1°53′5″W,52.509166666666665,-1.8847222222222222
+/wiki/AS_Cannes,National 3 Group D,/wiki/Stade_Pierre_de_Coubertin_(Cannes),43°33′11.00″N 6°57′52.59″E,43.55305555555555,6.9646083333333335
+/wiki/Montpellier_HSC,Ligue 1,/wiki/Stade_de_la_Mosson,43°37′20″N 3°48′43″E,43.62222222222222,3.8119444444444444
+/wiki/Olympique_Lyonnais,Ligue 1,/wiki/Parc_Olympique_Lyonnais,45°45′55″N 4°58′55″E,45.765277777777776,4.981944444444444
+/wiki/IFK_G%C3%B6teborg,Allsvenskan,/wiki/Gamla_Ullevi,57°42′22″N 11°58′50″E,57.70611111111111,11.980555555555556
+/wiki/IFK_Norrk%C3%B6ping,Allsvenskan,/wiki/Nya_Parken,58°35′3.5″N 16°10′23″E,58.58430555555556,16.173055555555557
+/wiki/Malm%C3%B6_FF,Allsvenskan,"/wiki/Stadion,_Malm%C3%B6",55°35′01″N 12°59′16″E,55.58361111111111,12.987777777777778
+/wiki/S.K._Brann,Eliteserien,/wiki/Brann_Stadion,60°22′0.9″N 5°21′26.9″E,60.36691666666667,5.3574722222222215
+/wiki/Parma_Calcio_1913,Serie A,/wiki/Stadio_Ennio_Tardini,44°47′41.7″N 10°20′18.4″E,44.794916666666666,10.338444444444445
+/wiki/%C3%96rebro_SK,Allsvenskan,/wiki/Behrn_Arena,59°15′58″N 15°13′23″E,59.26611111111111,15.223055555555556
+/wiki/%C3%96sters_IF,Superettan,/wiki/Visma_Arena,56°52′47″N 14°46′35″E,56.87972222222222,14.77638888888889
+/wiki/Y.R._K.V._Mechelen,Belgian First Division A,/wiki/AFAS-stadion_Achter_de_Kazerne,51°02′14″N 4°29′11″E,51.03722222222222,4.4863888888888885
+/wiki/VfB_Admira_Wacker_M%C3%B6dling,Austrian Bundesliga,/wiki/Bundesstadion_S%C3%BCdstadt,48°05′51″N 16°18′39″E,48.097500000000004,16.310833333333335
+/wiki/Foggia_Calcio,Serie C Group C,/wiki/Stadio_Pino_Zaccheria,41°27′16″N 15°32′33″E,41.45444444444445,15.5425
+/wiki/U.S._Lecce,Serie B,/wiki/Stadio_Via_del_Mare,40°21′55″N 18°12′32″E,40.36527777777778,18.20888888888889
+/wiki/Dundee_United_F.C.,Scottish Premiership,/wiki/Tannadice_Park,56°28′28.93″N 2°58′08.26″W,56.47470277777778,-2.968961111111111
+/wiki/Heart_of_Midlothian_F.C.,Scottish Championship,/wiki/Tynecastle_Park,55°56′21″N 3°13′56″W,55.939166666666665,-3.2322222222222226
+/wiki/Aberdeen_F.C.,Scottish Premiership,/wiki/Pittodrie_Stadium,57°09′33″N 2°05′20″W,57.159166666666664,-2.088888888888889
+/wiki/Coventry_City_F.C.,Championship,/wiki/Coventry_Building_Society_Arena,52°26′53″N 1°29′44″W,52.448055555555555,-1.4955555555555555
+/wiki/Middlesbrough_F.C.,Championship,/wiki/Riverside_Stadium,54°34′42″N 1°13′1″W,54.57833333333333,-1.2169444444444446
+/wiki/Hibernian_F.C.,Scottish Premiership,/wiki/Easter_Road,55°57′42″N 3°9′56″W,55.961666666666666,-3.1655555555555557
+/wiki/Partick_Thistle_F.C.,Scottish League One,/wiki/Firhill_Stadium,55°52′53.60″N 4°16′10.70″W,55.88155555555556,-4.269638888888889
+/wiki/FC_Sion,Swiss Super League,/wiki/Stade_Tourbillon,46°14′00″N 7°22′35″E,46.233333333333334,7.376388888888888
+/wiki/Grasshopper_Club_Z%C3%BCrich,Swiss Challenge League,/wiki/Letzigrund,47°22′58.06″N 8°30′15.71″E,47.38279444444444,8.50436388888889
+/wiki/Stade_Rennais_FC,Ligue 1,/wiki/Roazhon_Park,48°6′27″N 1°42′46″W,48.1075,-1.7127777777777777
+/wiki/Neuch%C3%A2tel_Xamax,Swiss Challenge League,/wiki/Stade_de_la_Maladi%C3%A8re,46°59′43″N 6°56′38″E,46.99527777777778,6.943888888888889
+/wiki/Reading_F.C.,Championship,/wiki/Madejski_Stadium,51°25′20″N 0°58′58″W,51.42222222222222,-0.9827777777777778
+/wiki/Naftex_Burgas,NA,/wiki/Lazur_Stadium,42°30′45″N 27°28′13″E,42.5125,27.470277777777778
+/wiki/SK_Rapid_Wien,Austrian Bundesliga,/wiki/Allianz_Stadion,48°11′52″N 16°15′55″E,48.19777777777777,16.26527777777778
+/wiki/PFC_CSKA_Sofia,efbet League,/wiki/Stadion_Balgarska_Armia,42°41′3.33″N 23°20′23.17″E,42.68425833333333,23.339769444444443
+/wiki/Luton_Town_F.C.,Championship,/wiki/Kenilworth_Road,51°53′03″N 0°25′54″W,51.884166666666665,-0.4316666666666667
+/wiki/PFC_Slavia_Sofia,First League,/wiki/Stadion_Slavia,42°40′31.30″N 23°16′19.30″E,42.67536111111111,23.272027777777776
+/wiki/Sporting_Clube_de_Portugal,Primeira Liga,/wiki/Est%C3%A1dio_Jos%C3%A9_Alvalade,38°45′40.30″N 9°9′38.82″W,38.76119444444444,-9.160783333333333
+/wiki/TSV_1860_Munich,3. Liga,/wiki/Gr%C3%BCnwalder_Stadion,48°06′39″N 11°34′28″E,48.11083333333333,11.574444444444444
+/wiki/SV_Waldhof_Mannheim,3. Liga,/wiki/Carl-Benz-Stadion,49°28′46″N 8°30′09″E,49.47944444444445,8.5025
+/wiki/Denizlispor,TFF First League,/wiki/Denizli_Atat%C3%BCrk_Stadium,37°45′57.63″N 29°04′56.76″E,37.76600833333333,29.082433333333334
+/wiki/VfL_Bochum,2. Bundesliga,/wiki/Ruhrstadion,51°29′23.57″N 7°14′11.56″E,51.48988055555556,7.236544444444444
+/wiki/PFC_Spartak_1918,North-East Third League,/wiki/Stadion_Spartak_(Varna),43°13′7″N 27°54′45″E,43.218611111111116,27.912499999999998
+/wiki/RC_Strasbourg_Alsace,Ligue 1,/wiki/Stade_de_la_Meinau,48°33′36.23″N 7°45′17.89″E,48.560063888888884,7.754969444444445
+/wiki/Paris_Saint-Germain,Ligue 1,/wiki/Parc_des_Princes,48°50′29″N 2°15′11″E,48.84138888888889,2.2530555555555556
+/wiki/Villarreal_CF,La Liga,/wiki/Estadio_de_la_Cer%C3%A1mica,39°56′39″N 0°06′13″W,39.94416666666666,-0.10361111111111111
+/wiki/Brescia_Calcio,Serie B,/wiki/Stadio_Mario_Rigamonti,45°34′14″N 10°14′13″E,45.57055555555556,10.236944444444443
+/wiki/Cercle_Brugge_K.S.V.,Belgian First Division A,/wiki/Jan_Breydel_Stadium,51°11′35.78″N 3°10′50.10″E,51.19327222222222,3.1805833333333333
+/wiki/En_Avant_de_Guingamp,Ligue 2,/wiki/Stade_de_Roudourou,48°33′59″N 3°09′53″W,48.56638888888889,-3.164722222222222
+/wiki/UD_Salamanca,Unregistered,/wiki/Estadio_El_Helm%C3%A1ntico,40°59′43″N 5°39′54″W,40.99527777777778,-5.665
+/wiki/FC_Rapid_Bucure%C8%99ti,Liga I,/wiki/Stadionul_Buftea,44°32′53″N 25°58′52″E,44.54805555555556,25.981111111111108
+/wiki/CD_Tenerife,Segunda División,/wiki/Estadio_Heliodoro_Rodr%C3%ADguez_L%C3%B3pez,28°27′47″N 16°15′38″W,28.463055555555556,-16.260555555555555
+/wiki/Deportivo_de_La_Coru%C3%B1a,Primera División RFEF,/wiki/Estadio_Riazor,43°22′07″N 8°25′03″W,43.368611111111115,-8.417499999999999
+/wiki/SK_Slavia_Prague,Czech First League,/wiki/Sinobo_Stadium,50°04′03″N 14°28′18″E,50.0675,14.471666666666668
+/wiki/FK_Drnovice,NA,NA,NA,NA,NA
+/wiki/SK_Sigma_Olomouc,Czech First League,/wiki/Andr%C5%AFv_stadion,49°36′00″N 17°14′54″E,49.6,17.248333333333335
+/wiki/FC_Slovan_Liberec,Czech First League,/wiki/Stadion_u_Nisy,50°46′34.37″N 15°02′59.90″E,50.77621388888889,15.049972222222221
+/wiki/Karlsruher_SC,2. Bundesliga,/wiki/Wildparkstadion,49°1′12″N 8°24′47″E,49.019999999999996,8.413055555555555
+/wiki/Be%C5%9Fikta%C5%9F_J.K.,Süper Lig,/wiki/Vodafone_Park,41°02′21.14″N 28°59′41.07″E,41.039205555555554,28.994741666666666
+/wiki/F.C._Hansa_Rostock,3. Liga,/wiki/Ostseestadion,54°5′5.82″N 12°5′42.68″E,54.08495,12.09518888888889
+/wiki/Udinese_Calcio,Serie A,/wiki/Stadio_Friuli,46°04′54″N 13°12′00″E,46.08166666666667,13.2
+/wiki/SC_Freiburg,Bundesliga,/wiki/Schwarzwald-Stadion,47°59′20″N 7°53′35″E,47.98888888888889,7.893055555555555
+/wiki/New_York_Red_Bulls,Major League Soccer,/wiki/Red_Bull_Arena_(New_Jersey),40°44′12″N 74°9′1″W,40.736666666666665,-74.15027777777779
+/wiki/FC_Alania_Vladikavkaz,N/A,/wiki/Republican_Spartak_Stadium,43°1′23″N 44°41′42″E,43.02305555555555,44.69499999999999
+/wiki/Real_Oviedo,Segunda División,/wiki/Estadio_Carlos_Tartiere,43°21′39″N 5°52′13″W,43.36083333333333,-5.870277777777778
+/wiki/FC_Tirol_Innsbruck,Austrian Bundesliga,/wiki/Tivoli-Neu,47°15′21″N 11°24′39″E,47.255833333333335,11.410833333333334
+/wiki/Free_agent_(football),NA,NA,NA,NA,NA
+/wiki/A.C._Reggiana,Serie C,/wiki/Mapei_Stadium_%E2%80%93_Citt%C3%A0_del_Tricolore,44°42′53″N 10°38′59″E,44.71472222222223,10.649722222222222
+/wiki/FC_Lokomotiv_Moscow,Russian Premier League,/wiki/RZD_Arena,55°48′13″N 37°44′28″E,55.80361111111111,37.74111111111111
+/wiki/H%C3%A9rcules_CF,2ª B – Group 3,/wiki/Estadio_Jos%C3%A9_Rico_P%C3%A9rez,38°21′26″N 0°29′33″W,38.35722222222223,-0.4925
+/wiki/Gamba_Osaka,J1 League,/wiki/Panasonic_Stadium_Suita,34°48′09″N 135°32′18″E,34.802499999999995,135.53833333333333
+/wiki/NK_Osijek,Prva HNL,/wiki/Stadion_Gradski_vrt,45°32′42″N 18°41′45″E,45.544999999999995,18.695833333333333
+/wiki/Padova_Calcio,Serie C Group B,/wiki/Stadio_Euganeo,45°25′56″N 11°51′30″E,45.43222222222222,11.858333333333333
+/wiki/Fenerbah%C3%A7e_S.K._(football),Süper Lig,/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium,40°59′15.7″N 29°02′13.3″E,40.98769444444444,29.03702777777778
+/wiki/Fortuna_K%C3%B6ln,Regionalliga West,/wiki/S%C3%BCdstadion,50°55′03″N 6°56′37″E,50.9175,6.943611111111111
+/wiki/Boavista_F.C.,Primeira Liga,/wiki/Est%C3%A1dio_do_Bessa,41°09′44″N 8°38′34″W,41.16222222222222,-8.642777777777777
+/wiki/Vit%C3%B3ria_S.C.,Primeira Liga,/wiki/Est%C3%A1dio_D._Afonso_Henriques,41°26′45″N 8°18′04″W,41.44583333333333,-8.301111111111112
+/wiki/U.D._Leiria,Campeonato de Portugal,/wiki/Est%C3%A1dio_Dr._Magalh%C3%A3es_Pessoa,39°44′55″N 8°48′47″W,39.74861111111111,-8.813055555555556
+/wiki/C.F._Os_Belenenses,Lisbon FA 1ª Divisão,/wiki/Est%C3%A1dio_do_Restelo,38°42′10″N 9°12′28″W,38.70277777777778,-9.207777777777777
+/wiki/S.C._Braga,Primeira Liga,/wiki/Est%C3%A1dio_Municipal_de_Braga,41°33′45.1″N 8°25′47.6″W,41.562527777777774,-8.429888888888888
+/wiki/Ankarag%C3%BCc%C3%BC,Süper Lig,/wiki/Eryaman_Stadium,39°58′48.5″N 32°36′49.9″E,39.98013888888889,32.61386111111111
+/wiki/Karab%C3%BCkspor,TFF Second League,/wiki/Dr._Necmettin_%C5%9Eeyho%C4%9Flu_Stadium,41°12′16″N 32°37′12″E,41.20444444444445,32.62
+/wiki/Galatasaray_S.K._(football),Süper Lig,/wiki/T%C3%BCrk_Telekom_Stadium,41°6′10″N 28°59′26″E,41.10277777777778,28.990555555555556
+/wiki/Kocaelispor,TFF Second League,/wiki/%C4%B0zmit_Stadium,40°46′30″N 30°1′3″E,40.775,30.0175
+/wiki/Gen%C3%A7lerbirli%C4%9Fi,Süper Lig,/wiki/Eryaman_Stadium,39°58′48.5″N 32°36′49.9″E,39.98013888888889,32.61386111111111
+/wiki/Altay_SK,TFF First League,/wiki/Bornova_Stadium,38°26′49″N 27°15′44″E,38.44694444444444,27.26222222222222
+/wiki/Sunderland_A.F.C.,League One,/wiki/Stadium_of_Light,54°54′52″N 1°23′18″W,54.91444444444444,-1.3883333333333332
+/wiki/TSV_1860_M%C3%BCnchen,3. Liga,/wiki/Gr%C3%BCnwalder_Stadion,48°06′39″N 11°34′28″E,48.11083333333333,11.574444444444444
+/wiki/MetroStars,Major League Soccer,/wiki/Red_Bull_Arena_(New_Jersey),40°44′12″N 74°9′1″W,40.736666666666665,-74.15027777777779
+/wiki/Parma_F.C.,Serie A,/wiki/Stadio_Ennio_Tardini,44°47′41.7″N 10°20′18.4″E,44.794916666666666,10.338444444444445
+/wiki/Free_agent,NA,NA,NA,NA,NA
+/wiki/VfL_Wolfsburg,Bundesliga,/wiki/Volkswagen_Arena,52°25′57.5″N 10°48′14″E,52.43263888888889,10.80388888888889
+/wiki/Deportivo_Alav%C3%A9s,La Liga,/wiki/Mendizorrotza_Stadium,42°50′13.60″N 2°41′16.96″W,42.83711111111111,-2.688044444444445
+/wiki/R.E._Mouscron,NA,/wiki/Stade_Le_Canonnier,50°44′02″N 3°12′40″E,50.73388888888889,3.2111111111111112
+/wiki/Willem_II_(football_club),Eredivisie,/wiki/Koning_Willem_II_Stadion,51°32′34″N 5°04′01″E,51.54277777777778,5.066944444444444
+/wiki/S.S.D._Parma_Calcio_1913,Serie A,/wiki/Stadio_Ennio_Tardini,44°47′41.7″N 10°20′18.4″E,44.794916666666666,10.338444444444445
+/wiki/Arminia_Bielefeld,Bundesliga,/wiki/Bielefelder_Alm,52°01′55″N 8°31′00″E,52.03194444444444,8.516666666666667
+/wiki/K.R.C._Genk,Belgian First Division A,/wiki/Luminus_Arena,51°00′18″N 5°32′00″E,51.005,5.533333333333333
+/wiki/Helsingborgs_IF,Superettan,/wiki/Olympia_(Helsingborg),56°02′58″N 12°42′25″E,56.04944444444444,12.706944444444444
+/wiki/AIK_Fotboll,Allsvenskan,/wiki/Friends_Arena,59°22′21″N 18°00′00″E,59.3725,18
+/wiki/Racing_de_Santander,2ª B – Group 2,/wiki/Campos_de_Sport_de_El_Sardinero,43°28′35″N 3°47′36″W,43.47638888888889,-3.793333333333333
+/wiki/A.S._Bari,Serie C Group C,/wiki/Stadio_San_Nicola,41°5′5.05″N 16°50′24.26″E,41.08473611111111,16.840072222222222
+/wiki/%C3%96rgryte_IS,Superettan,/wiki/Gamla_Ullevi,57°42′22″N 11°58′50″E,57.70611111111111,11.980555555555556
+/wiki/Gaziantepspor,NA,NA,NA,NA,NA
+/wiki/Leicester_City_F.C.,Premier League,/wiki/King_Power_Stadium,52°37′13″N 1°8′32″W,52.62027777777778,-1.1422222222222222
+/wiki/FK_Obili%C4%87,none,/wiki/Obili%C4%87_Stadium,44°47′29.71″N 20°29′40.72″E,44.79158611111111,20.494644444444447
+/wiki/Celta_de_Vigo,La Liga,/wiki/Bala%C3%ADdos,42°12′43″N 8°44′23″W,42.21194444444445,-8.739722222222222
+/wiki/UD_Las_Palmas,Segunda División,/wiki/Estadio_Gran_Canaria,28°06′01.3″N 15°27′24.1″W,28.100361111111113,-15.456694444444445
+/wiki/RKC_Waalwijk,Eredivisie,/wiki/Mandemakers_Stadion,51°41′13″N 5°05′19″E,51.68694444444444,5.088611111111111
+/wiki/RCD_Mallorca,Segunda División,/wiki/Visit_Mallorca_Stadium,39°35′24″N 2°37′48″E,39.59,2.63
+/wiki/Rosenborg_BK,Eliteserien,/wiki/Lerkendal_Stadion,63°24′44″N 10°24′16″E,63.41222222222222,10.404444444444445
+/wiki/Wimbledon_F.C.,NA,/wiki/Plough_Lane_(1912%E2%80%9398),51°25′42.5″N 0°11′22.8″W,51.42847222222222,-0.18966666666666665
+/wiki/V%C3%A5lerenga_I.F._Fotball,Eliteserien,/wiki/Intility_Arena,59°55′4″N 10°48′25″E,59.91777777777777,10.806944444444445
+/wiki/Molde_FK,Eliteserien,/wiki/Aker_Stadion,62°44′0.0″N 7°8′52.1″E,62.733333333333334,7.147805555555556
+/wiki/NK_Maribor,Slovenian PrvaLiga,/wiki/Ljudski_vrt,46°33′44″N 15°38′25″E,46.56222222222222,15.640277777777778
+/wiki/LASK_Linz,Austrian Bundesliga,/wiki/Waldstadion_(Austria),48°14′10.5″N 14°13′41.5″E,48.23625,14.228194444444444
+/wiki/SK_Sturm_Graz,Austrian Bundesliga,/wiki/Liebenauer_Stadium,47°02′46″N 15°27′16″E,47.04611111111111,15.454444444444444
+/wiki/FC_Wacker_Tirol,2. Liga,/wiki/Tivoli-Neu,47°15′21″N 11°24′39″E,47.255833333333335,11.410833333333334
+/wiki/CS_Sedan_Ardennes,National 2 Group B,/wiki/Stade_Louis_Dugauguez,49°41′39″N 4°56′20″E,49.69416666666666,4.938888888888889
+/wiki/Grazer_AK,Austrian Second League,/wiki/Liebenauer_Stadium,47°02′46″N 15°27′16″E,47.04611111111111,15.454444444444444
+/wiki/NK_Gorica,Slovenian PrvaLiga,/wiki/Nova_Gorica_Sports_Park,45°57′21″N 13°38′29″E,45.95583333333334,13.641388888888889
+/wiki/NK_Mura,NA,/wiki/Fazanerija_City_Stadium,46°40′6″N 16°9′27″E,46.66833333333333,16.1575
+/wiki/Akademisk_Boldklub,Danish 2nd Division Group 2,/wiki/Gladsaxe_Stadium,55°43′58″N 12°29′48″E,55.73277777777778,12.496666666666666
+/wiki/Fulham_F.C.,Premier League,/wiki/Craven_Cottage,51°28′30″N 0°13′18″W,51.475,-0.22166666666666668
+/wiki/Kansas_City_Wizards,Major League Soccer,/wiki/Children%27s_Mercy_Park,39°07′17″N 94°49′16″W,39.12138888888889,-94.82111111111111
+/wiki/Vitesse_Arnhem,Eredivisie,/wiki/GelreDome,51°57′46.38″N 5°53′34.13″E,51.96288333333334,5.892813888888888
+/wiki/Bolton_Wanderers_F.C.,League Two,/wiki/University_of_Bolton_Stadium,53°34′50″N 2°32′8″W,53.580555555555556,-2.5355555555555553
+/wiki/FC_Zenit_Saint_Petersburg,Russian Premier League,/wiki/Krestovsky_Stadium,59°58′23″N 30°13′14″E,59.973055555555554,30.220555555555553
+/wiki/Portsmouth_F.C.,League One,/wiki/Fratton_Park,50°47′47″N 1°3′50″W,50.796388888888885,-1.0638888888888889
+/wiki/FC_Krylya_Sovetov_Samara,Russian Football National League,/wiki/Solidarnost_Arena,53°16′40″N 50°14′14″E,53.27777777777778,50.23722222222222
+/wiki/FC_Rubin_Kazan,Russian Premier League,/wiki/Ak_Bars_Arena,55°49′16″N 49°09′39″E,55.821111111111115,49.16083333333333
+/wiki/NK_Vara%C5%BEdin_(1931%E2%80%932015),NA,/wiki/Stadion_Varteks,46°17′36″N 16°20′39″E,46.29333333333333,16.344166666666666
+/wiki/A.C._Ancona,NA,/wiki/Stadio_del_Conero,43°33′50″N 13°31′34″E,43.56388888888888,13.526111111111112
+/wiki/Maccabi_Haifa_F.C.,Israeli Premier League,/wiki/Sammy_Ofer_Stadium,32°46′59.2″N 34°57′54.6″E,32.78311111111111,34.96516666666667
+/wiki/FK_Austria_Wien,Austrian Bundesliga,/wiki/Franz_Horr_Stadium,48°9′44.30″N 16°23′12.17″E,48.162305555555555,16.386713888888888
+/wiki/Birmingham_City_F.C.,Championship,/wiki/St_Andrew%27s_(stadium),52°28′32.53″N 1°52′05.48″W,52.47570277777778,-1.868188888888889
+/wiki/West_Bromwich_Albion_F.C.,Premier League,/wiki/The_Hawthorns,52°30′33″N 1°57′50″W,52.509166666666665,-1.9638888888888888
+/wiki/FC_Basel,Swiss Super League,/wiki/St._Jakob-Park,47°32′29.67″N 7°37′12.65″E,47.541574999999995,7.620180555555556
+/wiki/Stade_Rennais_F.C.,Ligue 1,/wiki/Roazhon_Park,48°6′27″N 1°42′46″W,48.1075,-1.7127777777777777
+/wiki/BSC_Young_Boys,Swiss Super League,/wiki/Stadion_Wankdorf,46°57′47.40″N 7°27′53.40″E,46.963166666666666,7.464833333333334
+/wiki/FC_Z%C3%BCrich,Super League,/wiki/Letzigrund,47°22′58.06″N 8°30′15.71″E,47.38279444444444,8.50436388888889
+/wiki/FC_St._Gallen,Swiss Super League,/wiki/Kybunpark,47°24′30″N 9°18′23″E,47.40833333333333,9.30638888888889
+/wiki/FC_Thun,Swiss Challenge League,/wiki/Stockhorn_Arena,46°44′41.34″N 7°36′21.87″E,46.744816666666665,7.606075
+/wiki/PFC_Litex_Lovech,Second League,/wiki/Gradski_stadion_(Lovech),43°8′33.50″N 24°43′29.50″E,43.14263888888889,24.72486111111111
+/wiki/PFC_Lokomotiv_Plovdiv,First League,/wiki/Stadion_Lokomotiv_(Plovdiv),42°8′2″N 24°46′18″E,42.13388888888889,24.771666666666665
+/wiki/PFC_Levski_Sofia,First League,/wiki/Stadion_Georgi_Asparuhov,42°42′19.68″N 23°21′47.51″E,42.705466666666666,23.363197222222222
+/wiki/Lille_OSC,Ligue 1,/wiki/Stade_Pierre-Mauroy,50°36′43″N 3°07′49″E,50.61194444444445,3.1302777777777777
+/wiki/Dalian_Shide_F.C.,Chinese Super League,/wiki/Jinzhou_Stadium,39°05′43″N 121°43′07″E,39.09527777777778,121.71861111111112
+/wiki/Charlton_Athletic_F.C.,League One,/wiki/The_Valley_(London),51°29′11″N 0°2′11″E,51.48638888888889,0.03638888888888889
+/wiki/Real_Murcia,"2ªB – Group 4, Subgroup B",/wiki/Estadio_Nueva_Condomina,38°02′32″N 1°08′41″W,38.04222222222222,-1.1447222222222222
+/wiki/FC_Midtjylland,Danish Superliga,/wiki/MCH_Arena,56°07′01″N 8°57′06″E,56.11694444444444,8.951666666666666
+/wiki/A.C._Chievo_Verona,Serie B,/wiki/Stadio_Marc%27Antonio_Bentegodi,45°26′7.28″N 10°58′7.13″E,45.43535555555555,10.968647222222222
+/wiki/Djurg%C3%A5rdens_IF_Fotboll,Allsvenskan,/wiki/Tele2_Arena,59°17′27″N 18°05′07″E,59.29083333333333,18.085277777777776
+/wiki/SC_Heerenveen,Eredivisie,/wiki/Abe_Lenstra_Stadion,52°57′31″N 5°56′10″E,52.95861111111111,5.936111111111112
+/wiki/Halmstads_BK,Superettan,/wiki/%C3%96rjans_Vall,56°41′03″N 12°51′59″E,56.68416666666666,12.866388888888888
+/wiki/Hammarby_IF,NA,/wiki/File:Stockholm_vapen_bra.svg,NA,NA,NA
+/wiki/F.C._Copenhagen,Superliga,/wiki/Parken_Stadium,55°42′08.89″N 12°34′19.93″E,55.702469444444446,12.572202777777777
+/wiki/Reggina_Calcio,Serie B,/wiki/Stadio_Oreste_Granillo,38°5′34″N 15°38′7″E,38.09277777777778,15.635277777777777
+/wiki/FC_Saturn_Ramenskoye,"PFL, Group 3",/wiki/Saturn_Stadium,55°34′39.08″N 38°13′35.30″E,55.57752222222223,38.22647222222223
+/wiki/Hannover_96,2. Bundesliga,/wiki/Niedersachsenstadion,52°21′36.24″N 9°43′52.31″E,52.36006666666667,9.731197222222223
+/wiki/FC_Rostov,Russian Premier League,/wiki/Rostov_Arena,47°12′34″N 39°44′16″E,47.20944444444445,39.73777777777778
+/wiki/FC_Admira_Wacker_M%C3%B6dling,Austrian Bundesliga,/wiki/Bundesstadion_S%C3%BCdstadt,48°05′51″N 16°18′39″E,48.097500000000004,16.310833333333335
+/wiki/Skonto_FC,Latvian First League,/wiki/Skonto_Stadium,56°57′40.94″N 24°6′59.07″E,56.961372222222224,24.116408333333336
+/wiki/Viborg_FF,Danish 1st Division,/wiki/Viborg_Stadion,56°27′21.23″N 9°24′7.43″E,56.45589722222223,9.40206388888889
+/wiki/FC_Shinnik_Yaroslavl,FNL,/wiki/Shinnik_Stadium,57°37′43″N 39°52′03″E,57.62861111111111,39.8675
+/wiki/Maccabi_Tel_Aviv_F.C.,Israeli Premier League,/wiki/Bloomfield_Stadium,32°3′6.22″N 34°45′41.18″E,32.05172777777778,34.76143888888889
+/wiki/FC_Luch-Energiya_Vladivostok,NA,/wiki/Dynamo_Stadium_(Vladivostok),43°07′09″N 131°52′44″E,43.119166666666665,131.8788888888889
+/wiki/FC_Metalurh_Zaporizhya,Ukrainian Second League,/wiki/Slavutych_Arena,47°51′35″N 35°05′49″E,47.859722222222224,35.096944444444446
+/wiki/FK_Ventspils,Virsliga,/wiki/Ventspils_Olimpiskais_Stadions,57°23′17″N 21°34′20″E,57.38805555555555,21.572222222222223
+/wiki/FK_Liep%C4%81jas_Metalurgs,Virslīga (1997–2013),/wiki/Daugava_Stadium_(Liep%C4%81ja),56°30′11″N 20°59′43″E,56.503055555555555,20.99527777777778
+/wiki/CA_Osasuna,La Liga,/wiki/El_Sadar_Stadium,42°47′48″N 1°38′13″W,42.79666666666667,-1.6369444444444443
+/wiki/FC_Metz,Ligue 1,/wiki/Stade_Saint-Symphorien,49°06′35″N 6°09′34″E,49.109722222222224,6.1594444444444445
+/wiki/FC_Red_Bull_Salzburg,Austrian Bundesliga,/wiki/Red_Bull_Arena_(Salzburg),47°48′59″N 12°59′54″E,47.81638888888889,12.998333333333333
+/wiki/S.S._Robur_Siena,Serie D Group E,/wiki/Stadio_Artemio_Franchi_%E2%80%93_Montepaschi_Arena,43°19′18″N 11°19′34″E,43.32166666666667,11.32611111111111
+/wiki/SV_Mattersburg,NA,/wiki/Pappelstadion,47°44′21″N 16°24′23″E,47.73916666666667,16.406388888888888
+/wiki/Hamarkameratene,Norwegian First Division,/wiki/Briskeby_Arena,60°47′44″N 11°5′32″E,60.79555555555555,11.092222222222222
+/wiki/FC_Tom_Tomsk,FNL,/wiki/Trud_Stadium_(Tomsk),56°28′27″N 84°57′24″E,56.47416666666667,84.95666666666666
+/wiki/A.S._Livorno_Calcio,Serie C Group A,/wiki/Stadio_Armando_Picchi,43°31′36″N 10°18′51″E,43.526666666666664,10.314166666666667
+/wiki/FC_Moscow,NA,NA,NA,NA,NA
+/wiki/Legia_Warsaw,Ekstraklasa,/wiki/Stadion_Wojska_Polskiego,52°13′13.66″N 21°2′26.26″E,52.22046111111111,21.04062777777778
+/wiki/Wis%C5%82a_Krak%C3%B3w,Ekstraklasa,/wiki/Stadion_Miejski_Wis%C5%82y_(Krak%C3%B3w),50°3′49″N 19°54′43″E,50.06361111111111,19.911944444444444
+/wiki/AE_Larissa_FC,Super League Greece 2,/wiki/Alcazar_Stadium,39°38′55.36″N 22°24′43.60″E,39.64871111111111,22.41211111111111
+/wiki/GKS_Be%C5%82chat%C3%B3w,I liga,/wiki/Stadion_Miejski_(Be%C5%82chat%C3%B3w),51°21′57.02″N 19°22′54.09″E,51.36583888888889,19.38169166666667
+/wiki/Korona_Kielce,I liga,/wiki/Kielce_City_Stadium,50°51′41″N 20°37′29″E,50.86138888888889,20.62472222222222
+/wiki/G%C3%B3rnik_Zabrze,Ekstraklasa,/wiki/Stadion_Miejski_(Zabrze),50°17′46.74″N 18°46′6.83″E,50.29631666666666,18.768563888888888
+/wiki/Lech_Pozna%C5%84,Ekstraklasa,/wiki/Stadion_Miejski_(Pozna%C5%84),52°23′51″N 16°51′28″E,52.3975,16.85777777777778
+/wiki/U.S._Citt%C3%A0_di_Palermo,Serie C Group C,/wiki/Stadio_Renzo_Barbera,38°9′9.96″N 13°20′32.19″E,38.152766666666665,13.342275
+/wiki/Genoa_C.F.C.,Serie A,/wiki/Stadio_Luigi_Ferraris,44°24′59.15″N 8°57′8.74″E,44.41643055555556,8.952427777777777
+/wiki/Wigan_Athletic_F.C.,League One,/wiki/DW_Stadium,53°32′52″N 2°39′14″W,53.547777777777775,-2.653888888888889
+/wiki/Getafe_CF,La Liga,/wiki/Coliseum_Alfonso_P%C3%A9rez,40°19′32″N 3°42′53″W,40.32555555555556,-3.7147222222222225
+/wiki/FC_Politehnica_Timi%C8%99oara,NA,/wiki/Stadionul_Dan_P%C4%83ltini%C8%99anu,45°44′25.65″N 21°14′39.10″E,45.740458333333336,21.244194444444446
+/wiki/Inverness_Caledonian_Thistle_F.C.,Scottish Championship,/wiki/Caledonian_Stadium,57°29′41″N 4°13′03″W,57.49472222222222,-4.2175
+/wiki/CFR_Cluj,Liga I,/wiki/Stadionul_Dr._Constantin_R%C4%83dulescu,46°46′46″N 23°34′39″E,46.779444444444444,23.5775
+/wiki/FC_Krylia_Sovetov_Samara,Russian Football National League,/wiki/Solidarnost_Arena,53°16′40″N 50°14′14″E,53.27777777777778,50.23722222222222
+/wiki/IF_Elfsborg,Allsvenskan,/wiki/Bor%C3%A5s_Arena,57°44′4.1″N 12°56′5.3″E,57.73447222222222,12.934805555555556
+/wiki/1._FSV_Mainz_05,Bundesliga,/wiki/Opel_Arena_(stadium),49°59′3″N 8°13′27″E,49.98416666666667,8.224166666666667
+/wiki/FC_Terek_Grozny,Russian Premier League,/wiki/Akhmat-Arena,43°19′23″N 45°44′43″E,43.323055555555555,45.74527777777778
+/wiki/Jagiellonia_Bia%C5%82ystok,Ekstraklasa,/wiki/Stadion_Miejski_(Bia%C5%82ystok),53°6′21.5″N 23°8′57.5″E,53.10597222222222,23.149305555555554
+/wiki/Sivasspor,Süper Lig,/wiki/New_Sivas_4_Eyl%C3%BCl_Stadium,39°43′42″N 36°59′2″E,39.72833333333333,36.98388888888889
+/wiki/Atromitos_F.C.,Super League Greece,/wiki/Peristeri_Stadium,38°0′17.49″N 23°41′23.12″E,38.00485833333333,23.689755555555557
+/wiki/Palermo_F.C.,Serie C Group C,/wiki/Stadio_Renzo_Barbera,38°9′9.96″N 13°20′32.19″E,38.152766666666665,13.342275
+/wiki/Samsunspor,TFF First League,/wiki/Samsun_Stadium,41°13′40″N 36°27′27″E,41.22777777777778,36.4575
+/wiki/FC_Anzhi_Makhachkala,"Russian Professional Football League, Group 1",/wiki/Anzhi-Arena,42°54′28″N 47°37′06″E,42.907777777777774,47.61833333333333
+/wiki/FC_Viktoria_Plze%C5%88,Czech First League,/wiki/Doosan_Arena,49°45′00″N 13°23′08″E,49.75,13.385555555555555
+/wiki/Anorthosis_Famagusta_FC,First Division,/wiki/Antonis_Papadopoulos_Stadium,34°56′14.72″N 33°37′15.32″E,34.93742222222222,33.62092222222222
+/wiki/FC_Dnipro,Ukrainian Amateur League,/wiki/Dnipro-Arena,48°27′37.2″N 35°1′56.9″E,48.46033333333334,35.03247222222222
+/wiki/FK_Jablonec,Czech First League,/wiki/Stadion_St%C5%99elnice,50°42′53.87″N 15°09′44.01″E,50.71496388888889,15.162225000000001
+/wiki/M%C3%A1laga_CF,Segunda División,/wiki/La_Rosaleda_Stadium,36°44′03″N 4°25′36″W,36.73416666666667,-4.426666666666667
+/wiki/Swansea_City_A.F.C.,Championship,/wiki/Liberty_Stadium,51°38′32″N 3°56′06″W,51.64222222222222,-3.935
+/wiki/Thonon_%C3%89vian_F.C.,National 3 Group M,/wiki/Stade_Joseph-Moynat,46°21′54″N 6°28′4″E,46.365,6.467777777777778
+/wiki/FC_Nordsj%C3%A6lland,Danish Superliga,/wiki/Right_to_Dream_Park,55°48′57″N 12°21′12″E,55.81583333333333,12.353333333333333
+/wiki/FC_Groningen,Eredivisie,/wiki/Euroborg,53°12′22″N 6°35′29″E,53.20611111111111,6.591388888888889
+/wiki/Real_Madrid_CF,La Liga,/wiki/Santiago_Bernab%C3%A9u_Stadium,40°27′11″N 3°41′18″W,40.45305555555556,-3.6883333333333335
+/wiki/LA_Galaxy,Major League Soccer,/wiki/Dignity_Health_Sports_Park,33°51′50″N 118°15′40″W,33.86388888888889,-118.2611111111111
+/wiki/Hull_City_A.F.C.,League One,/wiki/KCOM_Stadium,53°44′46″N 0°22′4″W,53.74611111111111,-0.36777777777777776
+/wiki/FC_Vorskla_Poltava,Ukrainian Premier League,/wiki/Butovsky_Vorskla_Stadium,49°35′41.40″N 34°32′58″E,49.594833333333334,34.54944444444444
+/wiki/SC_Tavriya_Simferopol,Ukrainian Second League,#cite_note-1,NA,NA,NA
+/wiki/Illichivets,Ukrainian Premier League,/wiki/Volodymyr_Boiko_Stadium,47°8′37.40″N 37°33′30″E,47.14372222222222,37.55833333333333
+/wiki/FC_Metalist_Kharkiv,NA,/wiki/Metalist_Oblast_Sports_Complex,49°58′51.09″N 36°15′42.13″E,49.98085833333334,36.26170277777778
+/wiki/%C4%B0stanbul_Ba%C5%9Fak%C5%9Fehir_F.K.,Süper Lig,/wiki/Ba%C5%9Fak%C5%9Fehir_Fatih_Terim_Stadium,41°07′22.40″N 28°48′30.90″E,41.12288888888889,28.808583333333335
+/wiki/Al_Hilal_SFC,Saudi Professional League,/wiki/King_Fahd_International_Stadium,24°47′17.54″N 46°50′21.25″E,24.788205555555557,46.83923611111111
+/wiki/Tigres_UANL,Liga MX,/wiki/Estadio_Universitario_(UANL),25°43′21″N 100°18′43″W,25.722499999999997,-100.31194444444444
+/wiki/Watford_F.C.,Championship,/wiki/Vicarage_Road,51°38′59.41″N 0°24′5.35″W,51.649836111111114,-0.40148611111111115
+/wiki/Rayo_Vallecano,Segunda División,/wiki/Campo_de_F%C3%BAtbol_de_Vallecas,40°23′31.00″N 3°39′32.26″W,40.39194444444444,-3.658961111111111
+/wiki/PFC_Ludogorets_Razgrad,Bulgarian First League,/wiki/Huvepharma_Arena,43°32′4.4″N 26°31′39.8″E,43.534555555555556,26.52772222222222
+/wiki/Hapoel_Be%27er_Sheva_F.C.,Israeli Premier League,/wiki/Turner_Stadium,31°16′23.34″N 34°46′45.7″E,31.273149999999998,34.77936111111111
+/wiki/FCSB,Liga I,/wiki/Arena_Na%C8%9Bional%C4%83,44°26′13.95″N 26°09′09.03″E,44.43720833333333,26.152508333333333
+/wiki/FC_Astra_Giurgiu,Liga II,/wiki/Stadionul_Marin_Anastasovici,43°53′46″N 25°58′53″E,43.89611111111111,25.981388888888887
+/wiki/Osmanl%C4%B1spor,TFF First League,/wiki/Osmanl%C4%B1_Stadium,40°0′41″N 32°30′8″E,40.01138888888889,32.50222222222222
+/wiki/C%C3%B3rdoba_CF,"2ªB – Group 4, Subgroup B",/wiki/Estadio_Nuevo_Arc%C3%A1ngel,37°52′20.26″N 4°45′52.71″W,37.87229444444444,-4.764641666666667
+/wiki/Al-Ittihad_Club_(Jeddah),Pro League,/wiki/King_Abdullah_Sports_City,21°45′47.6″N 39°9′51″E,21.763222222222222,39.16416666666667
+/wiki/Gen%C3%A7lerbirli%C4%9Fi_S.K.,Süper Lig,/wiki/Eryaman_Stadium,39°58′48.5″N 32°36′49.9″E,39.98013888888889,32.61386111111111
+/wiki/Al-Sailiya_SC,Qatar Stars League,/wiki/Hamad_bin_Khalifa_Stadium,25°15′6.81″N 51°32′7.30″E,25.251891666666666,51.53536111111111
+/wiki/CS_Pandurii_T%C3%A2rgu_Jiu,Liga II,/wiki/Stadionul_Tudor_Vladimirescu_(2019),45°02′37.10″N 23°16′12.20″E,45.043638888888886,23.270055555555555
+/wiki/PAS_Giannina_F.C.,Super League Greece,/wiki/Zosimades_Stadium,39°40′3.53″N 20°50′55.21″E,39.66764722222222,20.848669444444443
+/wiki/FC_Lugano,Swiss Super League,/wiki/Cornaredo_Stadium,46°01′25″N 8°57′42″E,46.02361111111111,8.961666666666666
+/wiki/Qaraba%C4%9F_FK,Azerbaijan Premier League,/wiki/Tofig_Bahramov_Stadium,40°23′50.42″N 49°51′8.76″E,40.39733888888889,49.85243333333334
+/wiki/Como_1907,Serie C Group A,/wiki/Stadio_Giuseppe_Sinigaglia,45°48′50″N 9°4′20″E,45.81388888888888,9.072222222222223
+/wiki/Delfino_Pescara_1936,Serie C,/wiki/Stadio_Adriatico,42°27′19″N 14°13′46″E,42.45527777777778,14.229444444444445
+/wiki/FC_Vaduz,Swiss Super League,/wiki/Rheinpark_Stadion,47°08′25″N 9°30′37″E,47.140277777777776,9.510277777777778
+/wiki/Colorado_Rapids,Major League Soccer,/wiki/Dick%27s_Sporting_Goods_Park,39°48′20″N 104°53′31″W,39.80555555555555,-104.89194444444445
+/wiki/KF_Sk%C3%ABnderbeu_Kor%C3%A7%C3%AB,Kategoria Superiore,/wiki/Sk%C3%ABnderbeu_Stadium,40°37′33″N 20°46′58″E,40.62583333333333,20.782777777777778
+/wiki/Frosinone_Calcio,Serie B,/wiki/Stadio_Benito_Stirpe,41°38′03″N 13°19′19″E,41.634166666666665,13.321944444444444
+/wiki/HNK_Rijeka,Prva HNL,/wiki/Stadion_Rujevica,45°20′48″N 14°24′15″E,45.34666666666667,14.404166666666667
+/wiki/FK_Partizani_Tirana,Kategoria Superiore,/wiki/Partizani_Complex,41°21′23″N 19°51′05″E,41.35638888888889,19.85138888888889
+/wiki/FC_Augsburg,Bundesliga,/wiki/Augsburg_Arena,48°19′23.3″N 10°53′9.6″E,48.32313888888889,10.886
+/wiki/Kas%C4%B1mpa%C5%9Fa_S.K.,Süper Lig,/wiki/Recep_Tayyip_Erdo%C4%9Fan_Stadium,41°01′58″N 28°58′21″E,41.032777777777774,28.972499999999997
+/wiki/TSG_1899_Hoffenheim,Bundesliga,/wiki/Rhein-Neckar-Arena,49°14′17.1″N 8°53′15.4″E,49.238083333333336,8.887611111111111
+/wiki/Burnley_F.C.,Premier League,/wiki/Turf_Moor,53°47′21″N 2°13′49″W,53.78916666666667,-2.230277777777778
+/wiki/FC_Krasnodar,Russian Premier League,/wiki/Krasnodar_Stadium,45°02′39″N 39°01′46″E,45.04416666666666,39.029444444444444
+/wiki/Gillingham_F.C.,League One,/wiki/Priestfield_Stadium,51°23′3.3″N 0°33′38.71″E,51.38425,0.5607527777777779
+/wiki/Milton_Keynes_Dons_F.C.,League One,/wiki/Stadium_MK,52°00′34″N 00°44′00″W,52.00944444444445,-0.7333333333333333
+/wiki/FK_Baumit_Jablonec,Czech First League,/wiki/Stadion_St%C5%99elnice,50°42′53.87″N 15°09′44.01″E,50.71496388888889,15.162225000000001
+/wiki/Al-Gharafa_SC,Qatar Stars League,/wiki/Thani_bin_Jassim_Stadium,25°20′41″N 51°26′26″E,25.34472222222222,51.440555555555555
+/wiki/Bursaspor,TFF First League,/wiki/Bursa_B%C3%BCy%C3%BCk%C5%9Fehir_Stadium,40°12′38.8″N 29°00′33.6″E,40.21077777777778,29.009333333333334
+/wiki/M%C5%A0K_%C5%BDilina,Fortuna Liga,/wiki/%C5%A0tadi%C3%B3n_pod_Dub%C5%88om,49°13′44.83″N 18°44′41.24″E,49.22911944444444,18.74478888888889
+/wiki/FC_Amkar_Perm,Russian Amateur Football League,NA,NA,NA,NA
+/wiki/FC_Kairat,Kazakhstan Premier League,/wiki/Central_Stadium_(Almaty),43°14′17.99″N 76°55′27.66″E,43.23833055555556,76.92435
+/wiki/FC_Kuban_Krasnodar,NA,/wiki/Kuban_Stadium,45°01′31″N 38°59′58″E,45.025277777777774,38.99944444444444
+/wiki/FC_Ufa,Russian Premier League,/wiki/Neftyanik_Stadium,54°49′34″N 56°03′42″E,54.82611111111112,56.06166666666666
+/wiki/AFC_Bournemouth,Championship,/wiki/Dean_Court,50°44′07″N 1°50′18″W,50.73527777777778,-1.8383333333333334
+/wiki/Ruch_Chorz%C3%B3w,III liga,/wiki/Stadion_Miejski_(Chorz%C3%B3w),50°16′55.93″N 18°56′39.04″E,50.282202777777776,18.944177777777778
+/wiki/Lechia_Gda%C5%84sk,Ekstraklasa,/wiki/Stadion_Miejski_(Gda%C5%84sk),54°23′24″N 18°38′25″E,54.39,18.640277777777776
+/wiki/Empoli_F.C.,Serie A,/wiki/Stadio_Carlo_Castellani,43°43′35″N 10°57′18″E,43.72638888888889,10.955
+/wiki/KS_Cracovia_(football),Ekstraklasa,/wiki/Stadion_Miejski_Cracovii_(Krak%C3%B3w),50°03′29″N 19°55′11″E,50.058055555555555,19.919722222222223
+/wiki/Zag%C5%82%C4%99bie_Lubin,Ekstraklasa,/wiki/Stadion_Miejski_(Lubin),51°24′50.22″N 16°11′53.74″E,51.41395,16.198261111111112
+/wiki/Hamilton_Academical_F.C.,Scottish Premiership,/wiki/New_Douglas_Park,55°46′55.76″N 4°03′30.61″W,55.782155555555555,-4.058502777777778
+/wiki/Fleetwood_Town_F.C.,League One,/wiki/Highbury_Stadium_(Fleetwood),53°54′59″N 3°01′29″W,53.91638888888889,-3.024722222222222
+/wiki/Notts_County_F.C.,National League,/wiki/Meadow_Lane,52°56′33″N 1°8′14″W,52.942499999999995,-1.1372222222222221
+/wiki/Doncaster_Rovers_F.C.,League One,/wiki/Keepmoat_Stadium,53°30′35″N 1°6′50″W,53.50972222222222,-1.113888888888889
+/wiki/Melbourne_City_FC,A-League,/wiki/Melbourne_Rectangular_Stadium,37°49′31″S 144°59′2″E,-37.82527777777778,144.98388888888888
+/wiki/Kilmarnock_F.C.,Scottish Premiership,/wiki/Rugby_Park,55°36′15.21″N 4°30′29.24″W,55.604225,-4.508122222222222
+/wiki/St_Johnstone_F.C.,Scottish Premiership,/wiki/McDiarmid_Park,56°24′34.87″N 3°28′36.94″W,56.40968611111111,-3.476927777777778
+/wiki/RC_Celta_de_Vigo,La Liga,/wiki/Bala%C3%ADdos,42°12′43″N 8°44′23″W,42.21194444444445,-8.739722222222222
+/wiki/Fenerbah%C3%A7e_SK_(football),Süper Lig,/wiki/%C5%9E%C3%BCkr%C3%BC_Saraco%C4%9Flu_Stadium,40°59′15.7″N 29°02′13.3″E,40.98769444444444,29.03702777777778
+/wiki/Brighton_%26_Hove_Albion_F.C.,Premier League,/wiki/Falmer_Stadium,50°51′42.56″N 0°4′59.80″W,50.86182222222222,-0.08327777777777778
+/wiki/Beijing_Sinobo_Guoan_F.C.,Chinese Super League,/wiki/Beijing_Fengtai_Stadium,39°51′56.50″N 116°16′21.45″E,39.86569444444444,116.272625
+/wiki/U.S._Sassuolo_Calcio,Serie A,/wiki/Mapei_Stadium_%E2%80%93_Citt%C3%A0_del_Tricolore,44°42′53″N 10°38′59″E,44.71472222222223,10.649722222222222
+/wiki/K.V._Oostende,Belgian First Division A,/wiki/Albertpark,51°13′01″N 2°53′11″E,51.216944444444444,2.886388888888889
+/wiki/CF_Montr%C3%A9al,Major League Soccer,/wiki/Saputo_Stadium,45°33′47″N 73°33′9″W,45.56305555555555,-73.5525
+/wiki/Norwich_City_F.C.,Championship,/wiki/Carrow_Road,52°37′19.66″N 1°18′31.15″E,52.62212777777778,1.3086527777777779
+/wiki/RB_Leipzig,Bundesliga,/wiki/Red_Bull_Arena_(Leipzig),51°20′44.86″N 12°20′53.59″E,51.345794444444444,12.348219444444444
+/wiki/FC_Lorient,Ligue 1,/wiki/Stade_du_Moustoir,47°44′56″N 3°22′10″W,47.74888888888889,-3.3694444444444445
+/wiki/FK_Bod%C3%B8/Glimt,Eliteserien,/wiki/Aspmyra_Stadion,67°16′35.9″N 14°23′3.6″E,67.27663888888888,14.384333333333332
+/wiki/Hammarby_Fotboll,Allsvenskan,/wiki/Tele2_Arena,59°17′27″N 18°05′07″E,59.29083333333333,18.085277777777776
+/wiki/Sandefjord_Fotball,Eliteserien,/wiki/Sandefjord_Arena,59°08′14″N 10°10′47″E,59.13722222222222,10.179722222222221
+/wiki/GIF_Sundsvall,Superettan,/wiki/Idrottsparken_(Sundsvall),62°23′38.82″N 17°18′4.6″E,62.39411666666667,17.301277777777777
+/wiki/Cardiff_City_F.C.,Championship,/wiki/Cardiff_City_Stadium,51°28′22″N 3°12′11″W,51.47277777777778,-3.2030555555555558
+/wiki/Odense_Boldklub,Danish Superliga,/wiki/Odense_Stadium,55°23′52″N 10°21′00″E,55.397777777777776,10.35
+/wiki/SV_Darmstadt_98,2. Bundesliga,/wiki/Merck-Stadion_am_B%C3%B6llenfalltor,49°51′28″N 8°40′20″E,49.85777777777778,8.672222222222222
+/wiki/FC_Ingolstadt_04,3. Liga,/wiki/Audi_Sportpark,48°44′43.66″N 11°29′7.84″E,48.74546111111111,11.48551111111111
+/wiki/FC_Luzern,Swiss Super League,/wiki/Swissporarena,47°02′00″N 8°18′19″E,47.03333333333333,8.305277777777778
+/wiki/Szombathelyi_Halad%C3%A1s,NB II,/wiki/Halad%C3%A1s_Sportkomplexum,47°14′05″N 16°36′26″E,47.234722222222224,16.607222222222223
+/wiki/Feh%C3%A9rv%C3%A1r_FC,NB I,/wiki/MOL_Ar%C3%A9na_S%C3%B3st%C3%B3,47°10′25.3″N 18°24′55.3″E,47.17369444444444,18.41536111111111
+/wiki/Debreceni_VSC,NB II,/wiki/Nagyerdei_Stadion,47°33′14″N 21°38′00″E,47.553888888888885,21.633333333333333
+/wiki/Pusk%C3%A1s_Akad%C3%A9mia_FC,NB I,/wiki/Pancho_Ar%C3%A9na,47°27′50″N 18°35′12″E,47.46388888888889,18.586666666666666
+/wiki/Di%C3%B3sgy%C5%91ri_VTK,NB I,/wiki/Di%C3%B3sgy%C5%91ri_Stadion,48°5′58″N 20°43′2″E,48.099444444444444,20.71722222222222
+/wiki/MTK_Budapest_FC,NB I,/wiki/Hidegkuti_N%C3%A1ndor_Stadion,47°29′27.31″N 19°6′24.21″E,47.490919444444444,19.106725
