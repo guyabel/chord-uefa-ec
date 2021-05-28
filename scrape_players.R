@@ -1,14 +1,16 @@
 ##
-## scrape_players - get players from squad pages
-## scrape_birthplace - get players bithplaces
-## scrape_clubs - club team location and leagues
-## scrape_teams - get national team colours and locations
-## scrape_leagues - get league coefficients
+## scrape_players: players in squads
+## scrape_club: club information of players
+## scrape_comp: euro competition teams and logos
 ##
 
-library(tidyverse)
+library(tidyvese)
 library(rvest)
-library(janitor)
+library(countrycode)
+
+##
+## wikipedia
+##
 
 d <- tibble(
   year = seq(1960, 2020, 4),
@@ -35,7 +37,7 @@ get_players <- function(u, n){
     html_text() %>%
     str_subset(pattern = "Group", negate = TRUE) %>%
     .[1:n]
-
+  
   p0 <- tibble(
     squad = s,
     player = p) %>%
@@ -49,8 +51,8 @@ get_players <- function(u, n){
     str_subset(pattern = "Captain", negate = TRUE) %>%
     # frank de boer in euro 1996
     {if(str_detect(string = u, pattern = "1996")) .[-28] else . } 
-    
-
+  
+  
   c0 <- tibble(
     url = hh %>%
       .[1:n] %>%
@@ -66,7 +68,7 @@ get_players <- function(u, n){
       .[1:n] %>%
       html_nodes("td:nth-last-child(1) a") %>%
       html_attr("title")
-    ) %>%
+  ) %>%
     filter(!str_detect(string = url, pattern = "#cite")) %>%
     mutate(id = 1:n(), 
            id = ifelse(text == "", lead(id), id),
@@ -103,7 +105,7 @@ get_players <- function(u, n){
   c4 <- c1 %>%
     left_join(c2, by = "id") %>%
     left_join(c3, by = "url_club_country")
-    
+  
   p1 <- p0 %>%
     mutate(id = 1:n()) %>%
     left_join(c4, by = "id")
@@ -125,4 +127,128 @@ d1 <- d0 %>%
 
 # for(i in 1:nrow(d))
 #   get_players(u = d$url[i], n = d$teams[i])
-write_csv(d1 , "./data/players.csv")
+write_excel_csv(d1 , "./data/wiki_players.csv")
+
+
+##
+## worldfootball.net
+##
+
+h <- read_html("https://www.worldfootball.net/history/em/")
+
+d <- tibble(
+  year = h %>% 
+    html_nodes("td:nth-child(4) a") %>%
+    html_attr("title") %>%
+    str_extract("\\d{4}"),
+  url_euro_squads = h %>% 
+    html_nodes("td:nth-child(4) a") %>%
+    html_attr("href") %>%
+    paste0("https://www.worldfootball.net", .)
+) %>%
+  # waiting for EURO2020 squads
+  slice(-1)
+
+get_squad_links <- function(u){
+  # h <- read_html(d$url_squads[i])
+  h <- read_html(u)
+  
+  s <- tibble(
+    team = h %>%
+      html_nodes("td:nth-child(2) a") %>%
+      html_text(),
+    url_team = h %>%
+      html_nodes("td:nth-child(2) a") %>%
+      html_attr("href") %>%
+      paste0("https://www.worldfootball.net", .),
+    team_img = h %>%
+      html_nodes(".standard_tabelle td:nth-child(1) img") %>%
+      html_attr("src") %>%
+      paste0("https://www.worldfootball.net", .) %>%
+      str_replace(pattern = "mini", replacement = "mittel"),
+    url_squad = h %>%
+      html_nodes("td:nth-child(6) a") %>%
+      html_attr("href") %>%
+      paste0("https://www.worldfootball.net", .)
+  )
+  return(s)
+}
+
+d0 <- d %>%
+  mutate(teams = map(.x = url_euro_squads, .f = ~get_squad_links(u = .x))) %>%
+  unnest(teams)
+
+
+get_squad <- function(u){
+  # h <- read_html(d0$url_squad[156])
+  # h <- read_html(d0$url_squad[1])
+  
+  h <- read_html(u)
+  x1 <- h %>%
+    # html_nodes(".portfolio .box") %>%
+    html_table(fill = TRUE, header = FALSE) %>%
+    .[[2]] %>%
+    as_tibble() %>%
+    mutate(X1 = ifelse(X1 == "", NA, X1)) %>%
+    fill(X1, .direction = "down") %>%
+    filter(X4 == "") %>%
+    select(-X4, -X7) %>%
+    set_names(c("position", "squad_n", "player", "club", "dob"))
+  
+  x2 <- tibble(
+    url_player = h %>%
+      html_nodes("td:nth-child(3) a") %>%
+      html_attr("href") %>%
+      paste0("https://www.worldfootball.net", .),
+    player = h %>%
+      html_nodes("td:nth-child(3) a") %>%
+      html_attr("title")
+  )
+  
+  x3 <- tibble(
+    url_club = h %>%
+      html_nodes("td:nth-child(5) a") %>%
+      html_attr("href") %>%
+      paste0("https://www.worldfootball.net", .),
+    club = h %>%
+      html_nodes("td:nth-child(5) a") %>%
+      html_text()
+  ) %>%
+    distinct()
+  
+  x <- x1 %>%
+    left_join(x2, by = "player") %>%
+    left_join(x3, by = "club")
+}
+
+d1 <- d0 %>%
+  mutate(squad = map(.x = url_squad, .f = ~get_squad(u = .x))) %>%
+  unnest(squad) %>%
+  mutate(staff = str_detect(string = position, pattern = "Manager|Coach"),
+         staff = ifelse(year == 2012, player == "Marcus Allbäck", TRUE, staff))
+
+# d1 <- read_csv("./data/wfnet_players.csv")
+cm <- c("CIS" = "CIS", 
+        "CSSR" = "CSK",
+        "Czechoslovakia" = "CSK",
+        "England" = "GB-ENG", 
+        "Northern Ireland" = "GB-NIR",
+        "Scotland" = "GB-SCT",
+        "Wales" = "GB-WLS", 
+        "FR Yugoslavia" = "SCG", 
+        "Yugoslavia" = "YUG", 
+        "Soviet Union" = "SUN",
+        "USSR" = "SUN")
+
+d2 <- d1 %>%
+  mutate(
+    team = ifelse(team == "Germany" & year < 1992, "West Germany", team),
+    team = ifelse(team == "CSSR", "Czechoslovakia", team),
+    team = ifelse(team == "Yugoslavia" & year == 2000, "FR Yugoslavia", team),
+    team_alpha3 = countrycode(
+      sourcevar = team, origin = "country.name", 
+      destination = "iso3c", custom_match = cm)
+  )
+
+write_excel_csv(d2, "./data/wfnet_players.csv")
+
