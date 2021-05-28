@@ -2,20 +2,22 @@ library(tidyverse)
 library(countrycode)
 library(magick)
 
-x1 <- read_csv("./data/wfnet_players.csv")
-x2 <- read_csv("./data/wfnet_leagues.csv")
+w1 <- read_csv("./data/wiki_players.csv")
+# x1 <- read_csv("./data/wfnet_players.csv")
+# x2 <- read_csv("./data/wfnet_leagues.csv")
 
-t0 <- x1 %>%
-  select(team, team_alpha3) %>%
+n0 <- w1 %>%
+  select(nat_team, nat_team_alpha3) %>%
   distinct() %>%
-  rename(label = team,
-         alpha3 = team_alpha3)
+  rename(label = nat_team, 
+         alpha3 = nat_team_alpha3)
 
-l0 <- x2 %>%
-  select(league, league_alpha3) %>%
+c0 <- w1 %>%
+  select(club_country2, club_alpha3) %>%
   distinct() %>%
-  rename(label = league,
-         alpha3 = league_alpha3)
+  rename(label = club_country2, 
+         alpha3 = club_alpha3) %>%
+  drop_na()
 
 cm <- c("CIS" = "CIS", 
         "Czechoslovakia" = "CZ",
@@ -30,8 +32,8 @@ cm <- c("CIS" = "CIS",
         "USSR" = "SU", 
         "No Club" = "")
 
-d0 <- t0 %>%
-  bind_rows(l0) %>%
+d0 <- n0 %>%
+  bind_rows(c0) %>%
   distinct() %>%
   mutate(
     alpha2 = countrycode(
@@ -62,6 +64,9 @@ for(i in 1:nrow(d0)){
   f %>%
     image_scale("x75") %>%
     image_crop("100", gravity = g) %>%
-    # image_border(color = "darkgrey", geometry = "5x5") %>%
-    image_write(path = paste0("./flags/",d0$alpha3[i], ".svg"), format = "svg")
+    image_write(path = paste0("./flags/",d0$alpha3[i], ".png"))
+    # image_write(path = paste0("./flags/",d0$alpha3[i], ".svg"), format = "svg")
+  
+  # image_read(paste0("./flags/",d0$alpha3[i], ".svg"))
+  
 }
