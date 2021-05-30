@@ -1,3 +1,10 @@
+##
+## scrape_players: players in squads
+## scrape_flag: national team flags
+## scrape_colours: national team kits
+## scrape_comp: competition teams and logos
+##
+
 library(tidyverse)
 library(rvest)
 library(countrycode)

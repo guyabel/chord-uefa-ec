@@ -1,72 +1,82 @@
+##
+## scrape_players: players in squads
+## scrape_flag: national team flags
+## scrape_colours: national team kits
+## scrape_comp: competition teams and logos
+##
+
 library(tidyverse)
-library(countrycode)
 library(magick)
 
-w1 <- read_csv("./data/wiki_players.csv")
-# x1 <- read_csv("./data/wfnet_players.csv")
-# x2 <- read_csv("./data/wfnet_leagues.csv")
+w <- read_csv("./data/wiki_players.csv", guess_max = 1e5)
 
-n0 <- w1 %>%
+n0 <- w %>%
   select(nat_team, nat_team_alpha3) %>%
   distinct() %>%
   rename(label = nat_team, 
          alpha3 = nat_team_alpha3)
 
-c0 <- w1 %>%
-  select(club_country2, club_alpha3) %>%
+d0 <- w %>%
+  select(club_country_harm, club_alpha3, club_country_flag, year) %>%
+  filter(club_alpha3 %in% n0$alpha3) %>%
+  group_by_at(1:3) %>%
+  mutate(year_min = min(year), 
+         year_max = max(year),
+         years = paste0(unique(sort(year)), collapse = ",")) %>%
+  ungroup() %>%
+  select(-year) %>%
   distinct() %>%
-  rename(label = club_country2, 
-         alpha3 = club_alpha3) %>%
-  drop_na()
+  rename(label = club_country_harm, 
+         alpha3 = club_alpha3,
+         flag_url = club_country_flag) %>%
+  drop_na() %>%
+  arrange(label) %>%
+  mutate(label = ifelse(str_detect(string = flag_url, pattern = "Wales"), 
+                        "Wales", label),
+         alpha3 = ifelse(str_detect(string = flag_url, pattern = "Wales"), 
+                         "GB-WLS", alpha3),
+         flag_url = flag_url %>%
+           paste0("https:", .) %>%
+           # from last / onwards
+           str_remove(pattern = "/[^/]+$") %>%
+           str_remove(pattern = "thumb")) 
 
-cm <- c("CIS" = "CIS", 
-        "Czechoslovakia" = "CZ",
-        "England" = "GB-ENG", 
-        "Northern Ireland" = "GB-NIR",
-        "Scotland" = "GB-SCT",
-        "Wales" = "GB-WLS", 
-        "West Germany" = "DE",
-        "Yugoslavia" = "YU", 
-        "FR Yugoslavia" = "SCG",
-        "Soviet Union" = "SU",
-        "USSR" = "SU", 
-        "No Club" = "")
+# any countries not that never had any national team players
+# in their league?
+n0 %>%
+  filter(!alpha3 %in% unique(d0$alpha3)) 
 
-d0 <- n0 %>%
-  bind_rows(c0) %>%
-  distinct() %>%
+d1 <- n0 %>% 
+  filter(!alpha3 %in% unique(d0$alpha3)) %>%
   mutate(
-    alpha2 = countrycode(
-      sourcevar = label, origin = "country.name", 
-      destination = "iso2c", custom_match = cm),
-    alpha2 = str_to_lower(string = alpha2),
-    flag_url = case_when(
-      # alpha2 %in% c("gb-eng", "gb-wls", "gb-nir") ~ paste0("/regions_flags/gb/", alpha2),
-      alpha2 %in% c("su", "yu") ~ paste0("https://raw.githubusercontent.com/kent1D/svg-flags/master/historical_flags/", alpha2, ".svg"),
-      # alpha2 == "gb-sct" ~ "https://raw.githubusercontent.com/lipis/flag-icon-css/master/flags/4x3/gb-sct.svg",
-      alpha2 == "scg" ~ "https://upload.wikimedia.org/wikipedia/commons/7/7e/Flag_of_Yugoslavia_%281992%E2%80%932003%29%3B_Flag_of_Serbia_and_Montenegro_%282003%E2%80%932006%29.svg",
-      alpha2 == "cis" ~ "https://raw.githubusercontent.com/kent1D/svg-flags/master/io_flags/cis.svg",
-      TRUE ~ paste0("", alpha2)
-    ), 
-    flag_url = ifelse(
-      alpha2 %in% c("scg", "cis", "su", "yu"), flag_url,
-      # paste0("https://raw.githubusercontent.com/kent1D/svg-flags/master/", flag_url, ".svg")
-      paste0("https://raw.githubusercontent.com/lipis/flag-icon-css/master/flags/4x3/", flag_url, ".svg")
+    flag_url = c(
+      "https://upload.wikimedia.org/wikipedia/commons/4/45/Flag_of_Ireland.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/3/33/Flag_of_the_CIS_%28UEFA_Euro_1992%29.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/4/43/Flag_of_Northern_Ireland_%281953%E2%80%931972%29.svg",
+      "https://upload.wikimedia.org/wikipedia/commons/c/ce/Flag_of_Iceland.svg"
+    ),
+    years = c(
+      "1988,2012,2016",
+      "1992",
+      "2016",
+      "2016"),
+    year_min = c(1988, 1992, 2016, 2016),
+    year_max = c(2016, 1992, 2016, 2016)
     )
-)
 
-for(i in 1:nrow(d0)){
-  message(d0$alpha3[i])
-  f <- image_read_svg(path = d0$flag_url[i])
-  g <- "center"
-  if(d0$alpha3[i] == "SUN")
-    g <- "west"
+# use most upto date flag
+d2 <- d0 %>%
+  bind_rows(d1) %>%
+  arrange(alpha3, year_min) %>%
+  group_by(alpha3) %>%
+  slice(n())
+
+b <- image_blank(width = 100, height = 75, color = "grey40")
+for(i in 1:nrow(d2)){
+  message(d2$alpha3[i])
+  f <- image_read_svg(path = d2$flag_url[i])
   f %>%
-    image_scale("x75") %>%
-    image_crop("100", gravity = g) %>%
-    image_write(path = paste0("./flags/",d0$alpha3[i], ".png"))
-    # image_write(path = paste0("./flags/",d0$alpha3[i], ".svg"), format = "svg")
-  
-  # image_read(paste0("./flags/",d0$alpha3[i], ".svg"))
-  
+    image_resize("100x75") %>%
+    image_composite(image = b, composite_image = ., gravity = "center") %>%
+    image_write(path = paste0("./flag/",d2$alpha3[i], ".png"))
 }

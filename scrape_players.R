@@ -1,7 +1,8 @@
 ##
 ## scrape_players: players in squads
-## scrape_club: club information of players
-## scrape_comp: euro competition teams and logos
+## scrape_flag: national team flags
+## scrape_colours: national team kits
+## scrape_comp: competition teams and logos
 ##
 
 library(tidyverse)
@@ -17,21 +18,27 @@ d <- tibble(
   year = seq(1960, 2020, 4),
   teams = c(rep(4, 5), rep(8, 4), rep(16, 5), rep(24, 2)),
   url = paste0("https://en.wikipedia.org/wiki/UEFA_Euro_", year, "_squads")
-) #%>%
-  # wait for euro2020 squads
-  # slice(-n())
+) 
+
 
 get_players <- function(u, n){
-  # u = d$url[i]
+  # u = d$url[i];u
   # n = d$teams[i]
   h <- read_html(u)
   
   hh <- h %>%
     html_nodes("table.sortable")
   
-  p <- hh %>%
-    html_table() %>%
-    .[1:n]
+  p <- tibble(
+    squads = hh %>%
+      html_table()
+  ) %>%
+    mutate(nn = map(.x = squads, .f = ~nrow(x = .x)), 
+           nn = unlist(nn),
+           squad_list = nn >= 11, 
+           table_no = cumsum(squad_list), 
+           squad_list = ifelse(table_no > n, FALSE, squad_list))
+  
   
   s <- h %>%
     html_nodes(".mw-headline") %>%
@@ -39,79 +46,60 @@ get_players <- function(u, n){
     str_subset(pattern = "Group", negate = TRUE) %>%
     .[1:n]
   
-  p0 <- tibble(
+  not_line <- hh %>%
+    .[p$squad_list] %>%
+    html_nodes("td:nth-last-child(1)") %>%
+    html_attr("colspan") %>%
+    is.na()
+  
+  tibble(
     squad = s,
-    player = p) %>%
-    mutate(player = map(.x = player, .f = ~mutate(.x, across(everything(), as.character)))) %>%
+    player = p$squads[p$squad_list]
+  ) %>%
+    mutate(
+      player = map(
+        .x = player, 
+        .f = ~mutate(.x, across(everything(), as.character))
+      )) %>%
     unnest(cols = player) %>%
-    filter(Player != "")
-  
-  p0$url_player <- hh %>%
-    .[1:n] %>%
-    html_nodes(".nat-fs-player th a") %>%
-    html_attr("href") %>%
-    str_subset(pattern = "Captain", negate = TRUE) %>%
-    # frank de boer in euro 1996
-    {if(str_detect(string = u, pattern = "1996")) .[-28] else . } 
-  
-  
-  c0 <- tibble(
-    url = hh %>%
-      .[1:n] %>%
-      # html_nodes("td:nth-last-child(1") %>%
-      html_nodes("td:nth-last-child(1) a") %>%
-      html_attr("href"),
-    
-    text = hh %>%
-      .[1:n] %>%
-      html_nodes("td:nth-last-child(1) a") %>%
-      html_text(),
-    title = hh %>%
-      .[1:n] %>%
-      html_nodes("td:nth-last-child(1) a") %>%
-      html_attr("title")
-  ) %>%
-    filter(!str_detect(string = url, pattern = "#cite")) %>%
-    mutate(id = 1:n(), 
-           id = ifelse(text == "", lead(id), id),
-           id = as.character(id),
-           id = fct_inorder(id),
-           id = as.numeric(id))
-  
-  c1 <- c0 %>%
-    filter(text != "") %>%
-    rename(url_club = url,
-           club = text, 
-           club_title = title)
-  
-  c2 <- c0 %>%
-    filter(text == "") %>%
-    select(-text) %>%
-    rename(url_club_country = url,
-           club_country_title = title)
-  
-  c3 <- tibble(
-    url_club_country = hh %>%
-      .[1:n] %>%
-      html_nodes(".flagicon") %>%
-      html_nodes("a") %>%
-      html_attr("href"),
-    club_country = hh %>%
-      .[1:n] %>%
-      html_nodes(".flagicon") %>%
-      html_nodes(".thumbborder") %>%
-      html_attr("alt")
-  ) %>%
-    distinct()
-  
-  c4 <- c1 %>%
-    left_join(c2, by = "id") %>%
-    left_join(c3, by = "url_club_country")
-  
-  p1 <- p0 %>%
-    mutate(id = 1:n()) %>%
-    left_join(c4, by = "id")
-  return(p1)
+    filter(Player != "") %>%
+    mutate(player_url = hh %>%
+             .[p$squad_list] %>%
+             html_nodes(".nat-fs-player th") %>%
+             html_node("a") %>%
+             html_attr("href"),
+           club_fa_url = hh %>%
+             .[p$squad_list] %>%
+             html_nodes("td:nth-last-child(1)") %>%
+             .[not_line] %>%
+             html_node("a") %>%
+             html_attr("href"),
+           club_fa = hh %>%
+             .[p$squad_list] %>%
+             html_nodes("td:nth-last-child(1)") %>%
+             .[not_line] %>%
+             html_node("a") %>%
+             html_attr("title"),
+           club = hh %>%
+             .[p$squad_list] %>%
+             html_nodes("td:nth-last-child(1)") %>%
+             .[not_line] %>%
+             html_text(trim = TRUE),
+           club_country = hh %>%
+             .[p$squad_list] %>%
+             html_nodes("td:nth-last-child(1)") %>%
+             .[not_line] %>%
+             html_node(".flagicon") %>%
+             html_node(".thumbborder") %>%
+             html_attr("alt"),
+           club_country_flag = hh %>%
+             .[p$squad_list] %>%
+             html_nodes("td:nth-last-child(1)") %>%
+             .[not_line] %>%
+             html_node(".flagicon") %>%
+             html_node("img") %>%
+             html_attr("src")
+    )
 }
 
 d0 <- d %>%
@@ -126,11 +114,10 @@ d1 <- d0 %>%
   clean_names() %>%
   select(-url, -teams) %>%
   mutate(pos = str_sub(string = pos, start = 2),
-         captain = str_detect(string = player, pattern = "captain|Captain"),
+         captain = str_detect(string = player, pattern = "captain|Captain|\\(c\\)"),
          player_original = player,
          player = str_remove(string = player, pattern = " \\s*\\([^\\)]+\\)"))
 
-# d1 <- read_csv("./data/wfnet_players.csv")
 cm <- c("CIS" = "CIS", 
         "CSSR" = "CSK",
         "Czechoslovakia" = "CSK",
@@ -149,7 +136,8 @@ d2 <- d1 %>%
       squad == "Soviet Union" ~ "USSR",
       TRUE ~ squad
     ),
-    club_country2 = case_when(
+    club_country_harm = case_when(
+      club_country == "Wales" ~ "England",
       club_country == "Soviet Union" ~ "USSR",
       club_country == "Socialist Federal Republic of Yugoslavia" ~ "Yugoslavia",
       club_country == "Federal Republic of Yugoslavia"  ~ "FR Yugoslavia",
@@ -158,28 +146,27 @@ d2 <- d1 %>%
       sourcevar = nat_team, origin = "country.name", 
       destination = "iso3c", custom_match = cm),
     club_alpha3 = countrycode(
-      sourcevar = club_country2, origin = "country.name", 
+      sourcevar = club_country_harm, origin = "country.name", 
       destination = "iso3c", custom_match = cm),
   )
 
-n0 <- d2 %>%
-  select(nat_team, nat_team_alpha3) %>%
-  distinct() %>%
-  rename(label = nat_team, 
-         alpha3 = nat_team_alpha3)
+# checks on nat_team and club_country_harm match
 
-c0 <- d2 %>%
-  select(club_country2, club_alpha3) %>%
-  distinct() %>%
-  rename(label = club_country2, 
-         alpha3 = club_alpha3)
+d2 %>%
+  # filter(is.na(nat_team))
+  # filter(is.na(nat_team_alpha3))
+  # filter(is.na(club_country_harm))
+  filter(is.na(club_alpha3))
 
-n0 %>%
-  bind_rows(c0) %>%
+x = d2 %>%
+  select(nat_team, club_country_harm) %>%
+  pivot_longer(cols = 1:2, names_to = "type", values_to = "label") %>%
+  select(-type) %>%
   distinct() %>%
-  group_by(alpha3) %>%
-  mutate(n = n()) %>%
-  arrange(desc(n))
+  arrange(label)
+# group_by(label) %>%
+# mutate(n = n()) %>%
+# arrange(desc(n))
 
 write_excel_csv(d2 , "./data/wiki_players.csv")
 

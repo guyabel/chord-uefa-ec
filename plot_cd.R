@@ -15,8 +15,8 @@ w3 <- read_csv("./data/wiki_comp.csv")
 
 # club_country to nat_team data frame
 d1 <- w1 %>%
-  select(year, nat_team, club_country2, contains("alpha3")) %>%
-  rename(club_country = club_country2,
+  select(year, nat_team, club_country_harm, contains("alpha3")) %>%
+  rename(club_country = club_country_harm,
          nat_alpha3 = nat_team_alpha3) %>%
   replace_na(list(club_country = "No Club")) %>%
   group_by(club_country, nat_team, year, club_alpha3, nat_alpha3) %>%
@@ -177,8 +177,8 @@ for(f in unique(d3$.frame)){
         flag_rot <- ifelse(theta < 90 || theta > 270, -90, 90)
         flag <-
           dd$alpha3 %>%
-          # paste0("./flags/", . ,".svg") %>%
-          paste0("./flags/", . ,".png") %>%
+          # paste0("./flag/", . ,".svg") %>%
+          paste0("./flag/", . ,".png") %>%
           image_read() %>%
           image_rotate(degrees = flag_rot)
         circos.raster(image = flag, x = mean(xx), y = 0.2, 
@@ -251,12 +251,18 @@ f0 <- d3 %>%
   select(.frame, year) %>%
   distinct() %>%
   mutate(page = 1:n(),
-         comp = year %% 4 == 0) %>%
+         comp = year %% 4 == 0, 
+         comp_last = year == max(year)) %>%
   # rowwise() %>%
   group_by(page) %>%
-  mutate(page_rep = paste(rep(page, 20), collapse = ",")) %>%
+  mutate(page_rep = paste(rep(page, 20), collapse = ","),
+         page_last = paste(rep(page, 50), collapse = ",")) %>%
   ungroup() %>%
-  mutate(f = ifelse(comp, page_rep, page))
+  mutate(f = case_when(
+    comp_last ~ page_last, 
+    comp ~ page_rep, 
+    TRUE ~ as.character(page)
+  ))
 
 ff <- f0 %>%
   pull(f) %>%

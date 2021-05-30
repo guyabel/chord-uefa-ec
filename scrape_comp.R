@@ -1,7 +1,8 @@
 ##
 ## scrape_players: players in squads
-## scrape_club: club information of players
-## scrape_comp: euro competition teams and logos
+## scrape_flag: national team flags
+## scrape_colours: national team kits
+## scrape_comp: competition teams and logos
 ##
 
 library(tidyvese)
