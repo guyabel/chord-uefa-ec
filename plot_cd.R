@@ -111,12 +111,11 @@ d3 <- d2 %>%
   separate(col = .group, into = c("club_country", "nat_team"), sep = " -> ") %>%
   relocate(club_country, nat_team, n)
 
-
+# euro 2020 teams
 euro2020 <- w1 %>%
   filter(year == 2020) %>%
   pull(squad) %>%
   unique()
-
 
 # pdf(file = "./plot/euro2020.pdf", height = 7, width = 7, useDingbats = FALSE)
 pdf(file = "./plot/euro.pdf", height = 7, width = 7, useDingbats = FALSE)
@@ -133,9 +132,9 @@ for(f in unique(d3$.frame)){
   par(mar = rep(0, 4), bg = "grey40", lheight = 0.8)
   circos.clear()
   circos.par(track.margin=c(0.01, -0.01), points.overflow.warning = FALSE,
+             gap.degree = d0$gap,
              # euro2020 plot set to 2.5
-             # gap.degree = d0$gap,
-             gap.degree = 2.5,
+             # gap.degree = 2.5,
              start.degree = 90)
   
   # plot the chord diagram
@@ -145,6 +144,7 @@ for(f in unique(d3$.frame)){
     order = d0 %>%
       filter(lab %in% unique(c(d4$nat_team, d4$club_country))) %>%
       pull(lab),
+    # euro2020 order
     # order = c(euro2020, d0$lab[!d0$lab %in% euro2020]),
     grid.col = d0 %>%
       select(lab, kit_shirt) %>%
@@ -181,7 +181,7 @@ for(f in unique(d3$.frame)){
         flag_disp <- FALSE
       if(dd$alpha3 %in% c0$alpha3)
         flag_disp <- FALSE
-      # comment out for animation
+      # euro2020 drop flags for past teams
       # if(!dd$lab %in% euro2020)
       #   flag_disp <- FALSE
       
