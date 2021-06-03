@@ -35,11 +35,7 @@ d0 <- w %>%
                         "Wales", label),
          alpha3 = ifelse(str_detect(string = flag_url, pattern = "Wales"), 
                          "GB-WLS", alpha3),
-         flag_url = flag_url %>%
-           paste0("https:", .) %>%
-           # from last / onwards
-           str_remove(pattern = "/[^/]+$") %>%
-           str_remove(pattern = "thumb")) 
+         flag_url = paste0("https:", flag_url)) 
 
 # any countries not that never had any national team players
 # in their league?

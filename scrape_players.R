@@ -106,6 +106,12 @@ d0 <- d %>%
   mutate(players = map2(.x = url, .y = teams, 
                         .f = ~get_players(u = .x, n = .y)))
 
+# i = 16
+# get_players(u = d$url[i], n = d$teams[i]) %>%
+#   group_by(squad) %>%
+#   summarise(n = n()) %>%
+#   arrange(desc(n)) %>%
+#   print(n = 30)
 # for(i in 1:nrow(d))
 #   get_players(u = d$url[i], n = d$teams[i])
 
@@ -148,6 +154,8 @@ d2 <- d1 %>%
     club_alpha3 = countrycode(
       sourcevar = club_country_harm, origin = "country.name", 
       destination = "iso3c", custom_match = cm),
+    club_country_flag = str_remove(string = club_country_flag, pattern = "thumb"),
+    club_country_flag = str_remove(string = club_country_flag, pattern = "/[^/]+$")
   )
 
 # checks on nat_team and club_country_harm match
