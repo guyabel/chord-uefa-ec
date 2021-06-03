@@ -1,5 +1,5 @@
 # uefa-ec
-Visualizing bilateral links between Euro 2016 squads and players clubs
+Visualizing bilateral links between Euro squads and players clubs
 
 R code to scrape data from Wikipedia on players and their clubs in Euro squads and to plot animated chord diagrams. 
 
