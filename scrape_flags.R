@@ -37,7 +37,7 @@ d0 <- w %>%
                          "GB-WLS", alpha3),
          flag_url = paste0("https:", flag_url)) 
 
-# any countries not that never had any national team players
+# any countries that never had any national team players
 # in their league?
 n0 %>%
   filter(!alpha3 %in% unique(d0$alpha3)) 
@@ -60,19 +60,30 @@ d1 <- n0 %>%
     year_max = c(2016, 1992, 2016, 2016)
     )
 
+# serbia update of the yugoslavia flag
+d2 <- tibble(
+  label = "Serbia", 
+  alpha3 = "SRB", 
+  flag_url = "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg", 
+  years = "2020",
+  year_min = 2020, 
+  year_max = 2020
+)
+
 # use most upto date flag
-d2 <- d0 %>%
+d3 <- d0 %>%
   bind_rows(d1) %>%
+  bind_rows(d2) %>%
   arrange(alpha3, year_min) %>%
   group_by(alpha3) %>%
   slice(n())
 
 b <- image_blank(width = 100, height = 75, color = "grey40")
-for(i in 1:nrow(d2)){
-  message(d2$alpha3[i])
-  f <- image_read_svg(path = d2$flag_url[i])
+for(i in 1:nrow(d3)){
+  message(d3$alpha3[i])
+  f <- image_read_svg(path = d3$flag_url[i])
   f %>%
     image_resize("100x75") %>%
     image_composite(image = b, composite_image = ., gravity = "center") %>%
-    image_write(path = paste0("./flag/",d2$alpha3[i], ".png"))
+    image_write(path = paste0("./flag/", d3$alpha3[i], ".png"))
 }

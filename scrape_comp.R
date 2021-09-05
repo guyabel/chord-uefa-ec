@@ -9,6 +9,7 @@ library(tidyvese)
 library(rvest)
 library(countrycode)
 library(janitor)
+library(magick)
 
 d <- tibble(
   year = seq(1960, 2020, 4),
@@ -78,3 +79,19 @@ d0 <- d0 %>%
                               destination = "iso3c", custom_match = cm))
 # d0 <- read_csv("./data/wiki_comp.csv")
 write_excel_csv(d0,  "./data/wiki_comp.csv")
+
+##
+## download logos
+##
+d1 <- d0 %>%
+  distinct(year, url_comp_logo)
+
+for(i in 1:nrow(d1))
+  d1$url_comp_logo[i] %>%
+    paste0("https:", .) %>%
+    image_read(density = 300) %>% 
+    image_write(paste0("./logo/", d1$year[i], ".png"))
+  
+  
+  
+}
