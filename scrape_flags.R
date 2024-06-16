@@ -1,8 +1,8 @@
 ##
 ## scrape_players: players in squads
 ## scrape_flag: national team flags
-## scrape_colours: national team kits
 ## scrape_comp: competition teams and logos
+## scrape_colours: national team kits
 ##
 
 library(tidyverse)
@@ -37,8 +37,7 @@ d0 <- w %>%
                          "GB-WLS", alpha3),
          flag_url = paste0("https:", flag_url)) 
 
-# any countries that never had any national team players
-# in their league?
+# any countries that never had any national team players in their league?
 n0 %>%
   filter(!alpha3 %in% unique(d0$alpha3)) 
 
@@ -65,9 +64,9 @@ d2 <- tibble(
   label = "Serbia", 
   alpha3 = "SRB", 
   flag_url = "https://upload.wikimedia.org/wikipedia/commons/f/ff/Flag_of_Serbia.svg", 
-  years = "2020",
+  years = "2020,2024",
   year_min = 2020, 
-  year_max = 2020
+  year_max = 2024
 )
 
 # use most upto date flag

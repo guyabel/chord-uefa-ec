@@ -3,6 +3,7 @@ library(tweenr)
 library(circlize)
 library(migest)
 library(magick)
+library(countrycode)
 
 ##
 ## wikipedia data
@@ -14,7 +15,7 @@ w3 <- read_csv("./data/wiki_comp.csv")
 # club_country to nat_team data frame
 d <- w1 %>%
   left_join(w2, by = c("nat_team_alpha3" = "team_alpha3")) %>%
-  select(year, nat_team, club_country_harm, kit_shirt, contains("alpha3")) %>%
+  select(year, nat_team, club_country_harm, c1, contains("alpha3")) %>%
   rename(club_country = club_country_harm,
          nat_alpha3 = nat_team_alpha3) %>%
   replace_na(list(club_country = "No Club")) %>%
@@ -38,13 +39,13 @@ d <- w1 %>%
       club_country == "CIS" ~ "Russia",
       club_country == "Czechoslovakia" ~ "Czech Republic",
       TRUE ~ club_country)) %>%
-  group_by(club_country, nat_team, kit_shirt, year, nat_alpha3, club_alpha3) %>%
+  group_by(club_country, nat_team, c1, year, nat_alpha3, club_alpha3) %>%
   summarise(n = n()) %>%
   ungroup() %>%
   arrange(year, nat_team)
 
 n0 <- d %>%
-  distinct(year, nat_team, nat_alpha3, kit_shirt) %>%
+  distinct(year, nat_team, nat_alpha3, c1) %>%
   rename(lab = nat_team, 
          alpha3 = nat_alpha3)
 
@@ -52,10 +53,21 @@ n0 <- d %>%
 c0 <- d %>%
   distinct(club_country, club_alpha3, year) %>%
   filter(!(club_country %in% unique(n0$lab))) %>%
-  mutate(kit_shirt = "transparent", 
-         club_country = fct_inorder(club_country),
-         club_country = fct_rev(club_country)) %>%
-  arrange(club_country) %>%
+  mutate(c1 = "transparent") %>%
+         # club_country = fct_inorder(club_country),
+         # club_country = fct_rev(club_country)) %>%
+  mutate(club_country = as.character(club_country),
+         region = countrycode(sourcevar = club_alpha3, origin = "iso3c",
+                              destination = "region"),
+         region = case_when(
+           club_alpha3 == "MEX" ~ "North America",
+           club_alpha3 == "ISR" ~ "Europe & Central Asia",
+           TRUE ~ region
+         ),
+         region = fct_relevel(region, "Europe & Central Asia"),
+         region = fct_rev(region)) %>%
+  arrange(region, club_country) %>%
+  # arrange(club_country) %>%
   mutate(club_country = as.character(club_country)) %>%
   rename(alpha3 = club_alpha3, 
          lab = club_country)
@@ -81,12 +93,12 @@ r <- n0 %>%
   bind_rows(c0) %>%
   complete(lab, year) %>%
   mutate(
-    kit_shirt = ifelse(year >= 2007 & lab == "Serbia", "#DF001C", kit_shirt),
+    c1 = ifelse(year >= 2007 & lab == "Serbia", "#DF001C", c1),
     alpha3 = ifelse(year >= 2007 & lab == "Serbia", "SRB", alpha3)
   ) %>%
   group_by(lab) %>%
   arrange(year) %>%
-  fill(alpha3, kit_shirt, .direction = "updown") %>%
+  fill(alpha3, c1, .direction = "updown") %>%
   mutate(ease = "linear") %>%
   tween_elements(time = "year", group = "lab", ease = "ease",
                  nframes = diff(range(w1$year)) * 4) %>%
@@ -109,6 +121,7 @@ r <- n0 %>%
       label %in% b ~ str_wrap(string = label, width = 10),
       label == "Czechoslovakia" ~ "Czecho-\nslovakia",
       label == "Bosnia and Herzegovina" ~ "Bosnia and Herz.",
+      label == "United Arab Emirates" ~ "UAE",
       TRUE ~ label),
     lab = factor(x = lab, levels = c(levels(n0$lab), unique(c0$lab))),
     alpha3 = ifelse(alpha3 == "NA", NA, alpha3)
@@ -121,7 +134,7 @@ m <- d %>%
   rename(orig = club_country, 
          dest = nat_team, 
          flow = n) %>%
-  sum_turnover(drop_diagonal = FALSE) %>%
+  sum_region(drop_diagonal = FALSE) %>%
   group_by(region) %>%
   filter(turn == max(turn)) %>%
   slice(1) %>%
@@ -132,7 +145,7 @@ z <- expand_grid(year = unique(sort(d$year)),
                  nat_team = unique(r$lab),
                  club_country = unique(r$lab)) %>%
   mutate(n = ifelse(nat_team == club_country, 0.01, 0))
-         # kit_shirt = ifelse(nat_team == club_country, NA, "transparent")) 
+         # c1 = ifelse(nat_team == club_country, NA, "transparent")) 
          
 # tween
 dd <- d %>%
@@ -141,13 +154,13 @@ dd <- d %>%
   group_by(year, nat_team, club_country) %>%
   filter(n == max(n)) %>%
   mutate(corridor = paste(club_country, nat_team, sep = " -> "),
-         kit_shirt = ifelse(n == 0.01, "transparent", kit_shirt)) %>%
+         c1 = ifelse(n == 0.01, "transparent", c1)) %>%
   group_by(corridor) %>%
-  fill(kit_shirt, .direction = "updown") %>%
+  fill(c1, .direction = "updown") %>%
   arrange(year) %>%
   ungroup() %>%
   select(-club_country, -nat_team) %>%
-  relocate(-kit_shirt) %>%
+  relocate(-c1) %>%
   mutate(ease = "linear") %>%
   tween_elements(time = "year", group = "corridor", ease = "ease", 
                  nframes = diff(range(w1$year)) * 4) %>%
@@ -157,9 +170,10 @@ dd <- d %>%
   mutate(year = round(year, 2))
 
 
-pdf(file = "./plot/euro_fix_chord.pdf", useDingbats = FALSE)
+pdf(file = "./plot/euro_fix_chord_v24.pdf", useDingbats = FALSE)
 for(f in unique(dd$.frame)){
 # for(f in unique(dd$.frame)[seq(1, 241, 16)]){
+# for(f in unique(dd$.frame)[241]){
   par(mar = rep(0, 4), bg = "grey40", lheight = 0.8)
   circos.clear()
   circos.par(track.margin = c(0.01, -0.01), 
@@ -180,10 +194,10 @@ for(f in unique(dd$.frame)){
     order = unique(r$lab),
     col = dd %>%
       filter(.frame == f) %>%
-      pull(kit_shirt),
+      pull(c1),
     grid.col = r %>%
       filter(.frame == f) %>%
-      select(lab, kit_shirt) %>%
+      select(lab, c1) %>%
       deframe(),
     xmax = m,
     transparency = 0.1,
@@ -234,4 +248,4 @@ for(f in unique(dd$.frame)){
   message(f)
 }
 dev.off()
-file.show("plot/euro_fix_chord.pdf")
+file.show("plot/euro_fix_chord_v24.pdf")

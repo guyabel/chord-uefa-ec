@@ -4,7 +4,8 @@ library(magick)
 library(pdftools)
 
 # n <- pdf_info("./plot/euro_flex_chord.pdf")$pages
-n <- pdf_info("./plot/euro_fix_chord.pdf")$pages
+# n <- pdf_info("./plot/euro_fix_chord.pdf")$pages
+n <- pdf_info("./plot/euro_fix_chord_v24.pdf")$pages
 # reading every page into one object was really buggy
 # p <- image_read_pdf("./plot/euro_chord_flex.pdf")
 w3 <- read_csv("./data/wiki_comp.csv")
@@ -13,7 +14,7 @@ w3 <- read_csv("./data/wiki_comp.csv")
 d <- tibble(
   page = 1:n
 ) %>%
-  mutate(year = seq(1960, 2020, length.out = n()),
+  mutate(year = seq(1960, 2024, length.out = n()),
          comp = year %% 4 == 0, 
          comp_last = year == max(year)) %>%
   group_by(page) %>%
@@ -38,7 +39,8 @@ ff <- d %>%
 saveVideo(expr = {
   for(i in ff){
     # p <- image_read_pdf(path = "plot/euro_flex_chord.pdf", pages = i)
-    p <- image_read_pdf(path = "plot/euro_fix_chord.pdf", pages = i)
+    # p <- image_read_pdf(path = "plot/euro_fix_chord.pdf", pages = i)
+    p <- image_read_pdf(path = "plot/euro_fix_chord_v24.pdf", pages = i)
     
     if(i %in% d$page[d$comp]){
       logo <- paste0("./logo/", d$year[i], ".png") %>%
@@ -87,7 +89,11 @@ https://en.wikipedia.org/wiki/UEFA_European_Championship"
   loop = TRUE, interval = 1/10,
   ffmpeg = "C:/ffmpeg/bin/ffmpeg.exe",
   # video.name = "./plot/euro_flex.mp4"
-  video.name = "./plot/euro_fix.mp4"
+  # video.name = "./plot/euro_fix.mp4"
+  video.name = "./plot/euro_fix_v24.mp4"
 )
 # file.show("./plot/euro_flex.mp4")
-file.show("./plot/euro_fix.mp4")
+# file.show("./plot/euro_fix.mp4")
+file.show("./plot/euro_fix_v24.mp4")
+
+# use https://online-video-cutter.com/change-video-speed# to speed up the video
