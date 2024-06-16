@@ -150,7 +150,7 @@ p %>%
     color = "white", size = 18, location = "+10+10"
   ) %>%
   image_annotate(
-    text = "Leagues to national teams\nby @guyabelguyabel",
+    text = "Where do national teams players\nlive? by @guyabelguyabel",
     color = "white", size = 10, location = "+10+100"
   ) %>%
   image_annotate(
@@ -159,7 +159,8 @@ p %>%
   ) %>%
   image_annotate(
     color = "white", size = 6, gravity = "south-west", location = "+10+10",
-    text = "Colours based on the
+    text = 
+"Colours based on the
 shirt of each national
 team. Chords represent
 connections between the
