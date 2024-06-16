@@ -96,4 +96,5 @@ https://en.wikipedia.org/wiki/UEFA_European_Championship"
 # file.show("./plot/euro_fix.mp4")
 file.show("./plot/euro_fix_v24.mp4")
 
-# use https://online-video-cutter.com/change-video-speed# to speed up the video
+# speed up the video...
+# https://online-video-cutter.com/change-video-speed# 
