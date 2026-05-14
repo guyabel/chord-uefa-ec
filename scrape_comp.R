@@ -5,7 +5,7 @@
 ## scrape_colours: national team kits
 ##
 
-library(tidyvese)
+library(tidyverse)
 library(rvest)
 library(countrycode)
 library(janitor)
